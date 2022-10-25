@@ -1,0 +1,674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlignTextLeft" xml:space="preserve">
+    <value>Metni Sola Hizala</value>
+  </data>
+  <data name="AlignTextRight" xml:space="preserve">
+    <value>Metni Sağa Hizala</value>
+  </data>
+  <data name="AllUnsafedChangesWillBeDiscardedIfYouLeaveThisPage" xml:space="preserve">
+    <value>Bu sayfadan ayrılırsanız kaydedilmemiş tüm değişiklikler yok sayılacaktır.</value>
+  </data>
+  <data name="AlternativelyYouCanLeaveThisFieldBlank" xml:space="preserve">
+    <value>Alternatif olarak bu alanı boş bırakabilirsiniz.</value>
+  </data>
+  <data name="AlternativelyYouCanLeaveThisFieldBlankForNow" xml:space="preserve">
+    <value>Alternatif olarak bu alanı şimdilik boş bırakabilirsiniz.</value>
+  </data>
+  <data name="Asterisk" xml:space="preserve">
+    <value>yıldız işareti</value>
+  </data>
+  <data name="Bold" xml:space="preserve">
+    <value>Kalın</value>
+  </data>
+  <data name="Bullets" xml:space="preserve">
+    <value>Madde imi</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>İptal edildi</value>
+  </data>
+  <data name="CenterText" xml:space="preserve">
+    <value>Orta Metin</value>
+  </data>
+  <data name="ChangeLanguage" xml:space="preserve">
+    <value>Dili Değiştir</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Şifreyi Değiştir</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Tamamlandı</value>
+  </data>
+  <data name="CreatedAt" xml:space="preserve">
+    <value>Oluşturulduğu tarih</value>
+  </data>
+  <data name="CreatedAtByModifiedAtBy" xml:space="preserve">
+    <value>{0} tarihinde {1} tarafından oluşturuldu, {2} tarihinde {3} tarafından değiştirildi.</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>Oluşturan kişi</value>
+  </data>
+  <data name="daily" xml:space="preserve">
+    <value>günlük</value>
+  </data>
+  <data name="DecreaseIndent" xml:space="preserve">
+    <value>Girintiyi Azalt</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Email Adresi</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Son</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Dışa Aktar</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Font Büyüklüğü</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Şifremi unuttum</value>
+  </data>
+  <data name="ForgotPasswordMailText" xml:space="preserve">
+    <value>Merhaba,
+
+"Şifremi unuttum" linkine tıkladığınız için bu mail oluşturuldu.
+
+Şifrenizi sırıfırlamak istiyorsanız, lütfen şu linki tıklayın: [link]
+
+24 saat sonra ya da yeni bir şifre sıfırlama talebi oluşturulduğunda link geçerliliğini kaybedecektir. 
+
+Teşekkürler ve sevgiler.</value>
+  </data>
+  <data name="GoTo" xml:space="preserve">
+    <value>Git</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Geçmiş</value>
+  </data>
+  <data name="hourly" xml:space="preserve">
+    <value>saatlik</value>
+  </data>
+  <data name="IncreaseIndent" xml:space="preserve">
+    <value>Girintiyi Artır</value>
+  </data>
+  <data name="InsertImage" xml:space="preserve">
+    <value>Fotoğraf Ekle</value>
+  </data>
+  <data name="InsertLink" xml:space="preserve">
+    <value>Link Ekle</value>
+  </data>
+  <data name="InsertTable" xml:space="preserve">
+    <value>Tablo Ekle</value>
+  </data>
+  <data name="InsertTableColumn" xml:space="preserve">
+    <value>Sütun Ekle</value>
+  </data>
+  <data name="InsertTableRow" xml:space="preserve">
+    <value>Satır Ekle</value>
+  </data>
+  <data name="Italic" xml:space="preserve">
+    <value>İtalik</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Giriş</value>
+  </data>
+  <data name="minutely" xml:space="preserve">
+    <value>dakikalık</value>
+  </data>
+  <data name="ModifiedAt" xml:space="preserve">
+    <value>Değiştirme Tarihi</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>Değiştiren</value>
+  </data>
+  <data name="monthly" xml:space="preserve">
+    <value>aylık</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="NoResultsWereFoundFor0" xml:space="preserve">
+    <value>{0} için herhangi bir sonuç bulunamadı.</value>
+  </data>
+  <data name="NResultsWereFoundFor0" xml:space="preserve">
+    <value>{0} için {1} sonuç bulundu.</value>
+  </data>
+  <data name="Numbering" xml:space="preserve">
+    <value>Numaralandırma</value>
+  </data>
+  <data name="OfflineMessage" xml:space="preserve">
+    <value>Uygulama çevrimdışı. Görüntülenen veriler eksik ya da güncelliğini yitirmiş olabilir. Şu durumda veri değişikliği de mümkün değildir.</value>
+  </data>
+  <data name="OneResultWasFoundFor0" xml:space="preserve">
+    <value>{0} için bir sonuç bulundu.</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="PleaseClickSaveToReleaseTheForm" xml:space="preserve">
+    <value>Formu yayınlamak için "Kaydet" butonuna tıklayın.</value>
+  </data>
+  <data name="PleaseCorrectTheInvalidInputValues" xml:space="preserve">
+    <value>Eksik ya da yanlış olan değerleri düzeltin.</value>
+  </data>
+  <data name="PleaseEnterANewPasswordToChangeYourPasswordOrLeaveThisFieldEmptyToKeepYourPassword" xml:space="preserve">
+    <value>Şifrenizi değiştirmek için yeni bir şifre girin ya da aynı şifrenizi kullanmak için bu alanı boş bırakın.</value>
+  </data>
+  <data name="PleaseEnterAValidDateAndTimeBetween0And1ForThisField" xml:space="preserve">
+    <value>Bu alan için {0} ile {1} aralığında geçerli bir tarih ve süre girin.</value>
+  </data>
+  <data name="PleaseEnterAValidDateAndTimeForThisField" xml:space="preserve">
+    <value>Bu alan için geçerli bir tarih ve süre girin.</value>
+  </data>
+  <data name="PleaseEnterAValidDateBetween0And1ForThisField" xml:space="preserve">
+    <value>Bu alan için {0} ile {1} aralığında geçerli bir tarih girin.</value>
+  </data>
+  <data name="PleaseEnterAValidDateForThisField" xml:space="preserve">
+    <value>Bu alan için geçerli bir tarih girin.</value>
+  </data>
+  <data name="PleaseEnterAValidMonthBetween0And1ForThisField" xml:space="preserve">
+    <value>Bu alan için {0} ile {1} aralığında geçerli bir ay girin.</value>
+  </data>
+  <data name="PleaseEnterAValidMonthForThisField" xml:space="preserve">
+    <value>Bu alan için geçerli bir ay girin.</value>
+  </data>
+  <data name="PleaseEnterAValidTimeBetween0And1ForThisField" xml:space="preserve">
+    <value>Bu alan için {0} ile {1} aralığında geçerli bir süre girin.</value>
+  </data>
+  <data name="PleaseEnterAValidTimeForThisField" xml:space="preserve">
+    <value>Bu alan için geçerli bir süre girin.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1AndAUnitForThisField" xml:space="preserve">
+    <value>Bu alan için {0} ile {1} aralığında geçerli bir değer ve birim girin.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Bu alan için {0} ile {1} aralığında geçerli bir değer girin ve birim seçin.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1ForThisField" xml:space="preserve">
+    <value>Bu alan için {0} ile {1} aralığında geçerli bir değer girin.</value>
+  </data>
+  <data name="PleaseEnterAValidValueForThisField" xml:space="preserve">
+    <value>Bu alan için geçerli bir değer girin.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0AndAUnitForThisField" xml:space="preserve">
+    <value>Bu alan için {0} dan büyük ya da eşit bir değer ve birim girin.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Bu alan için {0} dan büyük ya da eşit bir değer girin ve bir birim seçin.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0ForThisField" xml:space="preserve">
+    <value>Bu alan için {0} dan büyük ya da eşit bir değer girin.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0AndAUnitForThisField" xml:space="preserve">
+    <value>Bu alan için {0} dan küçük ya da eşit bir değer ve birim girin.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Bu alan için {0} dan küçük ya da eşit bir değer girin ve bir birim seçin.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0ForThisField" xml:space="preserve">
+    <value>Bu alan için {0} dan küçük ya da eşit bir değer girin.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeast0AndAtMost1CharactersForThisField" xml:space="preserve">
+    <value>Bu alan için en az {0} en fazla {1} karakterden oluşan geçerli bir değer girin.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeast0CharactersForThisField" xml:space="preserve">
+    <value>Bu alan için en az {0} karakterden oluşan geçerli bir değer girin.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeastOneCharacterForThisField" xml:space="preserve">
+    <value>Bu alan için en az bir karakterden oluşan geçerli bir değer girin.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtMost0CharactersForThisField" xml:space="preserve">
+    <value>Bu alan için en fazla {0} karakterden oluşan geçerli bir değer girin.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtMostOneCharacterForThisField" xml:space="preserve">
+    <value>Bu alan için en fazla bir karakterden oluşan geçerli bir değer girin.</value>
+  </data>
+  <data name="PleaseEnterAValidWeekBetween0And1ForThisField" xml:space="preserve">
+    <value>Bu alan için {0} ile {1} aralığında geçerli bir hafta girin.</value>
+  </data>
+  <data name="PleaseEnterAValidWeekForThisField" xml:space="preserve">
+    <value>Bu alan için geçerli bir hafta girin.</value>
+  </data>
+  <data name="PleaseEnterValidValuesBetween0And1ForThisField" xml:space="preserve">
+    <value>Bu alan için {0} ile {1} aralığında geçerli bir değer girin.</value>
+  </data>
+  <data name="PleaseEnterValidValuesForThisField" xml:space="preserve">
+    <value>Bu alan için geçerli bir değer girin.</value>
+  </data>
+  <data name="PleaseEnterValidValuesGreaterThan0ForThisField" xml:space="preserve">
+    <value>Bu alan için {0}dan büyük ya da eşit geçerli bir değer girin.</value>
+  </data>
+  <data name="PleaseEnterValidValuesLessThan0ForThisField" xml:space="preserve">
+    <value>Bu alan için {0}dan küçük ya da eşit geçerli bir değer girin.</value>
+  </data>
+  <data name="PleaseEnterValidValuesWithAtMost0CharactersForThisField" xml:space="preserve">
+    <value>Bu alan için en fazla {0} karakterden oluşan geçerli bir değer girin.</value>
+  </data>
+  <data name="PleaseEnterValidValuesWithAtMostOneCharacterForThisField" xml:space="preserve">
+    <value>Bu alan için en fazla 1 karakterden oluşan geçerli bir değer girin.</value>
+  </data>
+  <data name="PleaseEnterYourEmailAddressBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Aşağıdaki alana e-mail adresinizi girip ONAYLA butonunu tıklayın. Bu işlemden sonra şifre sıfırlama linkini içeren bir mail alacaksınız.</value>
+  </data>
+  <data name="PleaseEnterYourNewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Yeni bir şifre belirleyin ve ONAYLA butonuna tıklayın. Daha sonra yeni şifrenizle kullanıcı girişi yapabileceksiniz.</value>
+  </data>
+  <data name="PleaseMakeSureFileNamesDoNotContainAnyOfTheFollowingCharacters" xml:space="preserve">
+    <value>Dosya isimlerinin şu karakterleri içermediğinden emin olun: &lt;, &gt;, *, %, &amp;, :, \.</value>
+  </data>
+  <data name="PleaseMakeSureTheValueContainsAtLeastAnUpperCaseCharacterALowerCaseCharacterANumericCharacterAndASpecialCharacter" xml:space="preserve">
+    <value>Girdiğiniz değerin en az bir büyük harf, bir küçük harf, rakam ve bir özel karakter içerdiğinden emin olun.</value>
+  </data>
+  <data name="PleaseSelectAFileOfAnAllowedTypeWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Dosya büyüklüğü en fazla {0} MB olan uygun bir dosya tipi seçin.</value>
+  </data>
+  <data name="PleaseSelectAFileWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Dosya büyüklüğü en fazla {0} MB olan bir dosya seçin.</value>
+  </data>
+  <data name="PleaseSelectAValidPersonForThisField" xml:space="preserve">
+    <value>Bu alan için geçerli bir kişi seçin.</value>
+  </data>
+  <data name="PleaseSelectAValidValueForThisField" xml:space="preserve">
+    <value>Bu alan için geçerli bir değer seçin.</value>
+  </data>
+  <data name="PleaseSelectFilesOfAllowedTypesWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Herbiri en fazla {0} MB büyüklüğünde olan uygun türde dosyaları seçin.</value>
+  </data>
+  <data name="PleaseSelectFilesWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Herbiri en fazla {0} MB büyüklüğünde olan dosyaları seçin.</value>
+  </data>
+  <data name="PleaseSelectOneOrMoreValidPersonsForThisField" xml:space="preserve">
+    <value>Bu alan için bir ya da daha fazla geçerli kişi seçin.</value>
+  </data>
+  <data name="PleaseSelectOneOrMoreValidValuesForThisField" xml:space="preserve">
+    <value>Bu alan için bir ya da daha fazla geçerli değer seçin.</value>
+  </data>
+  <data name="PleaseUseTheSignInButtonToLogOnWithYourEmailAddress" xml:space="preserve">
+    <value>Giriş yapmak için GİRİŞ butonunu kullanın. Mail adresinizi kullanıcı adı olarak kullanın. Eğer şifrenizi hatırlamıyorsanız ŞİFREMİ UNUTTUM butonunu tıklayın.</value>
+  </data>
+  <data name="PreferredCulture" xml:space="preserve">
+    <value>Seçilen Kültür</value>
+  </data>
+  <data name="PreferredLanguage" xml:space="preserve">
+    <value>Seçilen Dil</value>
+  </data>
+  <data name="QuotationMarks" xml:space="preserve">
+    <value>Tırnak İşareti</value>
+  </data>
+  <data name="RemoveFormat" xml:space="preserve">
+    <value>Formatı Temizle</value>
+  </data>
+  <data name="RemoveTableColumn" xml:space="preserve">
+    <value>Tablo Sütunu Temizle</value>
+  </data>
+  <data name="RemoveTableRow" xml:space="preserve">
+    <value>Tablo Satırı Temizle</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Tekrar dene</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="SearchHelpAndDescription" xml:space="preserve">
+    <value>AND arama yardımcısı ile girilen tüm kelimeleri içeren sonuçlar listelenir. Aşağıdaki arama teriminde içinde hem "samanlık" hem de "iğne" kelimelerini bulunduran sonuçlar listelenecektir:</value>
+  </data>
+  <data name="SearchHelpAndExample" xml:space="preserve">
+    <value>samanlık AND iğne</value>
+  </data>
+  <data name="SearchHelpAndNotDescription" xml:space="preserve">
+    <value>AND NOT arama yardımcısı ile yazılan ifadelerden ilkini içeren, ikincisini içermeyen sonuçları listeler. Aşağıdaki arama ifadesi "samanlık" kelimesi ile birlikte "iğne" kelimesini içermeyen sonuçları listeleyecektir:</value>
+  </data>
+  <data name="SearchHelpAndNotExample" xml:space="preserve">
+    <value>iğne AND NOT samanlık</value>
+  </data>
+  <data name="SearchHelpAsteriskCharaktersDescription" xml:space="preserve">
+    <value>Tırnak işareti içine yazılmış ve başına/sonuna yıldız işareti eklenmiş bir arama terimi, tırnak içine yazılan kelime ile başlayan/biten tüm sonuçları listeler. Aşağıdaki arama terimi "sam" ile başlayan tüm sonuçları listeleyecektir. Örneğin "samanlık", "samsun" ifadeleri sonuçlar arasında yer alacaktır:</value>
+  </data>
+  <data name="SearchHelpAsteriskCharaktersExample" xml:space="preserve">
+    <value>"sam*"</value>
+  </data>
+  <data name="SearchHelpOrDescription" xml:space="preserve">
+    <value>OR arama yardımcısı ile birlikte girilen kelimelerden en az bir tanesi ile eşleşen sonuçlar listelenir. Aşağıdaki arama ifadesinde, içinde "iğne" ya da "samanlık" kelimelerinden herhangi birini içeren sonuçlar listelenir:</value>
+  </data>
+  <data name="SearchHelpOrExample" xml:space="preserve">
+    <value>iğne OR samanlık</value>
+  </data>
+  <data name="SearchHelpQuotationMarksDescription" xml:space="preserve">
+    <value>Tırnak işareti içinde yazılan arama terimi ile tam olarak aynı ifadeyi içeren sonuçlar listelenir. Aşağıdaki arama kelimesi örneğinde "samanlıktaki iğne" ifadesini içeren sonuçlar listelenecektir, fakat "samanlıktaki altın iğne" ifadesini içeren bir sonuç gösterilmeyecektir:</value>
+  </data>
+  <data name="SearchHelpQuotationMarksExample" xml:space="preserve">
+    <value>"samanlıktaki iğne"</value>
+  </data>
+  <data name="secondly" xml:space="preserve">
+    <value>ikincil</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Başla</value>
+  </data>
+  <data name="Strikethrough" xml:space="preserve">
+    <value>Üzerini çiz</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Onaylandı</value>
+  </data>
+  <data name="Subscript" xml:space="preserve">
+    <value>Subscript</value>
+  </data>
+  <data name="Superscript" xml:space="preserve">
+    <value>Superscript</value>
+  </data>
+  <data name="TextColor" xml:space="preserve">
+    <value>Metin Rengi</value>
+  </data>
+  <data name="TheMinimumImageResolutionMustBe0x1" xml:space="preserve">
+    <value>Minimum dosya çözünürlüğü {0} x {1} olmalı.</value>
+  </data>
+  <data name="TheMinimumImageSideLengthOfLongerSideMustBe0" xml:space="preserve">
+    <value>Fotoğrafın uzun kenarının minimum ölçüsü {0} olmalı.</value>
+  </data>
+  <data name="ThisIsAMandatoryField" xml:space="preserve">
+    <value>Zorunlu alan.</value>
+  </data>
+  <data name="TooManyRequestsPleaseTryAgainIn0Seconds" xml:space="preserve">
+    <value>Çok fazla talep var. {0} saniye sonra tekrar deneyin.</value>
+  </data>
+  <data name="Underline" xml:space="preserve">
+    <value>Altını çiz</value>
+  </data>
+  <data name="UpTo0FilesAreAllowed" xml:space="preserve">
+    <value>{0} dosyaya kadar izin verilir.</value>
+  </data>
+  <data name="UpTo0ValuesAreAllowed" xml:space="preserve">
+    <value>{0} değere kadar izin verilir.</value>
+  </data>
+  <data name="weekly" xml:space="preserve">
+    <value>haftalık</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>İş akışı</value>
+  </data>
+  <data name="WouldYouReallyLikeToDeleteTheRow" xml:space="preserve">
+    <value>Satırı gerçekten silmek istiyor musunuz?</value>
+  </data>
+  <data name="WouldYouReallyLikeToDeleteTheTab" xml:space="preserve">
+    <value>{0} sekmesini gerçekten silmek istiyor musunuz?</value>
+  </data>
+  <data name="WouldYouReallyLikeToMarkTheFile0ForRemoval" xml:space="preserve">
+    <value>Dosyayı temizlemek için {0} ile işaretlemek istediğinize emin misiniz?</value>
+  </data>
+  <data name="yearly" xml:space="preserve">
+    <value>yıllık</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="YourPasswordHasExpiredPleaseEnterANewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Şifrenizin süresi doldu. Lütfen yeni bir şifre girin ve ONAYLA butonuna tıklayın. Bu işlemden sonra yeni şifrenizle giriş yapabileceksiniz.</value>
+  </data>
+  <data name="ToggleFullWindow" xml:space="preserve">
+    <value>Tam Pencereye Değiştir</value>
+  </data>
+  <data name="PleaseConfirmTheChangeOfYourPreferredLanguageByEnteringYourWindowsPassword" xml:space="preserve">
+    <value>Tercih edilen dil değişikliğini onaylamak için lütfen Windows şifrenizi girin.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="LengthXWidthXHeightAbbr" xml:space="preserve">
+    <value>(Uzunluk X Genişlik X Yükseklik)</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="PleaseUseTheSignInButtonToLogOnWithYourUserName" xml:space="preserve">
+    <value>Kullanıcı adı ve şifrenizle giriş yapmak için GİRİŞ butonunu kullanın. Eğer şifrenizi hatırlamıyorsanız ŞİFREMİ UNUTTUM butonunu tıklayın.</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Kullanıcı Adı</value>
+  </data>
+  <data name="PleaseEnterYourUserNameBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Aşağıdaki alana kullanıcı adınızı girip ONAYLA butonunu tıklayın. Bu işlemden sonra şifre sıfırlama linkini içeren bir mail alacaksınız.</value>
+  </data>
+  <data name="TheSelectedValueDoesNotHaveAUniqueKey" xml:space="preserve">
+    <value>Seçilen değerin tekil bir anahtarı yok.</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="TheWorkflowWillGoOnAsSoonAsTheStep0IsFinished" xml:space="preserve">
+    <value>İş akışı, aşama {0} tamamlanır tamamlanmaz devam edecek.</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="PleaseEnterAUniqueEmailAddressForThisField" xml:space="preserve">
+    <value>Bu alan için tekil bir mail adresi girin.</value>
+  </data>
+  <data name="Rate0Stars" xml:space="preserve">
+    <value>{0} yıldız ile oylayın.</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Onaylandı</value>
+  </data>
+  <data name="NotInspected" xml:space="preserve">
+    <value>İncelenmemiş</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>Reddedildi</value>
+  </data>
+  <data name="PrivacyNotice" xml:space="preserve">
+    <value>Gizlilik Bildirimi</value>
+  </data>
+  <data name="Imprint" xml:space="preserve">
+    <value>Yayıncı</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Yardım</value>
+  </data>
+  <data name="InvariantText" xml:space="preserve">
+    <value>Değişmeyen Metin</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="PleaseUseThePlusButtonToAddTranslations" xml:space="preserve">
+    <value>Çeviri eklemek için artı butonunu kullanın.</value>
+  </data>
+  <data name="TranslatedText" xml:space="preserve">
+    <value>Çevirilmiş Metin</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="InvariantTitle" xml:space="preserve">
+    <value>Değişmeyen Başlık</value>
+  </data>
+  <data name="PleaseEnterAUniqueValueForThisField" xml:space="preserve">
+    <value>Bu alan için tekil bir değer girin.</value>
+  </data>
+  <data name="References" xml:space="preserve">
+    <value>Referanslar</value>
+  </data>
+  <data name="TheFirst0ResultsAreDisplayedBelow" xml:space="preserve">
+    <value>İlk {0} sonuç aşağıda gösterilmiştir.</value>
+  </data>
+  <data name="TheActionFor0CannotBeExecutedBecauseItIsAmbiguous" xml:space="preserve">
+    <value>"{0}" eylemi, belirsiz olduğu için yürütülemiyor. Lütfen işlemi yürütmek için iş akışı diyagramında istenen adımın "{0}" düğmesini kullanın. İş akışı şemasını görmek ister misiniz?</value>
+  </data>
+  <data name="Results0To1AreDisplayedBelow" xml:space="preserve">
+    <value>{0} ile {1} arasındaki sonuçlar aşağıda gösterilmektedir.</value>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>Çevrim</value>
+  </data>
+  <data name="PleaseSelectACsvFileEndodedAsUtf8WithBom" xml:space="preserve">
+    <value>Lütfen BOM ile UTF-8 olarak kodlanmış bir CSV dosyası seçin.</value>
+  </data>
+  <data name="CsvQuotesError" xml:space="preserve">
+    <value>Bir CSV alanı değeri, tüm alan değeri tırnak işaretleri ("alan değeri") içine alınmadıkça ve içindeki tırnaklar tırnak işaretleri ("alan "" değer") ile çevrilmediği sürece tırnak işaretleri (") içeremez.</value>
+  </data>
+  <data name="FieldMappingError" xml:space="preserve">
+    <value>"{0}" için alan eşlemesi bulunamıyor.</value>
+  </data>
+  <data name="CsvValueError" xml:space="preserve">
+    <value>"{0}" değeri, "{1}" alanı için ayarlanamaz.</value>
+  </data>
+  <data name="PleaseExcuseThatTheDataExportTakesLongerThanExpected" xml:space="preserve">
+    <value>Lütfen veri aktarımının beklenenden uzun sürdüğünü mazur görün. Zaman kazanmak için, işlemler tamamlandığında sonuçlar {0} adresine e-posta ile gönderilecektir.</value>
+  </data>
+  <data name="PleaseFindAttachedTheRequestedDataExport" xml:space="preserve">
+    <value>Lütfen istenen veri aktarımını ekte bulabilirsiniz.</value>
+  </data>
+  <data name="YourPasswordHasToBeChangedAtFirstLogonPleaseEnterANewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>İlk oturum açtığınızda şifrenizin değiştirilmesi gerekir. Lütfen aşağıya yeni bir şifre girin ve GÖNDER düğmesini tıklayın. Yeni şifre ilk şifreden farklı olmalıdır. Daha sonra yeni şifrenizle oturum açabileceksiniz.</value>
+  </data>
+  <data name="QueueLength" xml:space="preserve">
+    <value>Sıra uzunluğu</value>
+  </data>
+  <data name="RemoveLink" xml:space="preserve">
+    <value>Köprüyü kaldır</value>
+  </data>
+  <data name="TheEnteredCombinationOfUserNameAndPasswordIsInvalid" xml:space="preserve">
+    <value>Girilen kullanıcı adı ve şifre kombinasyonu geçersiz.</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>saat</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>günler</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>dakika</value>
+  </data>
+</root>

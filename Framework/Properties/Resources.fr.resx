@@ -1,0 +1,674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlignTextLeft" xml:space="preserve">
+    <value>Aligner à droite</value>
+  </data>
+  <data name="AlignTextRight" xml:space="preserve">
+    <value>Aligner à gauche</value>
+  </data>
+  <data name="AllUnsafedChangesWillBeDiscardedIfYouLeaveThisPage" xml:space="preserve">
+    <value>Toutes les modifications non enregistrées seront perdues si vous quittez la page.</value>
+  </data>
+  <data name="AlternativelyYouCanLeaveThisFieldBlank" xml:space="preserve">
+    <value>Vous pouvez laissez ce champ vide.</value>
+  </data>
+  <data name="AlternativelyYouCanLeaveThisFieldBlankForNow" xml:space="preserve">
+    <value>Vous pouvez laissez ce champ vide pour le moment.</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Approuvé</value>
+  </data>
+  <data name="Asterisk" xml:space="preserve">
+    <value>Astérisque</value>
+  </data>
+  <data name="Bold" xml:space="preserve">
+    <value>Gras</value>
+  </data>
+  <data name="Bullets" xml:space="preserve">
+    <value>Puces</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>Annulé</value>
+  </data>
+  <data name="CenterText" xml:space="preserve">
+    <value>Centrer</value>
+  </data>
+  <data name="ChangeLanguage" xml:space="preserve">
+    <value>Modifier la langue</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Modifier le mot de passe</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Complété</value>
+  </data>
+  <data name="CreatedAt" xml:space="preserve">
+    <value>Créé le</value>
+  </data>
+  <data name="CreatedAtByModifiedAtBy" xml:space="preserve">
+    <value>Créé le {0} par {1}, dernière modification le {2} par {3}.</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>Créé par</value>
+  </data>
+  <data name="daily" xml:space="preserve">
+    <value>journalier</value>
+  </data>
+  <data name="DecreaseIndent" xml:space="preserve">
+    <value>Réduire l'alinéa</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editer</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Adresse E-Mail</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Fin</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Taille de police</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Mot de passe oublié</value>
+  </data>
+  <data name="ForgotPasswordMailText" xml:space="preserve">
+    <value>Madame, Monsieur, 
+
+en cliquant sur "Mot de passe oublié, un e-mail vient de vous être envoyé. Si vous souhaitez réinitialiser le mot de passe, utilisez le lien suivant : [link]  
+
+Le lien expirera sous 24h ou lorsqu'une nouvelle demande de réinitialisation sera demandée. 
+
+Merci.</value>
+  </data>
+  <data name="GoTo" xml:space="preserve">
+    <value>Aller à</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Historique</value>
+  </data>
+  <data name="hourly" xml:space="preserve">
+    <value>horaire</value>
+  </data>
+  <data name="Imprint" xml:space="preserve">
+    <value>Impression</value>
+  </data>
+  <data name="IncreaseIndent" xml:space="preserve">
+    <value>Augmenter l'alinéa</value>
+  </data>
+  <data name="InsertImage" xml:space="preserve">
+    <value>Insérer image</value>
+  </data>
+  <data name="InsertLink" xml:space="preserve">
+    <value>Insérer un lien</value>
+  </data>
+  <data name="InsertTable" xml:space="preserve">
+    <value>Insérer un tableau</value>
+  </data>
+  <data name="InsertTableColumn" xml:space="preserve">
+    <value>Insérer une colonne de tableau</value>
+  </data>
+  <data name="InsertTableRow" xml:space="preserve">
+    <value>Insérer une ligne de tableau</value>
+  </data>
+  <data name="InvariantText" xml:space="preserve">
+    <value>texte invariable</value>
+  </data>
+  <data name="InvariantTitle" xml:space="preserve">
+    <value>titre invariable</value>
+  </data>
+  <data name="Italic" xml:space="preserve">
+    <value>italique</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>langue</value>
+  </data>
+  <data name="LengthXWidthXHeightAbbr" xml:space="preserve">
+    <value>(Lo x La x H)</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Connexion</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Déconnexion</value>
+  </data>
+  <data name="minutely" xml:space="preserve">
+    <value>à la minute</value>
+  </data>
+  <data name="ModifiedAt" xml:space="preserve">
+    <value>modifié à</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>modifié par</value>
+  </data>
+  <data name="monthly" xml:space="preserve">
+    <value>mensuellement</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="NoResultsWereFoundFor0" xml:space="preserve">
+    <value>Aucun résultat trouvé pour "{0}".</value>
+  </data>
+  <data name="NotInspected" xml:space="preserve">
+    <value>Non contrôlé</value>
+  </data>
+  <data name="NResultsWereFoundFor0" xml:space="preserve">
+    <value>{1} résulats trouvés pour "{0}".</value>
+  </data>
+  <data name="Numbering" xml:space="preserve">
+    <value>numérotation</value>
+  </data>
+  <data name="OfflineMessage" xml:space="preserve">
+    <value>L'application est hors ligne. Il est possible que des données incomplètes ou obsolètes soient affichées. Aucune modification ne peut être effectuée.</value>
+  </data>
+  <data name="OneResultWasFoundFor0" xml:space="preserve">
+    <value>Un résultat trouvé pour  "{0}".</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <data name="PleaseClickSaveToReleaseTheForm" xml:space="preserve">
+    <value>Cliquez sur "enregistrer" pour publier le formulaire.</value>
+  </data>
+  <data name="PleaseConfirmTheChangeOfYourPreferredLanguageByEnteringYourWindowsPassword" xml:space="preserve">
+    <value>Confirmez la modification de la langue en saisissant votre mot de passe windows.</value>
+  </data>
+  <data name="PleaseCorrectTheInvalidInputValues" xml:space="preserve">
+    <value>Corrigez les valeurs manquantes ou incorrectes.</value>
+  </data>
+  <data name="PleaseEnterANewPasswordToChangeYourPasswordOrLeaveThisFieldEmptyToKeepYourPassword" xml:space="preserve">
+    <value>Renseignez un nouveau mot de passe ou laissez ce champ vide pour conserver votre mot de passe.</value>
+  </data>
+  <data name="PleaseEnterAUniqueEmailAddressForThisField" xml:space="preserve">
+    <value>Renseignez une adresse mail unique pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidDateAndTimeBetween0And1ForThisField" xml:space="preserve">
+    <value>Renseignez date et heure valides entre {0} et {1} pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidDateAndTimeForThisField" xml:space="preserve">
+    <value>Renseignez date et heure valides pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidDateBetween0And1ForThisField" xml:space="preserve">
+    <value>Renseignez une date valide entre {0} et {1} pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidDateForThisField" xml:space="preserve">
+    <value>Renseignez une date valide pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidMonthBetween0And1ForThisField" xml:space="preserve">
+    <value>Renseignez un mois valide entre {0} et {1} pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidMonthForThisField" xml:space="preserve">
+    <value>Renseignez un mois valide pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidTimeBetween0And1ForThisField" xml:space="preserve">
+    <value>Renseignez une heure valide entre {0} et {1} pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidTimeForThisField" xml:space="preserve">
+    <value>Renseignez une heure valide pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1AndAUnitForThisField" xml:space="preserve">
+    <value>Renseignez une valeur valide entre {0} et {1} et une unité pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Renseignez une valeur valide entre {0} et {1} et choisissez une unité pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1ForThisField" xml:space="preserve">
+    <value>Renseignez une valeur valide entre {0} et {1} pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidValueForThisField" xml:space="preserve">
+    <value>Renseignez une valeur valide pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0AndAUnitForThisField" xml:space="preserve">
+    <value>Renseignez une valeur valide supérieure ou égale à {0} et une unité pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Renseignez une valeur valide supérieure ou égale à {0} et choisissez une unité pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0ForThisField" xml:space="preserve">
+    <value>Renseignez une valeur valide supérieure ou égale à {0} pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0AndAUnitForThisField" xml:space="preserve">
+    <value>Renseignez une valeur valide inférieure ou égale à {0} et une unité pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Renseignez une valeur valide inférieure ou égale à {0} et choisissez une unité pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0ForThisField" xml:space="preserve">
+    <value>Renseignez une valeur valide inférieure ou égale à {0} pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeast0AndAtMost1CharactersForThisField" xml:space="preserve">
+    <value>Renseignez une valeur valide comprenant au moins entre {0} et {1} caractères pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeast0CharactersForThisField" xml:space="preserve">
+    <value>Renseignez une valeur valide comprenant au moins {0} caractères pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeastOneCharacterForThisField" xml:space="preserve">
+    <value>Renseignez une valeur valide comprenant au moins un caractère pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtMost0CharactersForThisField" xml:space="preserve">
+    <value>Renseignez une valeur valide jusqu'à {0} caractères pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtMostOneCharacterForThisField" xml:space="preserve">
+    <value>Renseignez une valeur valide jusqu'à un caractère pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidWeekBetween0And1ForThisField" xml:space="preserve">
+    <value>Renseignez une semaine valide entre {0} et {1} pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterAValidWeekForThisField" xml:space="preserve">
+    <value>Renseignez une semaine valide pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterValidValuesBetween0And1ForThisField" xml:space="preserve">
+    <value>Renseignez des valeurs valides entre {0} et {1} pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterValidValuesForThisField" xml:space="preserve">
+    <value>Renseignez des valeurs valides pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterValidValuesGreaterThan0ForThisField" xml:space="preserve">
+    <value>Renseignez des valeurs valides supérieures ou égales à {0} pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterValidValuesLessThan0ForThisField" xml:space="preserve">
+    <value>Renseignez des valeurs valides inférieures ou égales à {0} pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterValidValuesWithAtMost0CharactersForThisField" xml:space="preserve">
+    <value>Renseignez des valeurs valides jusqu'à {0} caractères pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterValidValuesWithAtMostOneCharacterForThisField" xml:space="preserve">
+    <value>Renseignez des valeurs valides jusqu'à un caractère au moins pour ce champ.</value>
+  </data>
+  <data name="PleaseEnterYourEmailAddressBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Renseignez votre adresse mail ci-dessous et cliquez sur ENVOYER. Vous recevrez ensuite un e-mail avec un lien pour réinitialiser votre mot de passe.</value>
+  </data>
+  <data name="PleaseEnterYourNewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Renseignez votre nouveau mot de passe ci-dessous et cliquer sur ENVOYER. Vous pourrez ensuite vous connecter votre nouveau mot de passe.</value>
+  </data>
+  <data name="PleaseEnterYourUserNameBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Renseignez votre nom d'utilisateur ci-dessous et cliquez sur ENVOYER. Vous recevrez ensuite un e-mail avec un lien pour réinitialiser votre mot de passe.</value>
+  </data>
+  <data name="PleaseMakeSureFileNamesDoNotContainAnyOfTheFollowingCharacters" xml:space="preserve">
+    <value>Veillez à ne pas utiliser de caractères spéciaux dans les noms de fichiers tels que &lt;, &gt;, *, %, &amp;, :, \.</value>
+  </data>
+  <data name="PleaseMakeSureTheValueContainsAtLeastAnUpperCaseCharacterALowerCaseCharacterANumericCharacterAndASpecialCharacter" xml:space="preserve">
+    <value>Veillez à ce que la valeur contienne au moins une majuscule, une minuscule, un chiffre et un caractère spécial.</value>
+  </data>
+  <data name="PleaseSelectAFileOfAnAllowedTypeWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Sélectionnez un type de fichier autorisé ayant une taille maximum de {0} MB.</value>
+  </data>
+  <data name="PleaseSelectAFileWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>La taille du fichier sélectionné ne doit pas dépasser {0} MB.</value>
+  </data>
+  <data name="PleaseSelectAValidPersonForThisField" xml:space="preserve">
+    <value>Sélectionnez une personne valide pour ce champ.</value>
+  </data>
+  <data name="PleaseSelectAValidValueForThisField" xml:space="preserve">
+    <value>Sélectionnez une valeur valide pour ce champ.</value>
+  </data>
+  <data name="PleaseSelectFilesOfAllowedTypesWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Sélectionnez des types de fichiers autorisés ayant une taille maximum de {0} MB.</value>
+  </data>
+  <data name="PleaseSelectFilesWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>La taille des fichiers sélectionnés ne doit pas dépasser {0} MB chacun.</value>
+  </data>
+  <data name="PleaseSelectOneOrMoreValidPersonsForThisField" xml:space="preserve">
+    <value>Sélectionnez une ou plusieurs personnes valides pour ce champ.</value>
+  </data>
+  <data name="PleaseSelectOneOrMoreValidValuesForThisField" xml:space="preserve">
+    <value>Sélectionnez une ou plusieurs valeurs valides pour ce champ.</value>
+  </data>
+  <data name="PleaseUseThePlusButtonToAddTranslations" xml:space="preserve">
+    <value>Utilisez le bouton plus pour ajouter des traductions.</value>
+  </data>
+  <data name="PleaseUseTheSignInButtonToLogOnWithYourEmailAddress" xml:space="preserve">
+    <value>Utilisez le bouton LOGIN pour vous connecter. Utilisez votre adresse e-mail pour l'identifiant. Si vous avez oublié votre mot de passe, cliquez sur MOT DE PASSE OUBLIE.</value>
+  </data>
+  <data name="PleaseUseTheSignInButtonToLogOnWithYourUserName" xml:space="preserve">
+    <value>Utilisez le bouton LOGIN pour vous connecter avec votre identifiant et votre adresse e-mail. Si vous avez oublié votre mot de passe, cliquez sur MOT DE PASSE OUBLIE.</value>
+  </data>
+  <data name="PreferredCulture" xml:space="preserve">
+    <value>Préférence culture</value>
+  </data>
+  <data name="PreferredLanguage" xml:space="preserve">
+    <value>Préférence langue</value>
+  </data>
+  <data name="PrivacyNotice" xml:space="preserve">
+    <value>Confidentialité</value>
+  </data>
+  <data name="QuotationMarks" xml:space="preserve">
+    <value>Guillemets</value>
+  </data>
+  <data name="Rate0Stars" xml:space="preserve">
+    <value>Notation {0} étoile(s).</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>Rejeté</value>
+  </data>
+  <data name="RemoveFormat" xml:space="preserve">
+    <value>Supprimer le format</value>
+  </data>
+  <data name="RemoveTableColumn" xml:space="preserve">
+    <value>Supprimer la colonne du tableau</value>
+  </data>
+  <data name="RemoveTableRow" xml:space="preserve">
+    <value>Supprimer la ligne du tableau</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Rééssayer</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Rechercher</value>
+  </data>
+  <data name="SearchHelpAndDescription" xml:space="preserve">
+    <value>En utilisant AND dans l'opérateur de recherche, les résultats afficheront tous les termes saisis. La requête affichera tous les résultats contenant à la fois l'expression "needle" et l'expression "haystack":</value>
+  </data>
+  <data name="SearchHelpAndExample" xml:space="preserve">
+    <value>needle AND haystack</value>
+  </data>
+  <data name="SearchHelpAndNotDescription" xml:space="preserve">
+    <value>En utilisant AND NOT dans l'opérateur de recherche, les résultats afficheront un terme spécifique, mais ne contiendront pas l'autre terme. 
+La requête affichera tous les résultats contenant 'expression "needle" mais pas l'expression "haystack":</value>
+  </data>
+  <data name="SearchHelpAndNotExample" xml:space="preserve">
+    <value>needle AND NOT haystack</value>
+  </data>
+  <data name="SearchHelpAsteriskCharaktersDescription" xml:space="preserve">
+    <value>En cas de recherche d'un terme entre guillemets et démarrant/finissant avec un astérique, les résultats afficheront les termes avec le début ou la fin de ce terme.
+La requête affichera les résultats contenant à la fois l'expression "haystack" et l'expression "hayfork":</value>
+  </data>
+  <data name="SearchHelpAsteriskCharaktersExample" xml:space="preserve">
+    <value>"hay*"</value>
+  </data>
+  <data name="SearchHelpOrDescription" xml:space="preserve">
+    <value>En utilisant OR dans l'opérateur de recherche, les résultats afficheront l'un ou l'autre des termes saisis. La requête affichera tous les résultats contenant soit l'expression "needle", soit l'expression "haystack":</value>
+  </data>
+  <data name="SearchHelpOrExample" xml:space="preserve">
+    <value>Needle OR haystack</value>
+  </data>
+  <data name="SearchHelpQuotationMarksDescription" xml:space="preserve">
+    <value>Les termes de recherche saisis entre guillemets doivent être dans les résultats dans le même ordre. La requête affichera tous les résultats contenant l'expression "needle in haystack" mais n'affichera aucun résultat contenant l'expression"needle in the haystack":</value>
+  </data>
+  <data name="SearchHelpQuotationMarksExample" xml:space="preserve">
+    <value>"needle in haystack"</value>
+  </data>
+  <data name="secondly" xml:space="preserve">
+    <value>en second</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Démarrer</value>
+  </data>
+  <data name="Strikethrough" xml:space="preserve">
+    <value>Barré</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Soumettre</value>
+  </data>
+  <data name="Subscript" xml:space="preserve">
+    <value>Indice</value>
+  </data>
+  <data name="Superscript" xml:space="preserve">
+    <value>Exposant</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Texte</value>
+  </data>
+  <data name="TextColor" xml:space="preserve">
+    <value>Couleur de texte</value>
+  </data>
+  <data name="TheMinimumImageResolutionMustBe0x1" xml:space="preserve">
+    <value>La résolution minimale de l'image doit être de {0} x {1}.</value>
+  </data>
+  <data name="TheMinimumImageSideLengthOfLongerSideMustBe0" xml:space="preserve">
+    <value>La longueur de côté minimale de la partie la plus longue de l'image doit être de {0}.</value>
+  </data>
+  <data name="TheSelectedValueDoesNotHaveAUniqueKey" xml:space="preserve">
+    <value>La valeur sélectionnée n'a pas de clé unique.</value>
+  </data>
+  <data name="TheWorkflowWillGoOnAsSoonAsTheStep0IsFinished" xml:space="preserve">
+    <value>Le workflow se poursuivra une fois l'étape "{0}" achevée.</value>
+  </data>
+  <data name="ThisIsAMandatoryField" xml:space="preserve">
+    <value>Champ obligatoire.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titre</value>
+  </data>
+  <data name="ToggleFullWindow" xml:space="preserve">
+    <value>Passer en mode plein écran</value>
+  </data>
+  <data name="TooManyRequestsPleaseTryAgainIn0Seconds" xml:space="preserve">
+    <value>Nombre de requêtes trop importantes. Rééssayer dans {0} secondes.</value>
+  </data>
+  <data name="TranslatedText" xml:space="preserve">
+    <value>Texte traduit</value>
+  </data>
+  <data name="Underline" xml:space="preserve">
+    <value>Souligner</value>
+  </data>
+  <data name="UpTo0FilesAreAllowed" xml:space="preserve">
+    <value>Sont autorisés jusqu'à {0} fichiers.</value>
+  </data>
+  <data name="UpTo0ValuesAreAllowed" xml:space="preserve">
+    <value>Sont autorisées jusqu'à {0} valeurs.</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Identifiant</value>
+  </data>
+  <data name="weekly" xml:space="preserve">
+    <value>hebdomadairement</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>Workflow</value>
+  </data>
+  <data name="WouldYouReallyLikeToDeleteTheRow" xml:space="preserve">
+    <value>Voulez-vous vraiment supprimer cette ligne ?</value>
+  </data>
+  <data name="WouldYouReallyLikeToDeleteTheTab" xml:space="preserve">
+    <value>Voulez-vous vraiment supprimer le tableau "{0}" ?</value>
+  </data>
+  <data name="WouldYouReallyLikeToMarkTheFile0ForRemoval" xml:space="preserve">
+    <value>Voulez-vous vraiment sélectionner le fichier "{0}" pour la suppression ?</value>
+  </data>
+  <data name="yearly" xml:space="preserve">
+    <value>annuellement</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="YourPasswordHasExpiredPleaseEnterANewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Votre mot de passe a expiré. Veuillez renseigner un nouveau mot de passe et cliquer sur le bouton ENVOYER. Vous pourrez ensuite vous connecter avec votre nouveau mot de passe.</value>
+  </data>
+  <data name="PleaseEnterAUniqueValueForThisField" xml:space="preserve">
+    <value>Renseignez une valeur unique pour ce champ.</value>
+  </data>
+  <data name="References" xml:space="preserve">
+    <value>Références</value>
+  </data>
+  <data name="TheFirst0ResultsAreDisplayedBelow" xml:space="preserve">
+    <value>Les {0} premiers résultats sont affichés ci-dessous.</value>
+  </data>
+  <data name="TheActionFor0CannotBeExecutedBecauseItIsAmbiguous" xml:space="preserve">
+    <value>L'action pour "{0}" ne peut pas être exécutée car elle est ambiguë. Veuillez utiliser le bouton "{0}" de l'étape souhaitée dans le diagramme de flux de travaux pour exécuter l'action. Souhaitez-vous voir le diagramme de flux de travail?</value>
+  </data>
+  <data name="Results0To1AreDisplayedBelow" xml:space="preserve">
+    <value>Les résultats {0} à {1} sont affichés ci-dessous.</value>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>Hors Ligne</value>
+  </data>
+  <data name="PleaseSelectACsvFileEndodedAsUtf8WithBom" xml:space="preserve">
+    <value>Veuillez sélectionner un fichier CSV encodé en UTF-8 avec BOM.</value>
+  </data>
+  <data name="CsvQuotesError" xml:space="preserve">
+    <value>Une valeur de champ CSV ne peut pas contenir de guillemets (") sauf si la valeur entière du champ est entourée de guillemets ("valeur du champ") et les guillemets à l'intérieur sont échappés avec des guillemets ("champ "" valeur").</value>
+  </data>
+  <data name="FieldMappingError" xml:space="preserve">
+    <value>Le mappage de champ pour "{0}" est introuvable.</value>
+  </data>
+  <data name="CsvValueError" xml:space="preserve">
+    <value>La valeur "{0}" ne peut pas être définie pour le champ "{1}".</value>
+  </data>
+  <data name="PleaseExcuseThatTheDataExportTakesLongerThanExpected" xml:space="preserve">
+    <value>Veuillez excuser que l'exportation des données prend plus de temps que prévu. Pour gagner du temps, les résultats seront envoyés par e-mail à {0} une fois le traitement terminé.</value>
+  </data>
+  <data name="PleaseFindAttachedTheRequestedDataExport" xml:space="preserve">
+    <value>Veuillez trouver ci-joint l'exportation de données demandée.</value>
+  </data>
+  <data name="YourPasswordHasToBeChangedAtFirstLogonPleaseEnterANewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Votre mot de passe doit être modifié lors de la première connexion. Veuillez entrer un nouveau mot de passe ci-dessous et cliquez sur le bouton SOUMETTRE. Le nouveau mot de passe doit être différent du mot de passe initial. Ensuite, vous pourrez vous connecter avec votre nouveau mot de passe.</value>
+  </data>
+  <data name="QueueLength" xml:space="preserve">
+    <value>Longueur de la file d'attente</value>
+  </data>
+  <data name="RemoveLink" xml:space="preserve">
+    <value>Supprimer le lien hypertexte</value>
+  </data>
+  <data name="TheEnteredCombinationOfUserNameAndPasswordIsInvalid" xml:space="preserve">
+    <value>La combinaison entrée nom d'utilisateur et mot de passe n'est pas valide.</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>heures</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>journées</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+</root>

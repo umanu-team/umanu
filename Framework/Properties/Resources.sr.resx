@@ -1,0 +1,674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllUnsafedChangesWillBeDiscardedIfYouLeaveThisPage" xml:space="preserve">
+    <value>Ukoliko napustite ovu stranicu, sve nesačuvane izmene će biti odbačene.</value>
+  </data>
+  <data name="AlternativelyYouCanLeaveThisFieldBlank" xml:space="preserve">
+    <value>Ovo polje možete ostaviti prazno.</value>
+  </data>
+  <data name="AlternativelyYouCanLeaveThisFieldBlankForNow" xml:space="preserve">
+    <value>Ovo polje možete ostaviti prazno, za sada.</value>
+  </data>
+  <data name="GoTo" xml:space="preserve">
+    <value>Idite na</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Otkaži</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>Otkazano</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Zatvorite</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Završeno</value>
+  </data>
+  <data name="CreatedAtByModifiedAtBy" xml:space="preserve">
+    <value>Kreirano u {0} od strane {1}, poslednji put izmenjeno {2} od strane {3}.</value>
+  </data>
+  <data name="daily" xml:space="preserve">
+    <value>dnevno</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Izmeniti</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Kraj</value>
+  </data>
+  <data name="hourly" xml:space="preserve">
+    <value>svakih sat vremena</value>
+  </data>
+  <data name="minutely" xml:space="preserve">
+    <value>svaki minut</value>
+  </data>
+  <data name="monthly" xml:space="preserve">
+    <value>svaki mesec</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Lozinka</value>
+  </data>
+  <data name="PleaseCorrectTheInvalidInputValues" xml:space="preserve">
+    <value>Molimo dopunite nedostajuće/korigujte netačno unete vrednosti.</value>
+  </data>
+  <data name="PleaseEnterAValidDateAndTimeBetween0And1ForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravan datum i vreme između {0} i {1} za ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidDateAndTimeForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravan datum i vreme u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidDateBetween0And1ForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravan datum između  {0} i {1} u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidDateForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravan datum u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidMonthBetween0And1ForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravan mesec između {0} i {1} u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidMonthForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravan mesec u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidTimeBetween0And1ForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravno vreme između {0} i {1} u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidTimeForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravno vreme u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1AndAUnitForThisField" xml:space="preserve">
+    <value>Molimo unestire ispravnu vrednost između {0} i {1} i jedinicu u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Molimo unestire ispravnu vrednost između {0} i {1} označite jedinicu za ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1ForThisField" xml:space="preserve">
+    <value>Molimo unestire ispravnu vrednost između {0} i {1} u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidValueForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravnu vrednost u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0AndAUnitForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravnu vrednost, veću ili istu u odnosu na {0}, kao i jedinicu u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravnu vrednost veću ili istu u odnosu na {0} i označite jedinicu za ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0ForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravnu vrednost veću ili istu u odnosu na {0} u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0AndAUnitForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravnu vrednost manju ili istu u odnosu na {0} u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravnu vrednost manju ili istu u odnosu na {0} i označite jedinicu za ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0ForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravnu vrednost manju ili istu u odnosu na {0} u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeast0AndAtMost1CharactersForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravnu vrednost sa najmanje {0} i najviše {1} karaktera u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeast0CharactersForThisField" xml:space="preserve">
+    <value>Molimo unesite važeću vrednost sa najmanje {0} karaktera u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeastOneCharacterForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravnu vrednost sa najmanje jednim karakterom u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtMost0CharactersForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravnu vrednost sa najviše {0} karaktera u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtMostOneCharacterForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravnu vrednost sa najviše jednim karakterom u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidWeekBetween0And1ForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravnu nedelju između {0} i {1} u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterAValidWeekForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravnu nedelju u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterValidValuesBetween0And1ForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravne vrednosti između {0} i {1} u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterValidValuesForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravne vrednosti u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterValidValuesGreaterThan0ForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravne vrednosti veće ili jednake u odnosu na {0} u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterValidValuesLessThan0ForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravne vrednosti manje ili jednake u odnosu na {0} u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterValidValuesWithAtMost0CharactersForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravne vrednosti sa najviše {0} karaktera u ovo polje.</value>
+  </data>
+  <data name="PleaseEnterValidValuesWithAtMostOneCharacterForThisField" xml:space="preserve">
+    <value>Molimo unesite ispravne vrednosti sa najviše jednim karakterom u ovo polje.</value>
+  </data>
+  <data name="PleaseSelectAFileOfAnAllowedTypeWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Molimo izaberite fajl dozvoljenog tipa sa maksimalnom veličinom od {0} MB.</value>
+  </data>
+  <data name="PleaseSelectAFileWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Molimo izaberite fajl sa maksimalnom veličinom od {0} MB.</value>
+  </data>
+  <data name="PleaseSelectAValidPersonForThisField" xml:space="preserve">
+    <value>Molimo izaberite ispravnu osobu u ovom polju.</value>
+  </data>
+  <data name="PleaseSelectAValidValueForThisField" xml:space="preserve">
+    <value>Molimo izaberite ispravnu vrednost u ovom polju.</value>
+  </data>
+  <data name="PleaseSelectFilesOfAllowedTypesWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Molimo izaberite fajlove sa maksimalnom veličinom od {0} MB za svaki.</value>
+  </data>
+  <data name="PleaseSelectFilesWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Molimo izaberite fajlove sa maksimalnom veličinom od {0} MB za svaki.</value>
+  </data>
+  <data name="PleaseSelectOneOrMoreValidPersonsForThisField" xml:space="preserve">
+    <value>Molimo izaberite jednu ili više ispravnih osoba u ovom polju.</value>
+  </data>
+  <data name="PleaseSelectOneOrMoreValidValuesForThisField" xml:space="preserve">
+    <value>Molimo izaberite jednu ili više ispravnih vrednosti u ovom polju.</value>
+  </data>
+  <data name="PreferredCulture" xml:space="preserve">
+    <value>Preferirana kultura</value>
+  </data>
+  <data name="PreferredLanguage" xml:space="preserve">
+    <value>Preferirani jezik</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Sačuvati</value>
+  </data>
+  <data name="secondly" xml:space="preserve">
+    <value>sporedno</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Početak</value>
+  </data>
+  <data name="TheMinimumImageResolutionMustBe0x1" xml:space="preserve">
+    <value>Minimalna rezolucija slike mora biti {0} x {1}.</value>
+  </data>
+  <data name="ThisIsAMandatoryField" xml:space="preserve">
+    <value>Ovo je obavezno polje.</value>
+  </data>
+  <data name="UpTo0FilesAreAllowed" xml:space="preserve">
+    <value>Dozvoljeno je do {0} fajlova.</value>
+  </data>
+  <data name="UpTo0ValuesAreAllowed" xml:space="preserve">
+    <value>Dozvoljeno je do {0} vrednosti.</value>
+  </data>
+  <data name="weekly" xml:space="preserve">
+    <value>nedeljno</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>Proces rada</value>
+  </data>
+  <data name="WouldYouReallyLikeToDeleteTheRow" xml:space="preserve">
+    <value>Da li zaista želite da izbrišete red?</value>
+  </data>
+  <data name="WouldYouReallyLikeToDeleteTheTab" xml:space="preserve">
+    <value>Da li zaista želite da izbrišete karticu "{0}"?</value>
+  </data>
+  <data name="WouldYouReallyLikeToMarkTheFile0ForRemoval" xml:space="preserve">
+    <value>Da li zaista želite da označite fajl "{0}" za uklanjanje?</value>
+  </data>
+  <data name="yearly" xml:space="preserve">
+    <value>godišnje</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>da</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Istorija</value>
+  </data>
+  <data name="ModifiedAt" xml:space="preserve">
+    <value>Izmenjeno u</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>Izmenjeno od strane</value>
+  </data>
+  <data name="TheMinimumImageSideLengthOfLongerSideMustBe0" xml:space="preserve">
+    <value>Minimalna dužina strane duže strane slike mora biti {0}.</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Pretraga</value>
+  </data>
+  <data name="NResultsWereFoundFor0" xml:space="preserve">
+    <value>{1} rezultata je pronađeno za "{0}".</value>
+  </data>
+  <data name="OneResultWasFoundFor0" xml:space="preserve">
+    <value>Jedan rezultat je pronađen za "{0}".</value>
+  </data>
+  <data name="Bold" xml:space="preserve">
+    <value>Boldovano</value>
+  </data>
+  <data name="Bullets" xml:space="preserve">
+    <value>Zaglavlja</value>
+  </data>
+  <data name="DecreaseIndent" xml:space="preserve">
+    <value>Pomerite pasus bliže margini</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Veličina fonta</value>
+  </data>
+  <data name="IncreaseIndent" xml:space="preserve">
+    <value>Uvećajte indent</value>
+  </data>
+  <data name="InsertImage" xml:space="preserve">
+    <value>Ubacite sliku</value>
+  </data>
+  <data name="InsertLink" xml:space="preserve">
+    <value>Ubacite link</value>
+  </data>
+  <data name="InsertTable" xml:space="preserve">
+    <value>Ubacite tabelu</value>
+  </data>
+  <data name="InsertTableColumn" xml:space="preserve">
+    <value>Ubacite kolonu tabele</value>
+  </data>
+  <data name="InsertTableRow" xml:space="preserve">
+    <value>Ubacite red tabele</value>
+  </data>
+  <data name="Italic" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="Numbering" xml:space="preserve">
+    <value>Numerisanje</value>
+  </data>
+  <data name="RemoveFormat" xml:space="preserve">
+    <value>Ukloniti format</value>
+  </data>
+  <data name="RemoveTableColumn" xml:space="preserve">
+    <value>Ukloniti kolonu tabele</value>
+  </data>
+  <data name="RemoveTableRow" xml:space="preserve">
+    <value>Ukloniti red tabele</value>
+  </data>
+  <data name="Strikethrough" xml:space="preserve">
+    <value>Precrtano</value>
+  </data>
+  <data name="Subscript" xml:space="preserve">
+    <value>Indeks</value>
+  </data>
+  <data name="Superscript" xml:space="preserve">
+    <value>Adresa</value>
+  </data>
+  <data name="TextColor" xml:space="preserve">
+    <value>Boja teksta</value>
+  </data>
+  <data name="Underline" xml:space="preserve">
+    <value>Podvući</value>
+  </data>
+  <data name="AlignTextLeft" xml:space="preserve">
+    <value>Poravnajte tekst levo</value>
+  </data>
+  <data name="AlignTextRight" xml:space="preserve">
+    <value>Poravnajte tekst desno</value>
+  </data>
+  <data name="CenterText" xml:space="preserve">
+    <value>Centrirajte tekst</value>
+  </data>
+  <data name="CreatedAt" xml:space="preserve">
+    <value>Kreirano u</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>Kreirano od strane</value>
+  </data>
+  <data name="PleaseClickSaveToReleaseTheForm" xml:space="preserve">
+    <value>Molimo kliknite na "Sačuvajte" da biste sačuvali formu.</value>
+  </data>
+  <data name="PleaseMakeSureFileNamesDoNotContainAnyOfTheFollowingCharacters" xml:space="preserve">
+    <value>Molimo proverite da imena fajlova ne sadrže nijedan od sledećih karaktera: &lt;, &gt;, *, %, &amp;, :, \.</value>
+  </data>
+  <data name="Asterisk" xml:space="preserve">
+    <value>Zvezdica</value>
+  </data>
+  <data name="QuotationMarks" xml:space="preserve">
+    <value>Znaci navoda</value>
+  </data>
+  <data name="SearchHelpAndDescription" xml:space="preserve">
+    <value>Koristeći pretraživački operator AND mogu biti pronađeni rezultati koji sadrže sve unete termine kao cele reči. Sledeći upit za pretragu će pronaći sve rezultate koji sadrže rieč "igla" kao i reči "plast sena":</value>
+  </data>
+  <data name="SearchHelpAndExample" xml:space="preserve">
+    <value>igla AND "plast sena"</value>
+  </data>
+  <data name="SearchHelpAndNotDescription" xml:space="preserve">
+    <value>Korišćenjem operatora pretrage AND NOT mogu biti pronađeni rezultati koji sadrže specifični termin kao celu reč, ali koji ne sadrže drugi termin. Sledeći upit za pretragu će pronaći sve rezultate koji sadrže reč "igla" ali ne i reči "plast sena":</value>
+  </data>
+  <data name="SearchHelpAndNotExample" xml:space="preserve">
+    <value>igla AND NOT "plast sena"</value>
+  </data>
+  <data name="SearchHelpAsteriskCharaktersDescription" xml:space="preserve">
+    <value>U slučaju pretrage termina sa navodnicima koji počinju / završavaju se sa zvezdicom, mogu biti pronađeni rezultati koji sadrže kraj / početak tog termina. Sledeći upit za pretragu će pronaći sve rezultate koji sadrže termin "plast sena", kao i one koji sadrže termin "vile za seno":</value>
+  </data>
+  <data name="SearchHelpAsteriskCharaktersExample" xml:space="preserve">
+    <value>"seno*"</value>
+  </data>
+  <data name="SearchHelpOrDescription" xml:space="preserve">
+    <value>Koristeći pretraživački operator OR mogu se pretražiti rezultati koji sadrže bilo koji od unesenih termina kao cele reči. Sledeći upit za pretragu će pronaći sve rezultate koji sadrže reč "igla" ili reč "plast sena":</value>
+  </data>
+  <data name="SearchHelpOrExample" xml:space="preserve">
+    <value>igla OR "plast sena"</value>
+  </data>
+  <data name="SearchHelpQuotationMarksDescription" xml:space="preserve">
+    <value>Pretraga pojmova unetih sa znacima navoda moraju biti u rezultatu u istom redosledu. Sledeći upit za pretragu će pronaći sve rezultate koji sadrže frazu "igla u plastu sena", ali neće pronaći rezultat koji sadrži izraz "igla je u plastu sena" samo:</value>
+  </data>
+  <data name="SearchHelpQuotationMarksExample" xml:space="preserve">
+    <value>"igla u plastu sena"</value>
+  </data>
+  <data name="OfflineMessage" xml:space="preserve">
+    <value>Aplikacija je offline. Moguće je da se prikazuju zastareli ili nepotpuni podaci. Promene podataka nisu moguće u svim slučajevima.</value>
+  </data>
+  <data name="PleaseMakeSureTheValueContainsAtLeastAnUpperCaseCharacterALowerCaseCharacterANumericCharacterAndASpecialCharacter" xml:space="preserve">
+    <value>Molimo proverite da vrednost sadrži najmanje jedno veliko slovo, malo slovo, numerički i specijalni karakter.</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Promenite šifru</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>E-mail adresa</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Zaboravljena šifra</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Ulogujte se</value>
+  </data>
+  <data name="PleaseEnterYourEmailAddressBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Molimo unesite svoju e-mail adresu ispod i kliknite na dugme POTVRDITE. Nakon toga ćete dobiti e-mail sa linkom preko kog možete resetovati lozinku.</value>
+  </data>
+  <data name="PleaseEnterYourNewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Molimo unesite svoju novu lozinku ispod i kliknite na dugme POTVRDITE. Nakon toga moći ćete da se prijavite sa novom lozinkom.</value>
+  </data>
+  <data name="PleaseUseTheSignInButtonToLogOnWithYourEmailAddress" xml:space="preserve">
+    <value>Molimo koristite dugme PRIJAVITE SE, da biste se prijavili. Molimo Vas da koristite svoju e-mail adresu kao korisničko ime. Ako ste zaboravili lozinku, molimo kliknite na dugme ZABORAVLJENA LOZINKA.</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Ponoviti</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Potvrditi</value>
+  </data>
+  <data name="TooManyRequestsPleaseTryAgainIn0Seconds" xml:space="preserve">
+    <value>Previše zahteva. Pokušajte ponovo za {0} sekundi.</value>
+  </data>
+  <data name="ForgotPasswordMailText" xml:space="preserve">
+    <value>Poštovana(i),
+
+Klikom na "Zaboravili ste lozinku" ovaj e-mail je poslat.
+
+Ako želite da resetujete lozinku, molimo kliknite na sledeći link: [link]
+
+Link će isteći nakon 24 sata ili čim se zatraži novi link za ponovno kreiranje lozinke.
+
+Hvala vam puno i srdačan pozdrav.</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Izvoz</value>
+  </data>
+  <data name="YourPasswordHasExpiredPleaseEnterANewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Vaša lozinka je istekla. Molimo unesite novu lozinku ispod i kliknite na dugme POTVRDITE. Nakon toga moći ćete da se prijavite sa novom lozinkom.</value>
+  </data>
+  <data name="ChangeLanguage" xml:space="preserve">
+    <value>Promenite jezik</value>
+  </data>
+  <data name="PleaseEnterANewPasswordToChangeYourPasswordOrLeaveThisFieldEmptyToKeepYourPassword" xml:space="preserve">
+    <value>Molimo unesite novu lozinku da biste promenili lozinku ili ostavite ovo polje prazno da biste sačuvali lozinku.</value>
+  </data>
+  <data name="ToggleFullWindow" xml:space="preserve">
+    <value>Otvoriti u celom prozoru</value>
+  </data>
+  <data name="PleaseConfirmTheChangeOfYourPreferredLanguageByEnteringYourWindowsPassword" xml:space="preserve">
+    <value>Molimo vas da potvrdite promenu željenog jezika unosom Windows lozinke.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Naslov</value>
+  </data>
+  <data name="LengthXWidthXHeightAbbr" xml:space="preserve">
+    <value>(D x Š x V)</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Izbrišite</value>
+  </data>
+  <data name="PleaseUseTheSignInButtonToLogOnWithYourUserName" xml:space="preserve">
+    <value>Molimo koristite dugme PRIJAVITE SE, da biste se prijavili sa korisničkim imenom i lozinkom. Ako ste zaboravili lozinku, molimo kliknite na dugme ZABORAVLJENA LOZINKA.</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Korisničko ime</value>
+  </data>
+  <data name="PleaseEnterYourUserNameBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Molimo unesite svoje korisničko ime ispod i kliknite na dugme POTVRDITE. Nakon toga dobićete e-mail sa linkom preko kog možete promeniti lozinku.</value>
+  </data>
+  <data name="TheSelectedValueDoesNotHaveAUniqueKey" xml:space="preserve">
+    <value>Izabrana vrednost nema jedinstveni ključ.</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Podešavanja</value>
+  </data>
+  <data name="TheWorkflowWillGoOnAsSoonAsTheStep0IsFinished" xml:space="preserve">
+    <value>Radni proces će se nastaviti čim se završi korak "{0}".</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Izlogujte se</value>
+  </data>
+  <data name="PleaseEnterAUniqueEmailAddressForThisField" xml:space="preserve">
+    <value>Molimo unesite jedinstvenu e-mail adresu u ovo polje.</value>
+  </data>
+  <data name="Rate0Stars" xml:space="preserve">
+    <value>Oceniti {0} zvezda.</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Odobreno</value>
+  </data>
+  <data name="NotInspected" xml:space="preserve">
+    <value>Nije pregledano</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>Odbijeno</value>
+  </data>
+  <data name="PrivacyNotice" xml:space="preserve">
+    <value>Izjava o privatnosti</value>
+  </data>
+  <data name="Imprint" xml:space="preserve">
+    <value>Impresum</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Pomoć</value>
+  </data>
+  <data name="InvariantText" xml:space="preserve">
+    <value>Tekst koji se ne menja</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Jezik</value>
+  </data>
+  <data name="PleaseUseThePlusButtonToAddTranslations" xml:space="preserve">
+    <value>Molimo koristite dugme “plus” da biste dodali prevode.</value>
+  </data>
+  <data name="TranslatedText" xml:space="preserve">
+    <value>Prevedeni tekst</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="InvariantTitle" xml:space="preserve">
+    <value>Naslov koji se se menja</value>
+  </data>
+  <data name="PleaseEnterAUniqueValueForThisField" xml:space="preserve">
+    <value>Molimo unesite jedinstvenu vrednost u ovo polje.</value>
+  </data>
+  <data name="References" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="TheFirst0ResultsAreDisplayedBelow" xml:space="preserve">
+    <value>Prvi {0} rezultati su prikazani ispod.</value>
+  </data>
+  <data name="NoResultsWereFoundFor0" xml:space="preserve">
+    <value>Nema pronađenih rezultata za "{0}".</value>
+  </data>
+  <data name="TheActionFor0CannotBeExecutedBecauseItIsAmbiguous" xml:space="preserve">
+    <value>Akcija za "{0}" se ne može izvršiti jer je dvosmislena. Molimo koristite taster "{0}" željenog koraka u dijagramu radnog procesa da biste izvršili akciju. Da li želite da vidite dijagram rada?</value>
+  </data>
+  <data name="Results0To1AreDisplayedBelow" xml:space="preserve">
+    <value>Резултати {0} до {1} су приказани доле.</value>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>Odsutan</value>
+  </data>
+  <data name="PleaseSelectACsvFileEndodedAsUtf8WithBom" xml:space="preserve">
+    <value>Izaberite CSV datoteku kodiranu kao UTF-8 sa BOM-om.</value>
+  </data>
+  <data name="CsvQuotesError" xml:space="preserve">
+    <value>Vrednost CSV polja ne sme sadržati navodnike ("), osim ako je vrednost celog polja okružena navodnicima ("vrednost polja"), a citati unutar njih se izbegavaju navodnicima ("vrednost "" vrednosti").</value>
+  </data>
+  <data name="FieldMappingError" xml:space="preserve">
+    <value>Nije moguće pronaći mapiranje polja za „{0}“.</value>
+  </data>
+  <data name="CsvValueError" xml:space="preserve">
+    <value>Vrednost „{0}“ ne može da se postavi za polje „{1}“.</value>
+  </data>
+  <data name="PleaseExcuseThatTheDataExportTakesLongerThanExpected" xml:space="preserve">
+    <value>Izvinite da izvoz podataka traje duže nego što se očekivalo. Da biste uštedeli vreme, rezultati će se poslati na {0} kada se obrada završi.</value>
+  </data>
+  <data name="PleaseFindAttachedTheRequestedDataExport" xml:space="preserve">
+    <value>U prilogu se nalazi traženi izvoz podataka.</value>
+  </data>
+  <data name="YourPasswordHasToBeChangedAtFirstLogonPleaseEnterANewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Vaša lozinka mora biti promenjena pri prvom prijavljivanju. Molimo unesite novu lozinku ispod i kliknite dugme POŠALJI. Nova lozinka mora da se razlikuje od početne. Posle ćete moći da se prijavite sa novom lozinkom.</value>
+  </data>
+  <data name="QueueLength" xml:space="preserve">
+    <value>Dužina reda</value>
+  </data>
+  <data name="RemoveLink" xml:space="preserve">
+    <value>Uklonite hipervezu</value>
+  </data>
+  <data name="TheEnteredCombinationOfUserNameAndPasswordIsInvalid" xml:space="preserve">
+    <value>Uneta kombinacija korisničkog imena i lozinke je nevažeća.</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>sati</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>dana</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minuta</value>
+  </data>
+</root>

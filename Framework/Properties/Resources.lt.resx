@@ -1,0 +1,674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllUnsafedChangesWillBeDiscardedIfYouLeaveThisPage" xml:space="preserve">
+    <value>Visa neišsaugota informacija bus pašalinta palikus šį puslapį.</value>
+  </data>
+  <data name="AlternativelyYouCanLeaveThisFieldBlank" xml:space="preserve">
+    <value>Arba galite palikti šį lauką tuščią.</value>
+  </data>
+  <data name="AlternativelyYouCanLeaveThisFieldBlankForNow" xml:space="preserve">
+    <value>Arba galite palikti šį lauką tuščią laikinai.</value>
+  </data>
+  <data name="GoTo" xml:space="preserve">
+    <value>Eiti į</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Atšaukti</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>Atšaukta</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Uždaryti</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Baigta</value>
+  </data>
+  <data name="CreatedAtByModifiedAtBy" xml:space="preserve">
+    <value>Sukurta {0} {1}, paskutinį kartą pakeista {2} {3}.</value>
+  </data>
+  <data name="daily" xml:space="preserve">
+    <value>kasdien</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Redaguoti</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Pabaiga</value>
+  </data>
+  <data name="hourly" xml:space="preserve">
+    <value>valandinis</value>
+  </data>
+  <data name="minutely" xml:space="preserve">
+    <value>minutinis</value>
+  </data>
+  <data name="monthly" xml:space="preserve">
+    <value>mėnesinis</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Slaptažodis</value>
+  </data>
+  <data name="PleaseEnterAValidDateAndTimeBetween0And1ForThisField" xml:space="preserve">
+    <value>Įveskite teisingą datą ir laiką tarp {0} ir {1}.</value>
+  </data>
+  <data name="PleaseEnterAValidDateAndTimeForThisField" xml:space="preserve">
+    <value>Įveskite teisingą datą ir laiką.</value>
+  </data>
+  <data name="PleaseEnterAValidDateBetween0And1ForThisField" xml:space="preserve">
+    <value>Įveskite teisingą datą tarp {0} ir {1}.</value>
+  </data>
+  <data name="PleaseEnterAValidDateForThisField" xml:space="preserve">
+    <value>Įvesti galiojančią dieną laukelyje.</value>
+  </data>
+  <data name="PleaseEnterAValidMonthBetween0And1ForThisField" xml:space="preserve">
+    <value>Įveskite teisingą mėnesį tarp {0} ir {1}.</value>
+  </data>
+  <data name="PleaseEnterAValidMonthForThisField" xml:space="preserve">
+    <value>Įveskite teinigą mėnesį.</value>
+  </data>
+  <data name="PleaseEnterAValidTimeBetween0And1ForThisField" xml:space="preserve">
+    <value>Įveskite teisingą laiką tarp {0} ir {1}.</value>
+  </data>
+  <data name="PleaseEnterAValidTimeForThisField" xml:space="preserve">
+    <value>Įveskite teinigą laiką.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1AndAUnitForThisField" xml:space="preserve">
+    <value>Įveskite galiojančius duomenis  tarp {0} ir {1}.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Įveskite galiojančius duomenis  tarp {0} ir {1} ir vieną pažymėkite.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1ForThisField" xml:space="preserve">
+    <value>Įveskite galiojančius duomenis tarp {0} ir {1}.</value>
+  </data>
+  <data name="PleaseEnterAValidValueForThisField" xml:space="preserve">
+    <value>Laukelyje įveskite galiojančius duomenis.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0AndAUnitForThisField" xml:space="preserve">
+    <value>Laukelyje įveskite galiojančią reikšmę, didesnę arba lygią {0}.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Laukelyje įveskite galiojančią reikšmę, didesnę arba lygią {0}, ir pasirinkite vienetą.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0ForThisField" xml:space="preserve">
+    <value>Laukelyje įveskite teisingą reikšmę, didesnę arba lygią {0}.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0AndAUnitForThisField" xml:space="preserve">
+    <value>Laukelyje įveskite galiojantį dydį, mažesnį arba lygų {0}, ir vienetą.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Laukelyje įveskite galiojančią reikšmę, mažesnę arba lygią {0}, ir pasirinkite vienetą.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0ForThisField" xml:space="preserve">
+    <value>Laukelyje įveskite galiojančią reikšmę, kuri yra mažesnė arba lygi {0}.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeast0AndAtMost1CharactersForThisField" xml:space="preserve">
+    <value>Šiame lauke įveskite teisingą vertę su bent {0} ir ne daugiau kaip {1} simboliais.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeast0CharactersForThisField" xml:space="preserve">
+    <value>Laukelyje įveskite galiojančią vertę su mažiausiai {0} simboliais.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeastOneCharacterForThisField" xml:space="preserve">
+    <value>Laukelyje įveskite teisingą vertę, kurioje yra bent vienas simbolis.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtMost0CharactersForThisField" xml:space="preserve">
+    <value>Laukelyje įveskite galiojančią vertę, kurioje yra ne daugiau kaip {0} simbolių.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtMostOneCharacterForThisField" xml:space="preserve">
+    <value>Laukelyje įveskite galiojančią vertę, kurioje yra ne daugiau kaip vienas simbolis.</value>
+  </data>
+  <data name="PleaseEnterAValidWeekBetween0And1ForThisField" xml:space="preserve">
+    <value>Laukelyje įveskite galiojančią savaitę tarp {0} ir {1}.</value>
+  </data>
+  <data name="PleaseEnterAValidWeekForThisField" xml:space="preserve">
+    <value>Laukelyje įveskite galiojančią savaitę.</value>
+  </data>
+  <data name="PleaseEnterValidValuesBetween0And1ForThisField" xml:space="preserve">
+    <value>Laukelyje įveskite teisingas reikšmes tarp {0} ir {1}.</value>
+  </data>
+  <data name="PleaseEnterValidValuesForThisField" xml:space="preserve">
+    <value>Laukelyje įveskite galiojančias šio lauko reikšmes.</value>
+  </data>
+  <data name="PleaseEnterValidValuesGreaterThan0ForThisField" xml:space="preserve">
+    <value>Laukelyje įveskite galiojančias reikšmes, kurios yra didesnės arba lygios {0}.</value>
+  </data>
+  <data name="PleaseEnterValidValuesLessThan0ForThisField" xml:space="preserve">
+    <value>Laukelyje įveskite teisingas reikšmes, mažesnes nei {0}.</value>
+  </data>
+  <data name="PleaseEnterValidValuesWithAtMost0CharactersForThisField" xml:space="preserve">
+    <value>Įveskite galiojančias reikšmes, kurių šiame lauke yra ne daugiau kaip {0} simbolių.</value>
+  </data>
+  <data name="PleaseEnterValidValuesWithAtMostOneCharacterForThisField" xml:space="preserve">
+    <value>Laukelyje įveskite galiojančias reikšmes, kurių šiame lauke yra ne daugiau kaip vienas simbolis.</value>
+  </data>
+  <data name="PleaseSelectAFileOfAnAllowedTypeWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Pasirinkite failą, turintį leidžiamą tipą, kurio maksimalus dydis yra {0} MB.</value>
+  </data>
+  <data name="PleaseSelectAFileWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Pasirinkite failą, kurio maksimalus dydis yra {0} MB.</value>
+  </data>
+  <data name="PleaseSelectAValidPersonForThisField" xml:space="preserve">
+    <value>Pasirinkite tinkamus asmenis.</value>
+  </data>
+  <data name="PleaseSelectAValidValueForThisField" xml:space="preserve">
+    <value>Pasirinkite tinkamą lauko reikšmę.</value>
+  </data>
+  <data name="PleaseSelectFilesOfAllowedTypesWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Pasirinkite leidžiamus failus, kurių kiekvieno maksimalus failo dydis yra {0} MB.</value>
+  </data>
+  <data name="PleaseSelectFilesWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Pasirinkite failus, kurių kiekvieno maksimalus failo dydis yra {0} MB.</value>
+  </data>
+  <data name="PleaseSelectOneOrMoreValidPersonsForThisField" xml:space="preserve">
+    <value>Pasirinkite vieną ar kelis tinkančius asmenis.</value>
+  </data>
+  <data name="PleaseSelectOneOrMoreValidValuesForThisField" xml:space="preserve">
+    <value>Pasirinkite vieną ar daugiau šio lauko reikšmių.</value>
+  </data>
+  <data name="PreferredCulture" xml:space="preserve">
+    <value>Pasirinkta tautybė</value>
+  </data>
+  <data name="PreferredLanguage" xml:space="preserve">
+    <value>Pasirinkta kalba</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Išsaugoti</value>
+  </data>
+  <data name="secondly" xml:space="preserve">
+    <value>antra</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Pradžia</value>
+  </data>
+  <data name="TheMinimumImageResolutionMustBe0x1" xml:space="preserve">
+    <value>Minimali nuotraukos rezoliucija turi būti {0} x {1}.</value>
+  </data>
+  <data name="ThisIsAMandatoryField" xml:space="preserve">
+    <value>Privalomas laukelis.</value>
+  </data>
+  <data name="UpTo0FilesAreAllowed" xml:space="preserve">
+    <value>Iki {0} dokumentų yra leidžiama.</value>
+  </data>
+  <data name="UpTo0ValuesAreAllowed" xml:space="preserve">
+    <value>Iki {0} verčių yra leidžiama.</value>
+  </data>
+  <data name="weekly" xml:space="preserve">
+    <value>savaitinis</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>Darbo eiga</value>
+  </data>
+  <data name="WouldYouReallyLikeToDeleteTheRow" xml:space="preserve">
+    <value>Ar tikrai norite ištrinti šią eilutę?</value>
+  </data>
+  <data name="yearly" xml:space="preserve">
+    <value>metinis</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Taip</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Istorija</value>
+  </data>
+  <data name="ModifiedAt" xml:space="preserve">
+    <value>Koreguota</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>Koreguota</value>
+  </data>
+  <data name="TheMinimumImageSideLengthOfLongerSideMustBe0" xml:space="preserve">
+    <value>Minimalus ilgesnės pusės ilgis turi būti {0}.</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Ieškoti</value>
+  </data>
+  <data name="OneResultWasFoundFor0" xml:space="preserve">
+    <value>Rastas vienas rezultatas užklausai "{0}".</value>
+  </data>
+  <data name="Bold" xml:space="preserve">
+    <value>Paryškinti</value>
+  </data>
+  <data name="Bullets" xml:space="preserve">
+    <value>Punktai</value>
+  </data>
+  <data name="DecreaseIndent" xml:space="preserve">
+    <value>Sumažinti įtrauką</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Šrifto dydis</value>
+  </data>
+  <data name="IncreaseIndent" xml:space="preserve">
+    <value>Padidinti įtrauką</value>
+  </data>
+  <data name="InsertImage" xml:space="preserve">
+    <value>Įterpti nuotrauką</value>
+  </data>
+  <data name="InsertLink" xml:space="preserve">
+    <value>Įterpti nuorodą</value>
+  </data>
+  <data name="InsertTable" xml:space="preserve">
+    <value>Įterpti lentelę</value>
+  </data>
+  <data name="InsertTableColumn" xml:space="preserve">
+    <value>Įterpti stulpelį</value>
+  </data>
+  <data name="InsertTableRow" xml:space="preserve">
+    <value>Įterpti eilutę</value>
+  </data>
+  <data name="Italic" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="Numbering" xml:space="preserve">
+    <value>Numeravimas</value>
+  </data>
+  <data name="RemoveFormat" xml:space="preserve">
+    <value>Pašalinti Formatą</value>
+  </data>
+  <data name="RemoveTableColumn" xml:space="preserve">
+    <value>Pašalint lentelės stulpelį</value>
+  </data>
+  <data name="RemoveTableRow" xml:space="preserve">
+    <value>Pašalint lentelės eilutę</value>
+  </data>
+  <data name="Strikethrough" xml:space="preserve">
+    <value>Perbraukta</value>
+  </data>
+  <data name="Subscript" xml:space="preserve">
+    <value>Aprašymas</value>
+  </data>
+  <data name="Superscript" xml:space="preserve">
+    <value>Antraštė</value>
+  </data>
+  <data name="TextColor" xml:space="preserve">
+    <value>Teksto spalva</value>
+  </data>
+  <data name="Underline" xml:space="preserve">
+    <value>Pabrėžti</value>
+  </data>
+  <data name="AlignTextLeft" xml:space="preserve">
+    <value>Teksto lygiavimas kairėje</value>
+  </data>
+  <data name="AlignTextRight" xml:space="preserve">
+    <value>Teksto lygiavimas dešinėje</value>
+  </data>
+  <data name="CenterText" xml:space="preserve">
+    <value>Teksto centravimas</value>
+  </data>
+  <data name="CreatedAt" xml:space="preserve">
+    <value>Sukurta</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>Sukurta</value>
+  </data>
+  <data name="PleaseClickSaveToReleaseTheForm" xml:space="preserve">
+    <value>Jei norite paleisti formą, spustelėkite „Išsaugoti“.</value>
+  </data>
+  <data name="PleaseMakeSureFileNamesDoNotContainAnyOfTheFollowingCharacters" xml:space="preserve">
+    <value>Įsitikinkite, kad failų pavadinimuose nėra šių simbolių: &lt;, &gt;, *, %, &amp;, :, \.</value>
+  </data>
+  <data name="Asterisk" xml:space="preserve">
+    <value>Žvaigždutė</value>
+  </data>
+  <data name="QuotationMarks" xml:space="preserve">
+    <value>Kabutės</value>
+  </data>
+  <data name="SearchHelpAndDescription" xml:space="preserve">
+    <value>Naudojant paieškos operatorių AND galima rasti rezultatus, kuriuose yra visi įvesti terminai kaip pilni žodžiai. Toliau pateiktoje užklausoje bus rasti visi rezultatai, kuriuose yra žodis "adata", taip pat žodis "šieno":</value>
+  </data>
+  <data name="SearchHelpAndExample" xml:space="preserve">
+    <value>adata AND šienas</value>
+  </data>
+  <data name="SearchHelpAndNotDescription" xml:space="preserve">
+    <value>Naudojant paieškos operatorių AND NOT rezultatus galima rasti tam tikrą terminą kaip visą žodį, bet jame negali būti kito termino. Toliau pateiktoje užklausoje bus rasti visi rezultatai, kuriuose yra žodis "adata", bet ne žodis "šienas":</value>
+  </data>
+  <data name="SearchHelpAndNotExample" xml:space="preserve">
+    <value>adata AND NOT šienas</value>
+  </data>
+  <data name="SearchHelpAsteriskCharaktersDescription" xml:space="preserve">
+    <value>Jei paieškos terminas yra kabutėse, prasideda / baigiasi žvaigždute, rezultatai gali būti, kad yra šio termino pabaiga / pradžia. Toliau pateiktoje užklausoje bus rasti visi rezultatai, kuriuose yra frazė „šieno“, taip pat tie, kuriuose yra „hayfork“:</value>
+  </data>
+  <data name="SearchHelpAsteriskCharaktersExample" xml:space="preserve">
+    <value>"hay*"</value>
+  </data>
+  <data name="SearchHelpOrDescription" xml:space="preserve">
+    <value>Paieškos operatoriaus naudojimas OR galima rasti rezultatus, kuriuose yra visi įvesti terminai kaip sveiki žodžiai. Toliau pateiktoje užklausoje bus rasti visi rezultatai, kuriuose yra žodis "adata" arba žodis "šieno":</value>
+  </data>
+  <data name="SearchHelpOrExample" xml:space="preserve">
+    <value>adata OR šienas</value>
+  </data>
+  <data name="SearchHelpQuotationMarksDescription" xml:space="preserve">
+    <value>Paieškos terminai, įvedami kabutėse, turi būti tokioje pat eilėje. Toliau pateiktoje užklausoje bus rasti visi rezultatai, kuriuose yra frazė "adata šieno kupetoje", tačiau neras jokių rezultatų, kuriuose būtų tik frazė "adata būtent toje šieno kupetoje":</value>
+  </data>
+  <data name="SearchHelpQuotationMarksExample" xml:space="preserve">
+    <value>"adata šieno kupetoje"</value>
+  </data>
+  <data name="OfflineMessage" xml:space="preserve">
+    <value>Programa neprisijungusi. Gali būti, kad rodomi pasenę arba neišsamūs duomenys. Duomenų keitimas negalimas.</value>
+  </data>
+  <data name="PleaseMakeSureTheValueContainsAtLeastAnUpperCaseCharacterALowerCaseCharacterANumericCharacterAndASpecialCharacter" xml:space="preserve">
+    <value>Įsitikinkite, kad pavadinime yra bent viena didžioji raidė, mažosios raidės, skaitmeninis simbolis ir specialus simbolis.</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Pakeisti slaptažodį</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Elektroninio pašto adresas</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Pamiršote slaptažodį</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Prisijungti</value>
+  </data>
+  <data name="PleaseEnterYourEmailAddressBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Įveskite savo el. Pašto adresą ir spustelėkite mygtuką SUBMIT. Vėliau gausite el. Laišką su nuoroda, kurią galite naudoti norėdami pasikeisti slaptažodį.</value>
+  </data>
+  <data name="PleaseEnterYourNewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Įveskite naują slaptažodį ir spustelėkite mygtuką SUBMIT. Vėliau galėsite prisijungti naudodami naują slaptažodį.</value>
+  </data>
+  <data name="PleaseUseTheSignInButtonToLogOnWithYourEmailAddress" xml:space="preserve">
+    <value>Jei norite prisijungti, naudokite LOGIN mygtuką. Naudokite savo el. Pašto adresą kaip naudotojo vardą. Jei neprisimenate savo slaptažodžio, spustelėkite mygtuką FORGOT PASSWORD.</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Perkrauti</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Pateikti</value>
+  </data>
+  <data name="TooManyRequestsPleaseTryAgainIn0Seconds" xml:space="preserve">
+    <value>Per daug užklausų. Bandykite dar kartą per {0} sekundes.</value>
+  </data>
+  <data name="ForgotPasswordMailText" xml:space="preserve">
+    <value>Gerbiamas pone/ponia,
+
+Paspaudus mygtuką „Pamiršote slaptažodį“, jums buvo išsiųstas el. laiškas.
+
+Jei norite iš naujo nustatyti slaptažodį, naudokite šią nuorodą: [link]
+
+Nuoroda galios 24 valandas arba, kai bus paprašyta naujo slaptažodžio atstatymo nuoroda.
+
+Linkėjimai.</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Eksportuoti</value>
+  </data>
+  <data name="YourPasswordHasExpiredPleaseEnterANewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Jūsų slaptažodis nebegalioja. Prašau įvesti slaptažodį apašioje ir paspausti PATVIRTINTI. Tai padarę galėsite prisijungti su savo nauju slaptažodžiu.</value>
+  </data>
+  <data name="ChangeLanguage" xml:space="preserve">
+    <value>Pakeisti kalbą</value>
+  </data>
+  <data name="PleaseEnterANewPasswordToChangeYourPasswordOrLeaveThisFieldEmptyToKeepYourPassword" xml:space="preserve">
+    <value>Įveskite naują slaptažodį arba palikite šį lauką tuščią, kad išsaugotumėte slaptažodį.</value>
+  </data>
+  <data name="ToggleFullWindow" xml:space="preserve">
+    <value>Išjungti visą langą</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Pavadinimas</value>
+  </data>
+  <data name="LengthXWidthXHeightAbbr" xml:space="preserve">
+    <value>(L x W x H)</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Ištrinti</value>
+  </data>
+  <data name="PleaseUseTheSignInButtonToLogOnWithYourUserName" xml:space="preserve">
+    <value>Jei norite prisijungti naudodami vartotojo vardą ir slaptažodį, naudokite mygtuką LOGIN. Jei neprisimenate savo slaptažodžio, spustelėkite mygtuką FORGOT PASSWORD.</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Vartotojas Vardas</value>
+  </data>
+  <data name="PleaseEnterYourUserNameBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Įveskite savo naudotojo vardą ir spustelėkite mygtuką SUBMIT. Vėliau gausite el. Laišką su nuoroda, kurią galite naudoti norėdami pasikeisti slaptažodį.</value>
+  </data>
+  <data name="TheSelectedValueDoesNotHaveAUniqueKey" xml:space="preserve">
+    <value>Pasirinkta reikšmė neturi unikalaus rakto.</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Nustatymai</value>
+  </data>
+  <data name="TheWorkflowWillGoOnAsSoonAsTheStep0IsFinished" xml:space="preserve">
+    <value>Darbo eiga tęsis, kai tik bus baigtas „{0}“ žingsnis.</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Atsijungti</value>
+  </data>
+  <data name="PleaseEnterAUniqueEmailAddressForThisField" xml:space="preserve">
+    <value>Įveskite savo el. Pašto adresą.</value>
+  </data>
+  <data name="Rate0Stars" xml:space="preserve">
+    <value>Įvertinti {0} žvaigždėmis.</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Patvirtinta</value>
+  </data>
+  <data name="NotInspected" xml:space="preserve">
+    <value>Nepatvirtinta</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>Atmesta</value>
+  </data>
+  <data name="PrivacyNotice" xml:space="preserve">
+    <value>Privatumo pranešimas</value>
+  </data>
+  <data name="Imprint" xml:space="preserve">
+    <value>Leidinys</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Pagalba</value>
+  </data>
+  <data name="InvariantText" xml:space="preserve">
+    <value>Nenustatytas tekstas</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Kalba</value>
+  </data>
+  <data name="PleaseUseThePlusButtonToAddTranslations" xml:space="preserve">
+    <value>Jei norite pridėti vertimų, naudokite pliuso mygtuką.</value>
+  </data>
+  <data name="TranslatedText" xml:space="preserve">
+    <value>Išverstas tekstas</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Tekstas</value>
+  </data>
+  <data name="InvariantTitle" xml:space="preserve">
+    <value>Nenustatytas pavadinimas</value>
+  </data>
+  <data name="PleaseEnterAUniqueValueForThisField" xml:space="preserve">
+    <value>Įveskite unikalią vertę.</value>
+  </data>
+  <data name="References" xml:space="preserve">
+    <value>Nuorodos</value>
+  </data>
+  <data name="PleaseCorrectTheInvalidInputValues" xml:space="preserve">
+    <value>Ištaisykite trūkstamas arba negaliojančias įvesties reikšmes.</value>
+  </data>
+  <data name="PleaseConfirmTheChangeOfYourPreferredLanguageByEnteringYourWindowsPassword" xml:space="preserve">
+    <value>Patvirtinkite pageidaujamos kalbos pakeitimą įvesdami „Windows“ slaptažodį.</value>
+  </data>
+  <data name="TheFirst0ResultsAreDisplayedBelow" xml:space="preserve">
+    <value>Žemiau pateikiami pirmieji {0} rezultatai.</value>
+  </data>
+  <data name="WouldYouReallyLikeToDeleteTheTab" xml:space="preserve">
+    <value>Ar tikrai norite ištrinti skirtuką „{0}“?</value>
+  </data>
+  <data name="WouldYouReallyLikeToMarkTheFile0ForRemoval" xml:space="preserve">
+    <value>Ar tikrai norite pažymėti failą „{0}“ pašalinimui?</value>
+  </data>
+  <data name="NoResultsWereFoundFor0" xml:space="preserve">
+    <value>Nerasta rezultatų „{0}“.</value>
+  </data>
+  <data name="NResultsWereFoundFor0" xml:space="preserve">
+    <value>„{0}“ buvo rasti {1} rezultatai.</value>
+  </data>
+  <data name="TheActionFor0CannotBeExecutedBecauseItIsAmbiguous" xml:space="preserve">
+    <value>"{0}" veiksmas negali būti vykdomas, nes jis yra dviprasmiškas. Norėdami atlikti veiksmą, naudokite norimo darbo eigos diagramos žingsnio mygtuką "{0}". Ar norėtumėte pamatyti darbo eigos diagramą?</value>
+  </data>
+  <data name="Results0To1AreDisplayedBelow" xml:space="preserve">
+    <value>Rezultatai nuo {0} iki {1} rodomi žemiau.</value>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>Neprisijungęs</value>
+  </data>
+  <data name="PleaseSelectACsvFileEndodedAsUtf8WithBom" xml:space="preserve">
+    <value>Pasirinkite CSV failą, užkoduotą kaip UTF-8 su BOM.</value>
+  </data>
+  <data name="CsvQuotesError" xml:space="preserve">
+    <value>CSV lauko reikšmėje negali būti kabučių ("), nebent visa lauko reikšmė yra apsupta kabutėmis ("lauko reikšmė"), o viduje esančiose kabutėse neišvengta kabučių ("lauko "" reikšmė").</value>
+  </data>
+  <data name="FieldMappingError" xml:space="preserve">
+    <value>Nepavyksta rasti „{0}“ lauko žemėlapio.</value>
+  </data>
+  <data name="CsvValueError" xml:space="preserve">
+    <value>Vertės „{0}“ negalima nustatyti laukui „{1}“.</value>
+  </data>
+  <data name="PleaseExcuseThatTheDataExportTakesLongerThanExpected" xml:space="preserve">
+    <value>Atsiprašome, kad duomenų eksportavimas trunka ilgiau nei tikėtasi. Kad sutaupytumėte laiko, rezultatai bus išsiųsti el. Paštu {0}, kai apdorojimas bus baigtas.</value>
+  </data>
+  <data name="PleaseFindAttachedTheRequestedDataExport" xml:space="preserve">
+    <value>Pridėkite prašomą eksportuoti duomenis.</value>
+  </data>
+  <data name="YourPasswordHasToBeChangedAtFirstLogonPleaseEnterANewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Jūsų slaptažodis turi būti pakeistas pirmą kartą prisijungus. Įveskite naują slaptažodį žemiau ir spustelėkite mygtuką PATEIKTI. Naujas slaptažodis turi skirtis nuo pradinio. Vėliau galėsite prisijungti naudodami naują slaptažodį.</value>
+  </data>
+  <data name="QueueLength" xml:space="preserve">
+    <value>Eilės ilgis</value>
+  </data>
+  <data name="RemoveLink" xml:space="preserve">
+    <value>Pašalinti hipersaitą</value>
+  </data>
+  <data name="TheEnteredCombinationOfUserNameAndPasswordIsInvalid" xml:space="preserve">
+    <value>Įvestas vartotojo vardo ir slaptažodžio derinys yra neteisingas.</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>valandos</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>dienų</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minučių</value>
+  </data>
+</root>

@@ -1,0 +1,1023 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2609AD1D-E0D9-46C4-9EF5-DD6026B448E6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Framework</RootNamespace>
+    <AssemblyName>Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Framework.xml</DocumentationFile>
+    <CodeAnalysisRuleSet>Minimum Recommended Rules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>Minimum Recommended Rules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BusinessApplications\Buttons\ActionFieldButton.cs" />
+    <Compile Include="BusinessApplications\Buttons\ActionFormButton.cs" />
+    <Compile Include="BusinessApplications\Buttons\FormActionButton.cs" />
+    <Compile Include="BusinessApplications\Buttons\HelpButton.cs" />
+    <Compile Include="BusinessApplications\Buttons\HistoryButton.cs" />
+    <Compile Include="BusinessApplications\Buttons\IWorkflowDiagramCapableButton.cs" />
+    <Compile Include="BusinessApplications\Buttons\LogoutButtonForCookieAuthentication.cs" />
+    <Compile Include="BusinessApplications\Buttons\OnSaveDelegate.cs" />
+    <Compile Include="BusinessApplications\Buttons\ReferencesButton.cs" />
+    <Compile Include="BusinessApplications\Buttons\SaveDelegateButton.cs" />
+    <Compile Include="BusinessApplications\Buttons\UndoWorkflowStepWithNotificationButton.cs" />
+    <Compile Include="BusinessApplications\Buttons\WorkflowDiagramButton.cs" />
+    <Compile Include="BusinessApplications\DataControllers\DummySearchController.cs" />
+    <Compile Include="BusinessApplications\DataControllers\JsonSearchDataController.cs" />
+    <Compile Include="BusinessApplications\DataProviders\JsonSearchDataProvider.cs" />
+    <Compile Include="BusinessApplications\DataProviders\PersistentObjectCollectionDataProvider.cs" />
+    <Compile Include="BusinessApplications\DataProviders\UserDataProvider.cs" />
+    <Compile Include="BusinessApplications\HttpClient.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ParametersForInternalContainerNameAndGenericTypeAndFilterCriteria.cs" />
+    <Compile Include="BusinessApplications\TemplateProcessing\TemplateBuilder.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\CsvSearchController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\JsonActiveWorkflowStepsController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\ListFileController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\ListSearchController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\RssListController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\RssSearchController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\WebAppManifestController.cs" />
+    <Compile Include="BusinessApplications\Widgets\ViewWidgetForMasterDetail.cs" />
+    <Compile Include="BusinessApplications\Widgets\ViewWidgetForSearchTable.cs" />
+    <Compile Include="BusinessApplications\Web\WebWidgetForMasterDetail.cs" />
+    <Compile Include="BusinessApplications\Web\WebWidgetForSearchTable.cs" />
+    <Compile Include="Model\PresentableFieldBrowser.cs" />
+    <Compile Include="Presentation\Forms\PersonOptionProvider.cs" />
+    <Compile Include="Presentation\Forms\SearchFacetCollection.cs" />
+    <Compile Include="Presentation\Web\MasterControl.cs" />
+    <Compile Include="BusinessApplications\Web\SearchQueryResolver.cs" />
+    <Compile Include="BusinessApplications\Web\TemplateControl.cs" />
+    <Compile Include="BusinessApplications\TemplateProcessing\TemplateItem.cs" />
+    <Compile Include="BusinessApplications\TemplateProcessing\TemplateDictionary.cs" />
+    <Compile Include="BusinessApplications\TemplateProcessing\TemplateKeyValuesPair.cs" />
+    <Compile Include="BusinessApplications\TemplateProcessing\TemplateKeyValuePair.cs" />
+    <Compile Include="BusinessApplications\Web\WorkflowWebFactory.cs" />
+    <Compile Include="Model\Units\Volume.cs" />
+    <Compile Include="Persistence\CopyBehaviorForAggregations.cs" />
+    <Compile Include="Persistence\CopyBehaviorForAllowedGroups.cs" />
+    <Compile Include="Persistence\CopyBehaviorForCompositions.cs" />
+    <Compile Include="Persistence\Directories\InMemoryUser.cs" />
+    <Compile Include="Persistence\Directories\InMemoryUserDirectory.cs" />
+    <Compile Include="Persistence\Rdbms\MSSql\MSSqlSelectBuilder.cs" />
+    <Compile Include="Persistence\Rdbms\DbSelectBuilder.cs" />
+    <Compile Include="Persistence\Rdbms\PostgreSql\PostgreSqlSelectBuilder.cs" />
+    <Compile Include="Persistence\Rdbms\Relation.cs" />
+    <Compile Include="Presentation\Converters\CreateNewItemDelegate.cs" />
+    <Compile Include="Presentation\Converters\CsvBuilder.cs" />
+    <Compile Include="Presentation\Converters\KeyConversion.cs" />
+    <Compile Include="Presentation\Converters\RssWriter.cs" />
+    <Compile Include="Presentation\Forms\IClickableViewFieldWithLookupProvider.cs" />
+    <Compile Include="Presentation\Forms\IClickableViewFieldWithOptionProvider.cs" />
+    <Compile Include="Presentation\Forms\IFacetedSearchView.cs" />
+    <Compile Include="BusinessApplications\DataControllers\ISearchController.cs" />
+    <Compile Include="BusinessApplications\DataControllers\SimpleSearchController.cs" />
+    <Compile Include="BusinessApplications\DataControllers\WizardController.cs" />
+    <Compile Include="BusinessApplications\DataControllers\ListTableDataController.cs" />
+    <Compile Include="BusinessApplications\DataControllers\PersistentFormDataController.cs" />
+    <Compile Include="BusinessApplications\DataControllers\PersistentListTableDataController.cs" />
+    <Compile Include="BusinessApplications\DataControllers\WorkflowControlledListTableDataController.cs" />
+    <Compile Include="BusinessApplications\DataProviders\ActionFormDataProvider.cs" />
+    <Compile Include="BusinessApplications\DataProviders\ActiveDirectoryLocalizationSettingsDataProvider.cs" />
+    <Compile Include="BusinessApplications\DataControllers\ActiveDirectoryLocalizationSettingsDataController.cs" />
+    <Compile Include="BusinessApplications\BusinessApplication.cs" />
+    <Compile Include="BusinessApplications\Buttons\CancelButton.cs" />
+    <Compile Include="BusinessApplications\Buttons\ExportButton.cs" />
+    <Compile Include="BusinessApplications\Buttons\PrintButton.cs" />
+    <Compile Include="BusinessApplications\DataControllers\FormDataController.cs" />
+    <Compile Include="BusinessApplications\DataControllers\LocalizationSettingsDataController.cs" />
+    <Compile Include="BusinessApplications\DataControllers\MasterDetailDataController.cs" />
+    <Compile Include="BusinessApplications\DataControllers\PersistentMasterDetailDataController.cs" />
+    <Compile Include="BusinessApplications\DataProviders\DummyDataProvider.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\ActionFormPageController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\JsonSearchController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\ReferencesPageController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\SearchPageController.cs" />
+    <Compile Include="BusinessApplications\Web\WebFieldForMaterialNumber.cs" />
+    <Compile Include="BusinessApplications\Workflows\Forms\ViewFieldForMaterialNumber.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldTypeCollection.cs" />
+    <Compile Include="Persistence\Rdbms\IRelationalFieldNameConverter.cs" />
+    <Compile Include="Persistence\Rdbms\PostgreSql\PostgreSqlFieldNameConverter.cs" />
+    <Compile Include="Persistence\Rdbms\PotentialBrokenRelation.cs" />
+    <Compile Include="Persistence\Rdbms\RelationalAlterAction.cs" />
+    <Compile Include="Persistence\Rdbms\MSSql\MSSqlFieldNameConverter.cs" />
+    <Compile Include="Persistence\Rdbms\RelationalViewForRelations.cs" />
+    <Compile Include="Persistence\Rdbms\RelationalViewUnion.cs" />
+    <Compile Include="Presentation\Forms\OnClickIdUrlDelegate.cs" />
+    <Compile Include="Presentation\Forms\OptionControlType.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForCalculatedIUser.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForCalculatedIUserCollection.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForObject.cs" />
+    <Compile Include="Presentation\Forms\SearchSuggestionProvider.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForSingleLineTextBase.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForSubsequentNumber.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForUtf8FileWithBom.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForVideoFile.cs" />
+    <Compile Include="Presentation\Forms\AutomaticHyperlinkDetectionOptionProvider.cs" />
+    <Compile Include="Presentation\Range.cs" />
+    <Compile Include="Presentation\Web\Card.cs" />
+    <Compile Include="Presentation\Web\Controllers\OpenSearchDescriptionController.cs" />
+    <Compile Include="Presentation\Web\Controllers\ReverseProxyController.cs" />
+    <Compile Include="Presentation\Web\Controllers\SearchSuggestionsController.cs" />
+    <Compile Include="Presentation\Web\Controllers\WebAppManifestController.cs" />
+    <Compile Include="Presentation\Web\HeadLink.cs" />
+    <Compile Include="Presentation\Web\QueryResolver.cs" />
+    <Compile Include="Presentation\Web\QueryResult.cs" />
+    <Compile Include="Presentation\Web\SearchFieldPane.cs" />
+    <Compile Include="Presentation\Web\SearchHelpPane.cs" />
+    <Compile Include="Presentation\Web\FacetedSearchQuery.cs" />
+    <Compile Include="Presentation\Web\SubsetQueryResolver.cs" />
+    <Compile Include="Presentation\Web\SearchResultsPane.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\SearchTablePageController.cs" />
+    <Compile Include="Presentation\SimpleSearchProvider.cs" />
+    <Compile Include="BusinessApplications\DataProviders\WizardDataProvider.cs" />
+    <Compile Include="BusinessApplications\InfoPage.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\JsonFormController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\JsonListController.cs" />
+    <Compile Include="Diagnostics\TraceLog.cs" />
+    <Compile Include="Persistence\DummyPersistenceMechanism.Containers.cs" />
+    <Compile Include="Persistence\DummyPersistenceMechanism.Objects.cs" />
+    <Compile Include="Persistence\Filters\FilterCondition.cs" />
+    <Compile Include="Persistence\Rdbms\RelationalSubqueryChildQuery.cs" />
+    <Compile Include="Persistence\Rdbms\GetInternalNameOfContainerForType.cs" />
+    <Compile Include="Persistence\Rdbms\RelationalSubquery.cs" />
+    <Compile Include="Persistence\Rdbms\RelationalSubqueryBuilder.cs" />
+    <Compile Include="Persistence\Rdbms\RelationalSubqueryCollection.cs" />
+    <Compile Include="Presentation\Converters\JsonBuilder.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\UserDataProvider.cs" />
+    <Compile Include="BusinessApplications\SettingsOptionProvider.cs" />
+    <Compile Include="BusinessApplications\DataControllers\SingletonDataController.cs" />
+    <Compile Include="BusinessApplications\DataControllers\SqlQueryDataController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\EditableInfoPageController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\HelpPageController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\InfoPageController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\LoginController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\LoginControllerForCookieAuthentication.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\WizardPageController.cs" />
+    <Compile Include="BusinessApplications\Widgets\IShortLinkableWidget.cs" />
+    <Compile Include="BusinessApplications\Widgets\ViewWidgetForInfoArticle.cs" />
+    <Compile Include="BusinessApplications\Workflows\Forms\ViewFieldForStatusOfWorkflowStep.cs" />
+    <Compile Include="Diagnostics\MessageCountLog.cs" />
+    <Compile Include="Model\Calendar\VCalendarEmail.cs" />
+    <Compile Include="Model\Calendar\DurationRelation.cs" />
+    <Compile Include="Model\Calendar\Method.cs" />
+    <Compile Include="Model\CultureOptionProvider.cs" />
+    <Compile Include="Model\EmailStatus.cs" />
+    <Compile Include="Model\MultilingualString.cs" />
+    <Compile Include="Model\Rating.cs" />
+    <Compile Include="Model\RatingResult.cs" />
+    <Compile Include="Model\Units\Weight.cs" />
+    <Compile Include="Persistence\Directories\CookieToken.cs" />
+    <Compile Include="Persistence\Directories\PasswordGenerator.cs" />
+    <Compile Include="Persistence\Directories\PersistentUserDirectoryWithCookieAuthentication.cs" />
+    <Compile Include="Persistence\Directories\PersistentUserDirectoryWithHttpAuthentication.cs" />
+    <Compile Include="Persistence\Directories\UserDirectoryToken.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldTypeWithPreviousKeys.cs" />
+    <Compile Include="Persistence\IPersistentObjectInitializer.cs" />
+    <Compile Include="Persistence\PreviousNameAttribute.cs" />
+    <Compile Include="Persistence\Rdbms\MSSql\MSSqlFullTextQueryFormatter.cs" />
+    <Compile Include="Presentation\Converters\JsonWriter.cs" />
+    <Compile Include="Presentation\DataProvider.cs" />
+    <Compile Include="Presentation\Forms\CachedOptionProvider.cs" />
+    <Compile Include="Presentation\Forms\GroupedOptionProvider.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForCalculatedValue.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForCalculatedValueCollection.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForPresentableObject.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForPresentableObjectCollection.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ParametersForPersistentUser.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ParametersForPersistentUserAndPassword.cs" />
+    <Compile Include="BusinessApplications\IOfflineCapable.cs" />
+    <Compile Include="BusinessApplications\ApplicationSettings.cs" />
+    <Compile Include="BusinessApplications\Web\SaveWebButton.cs" />
+    <Compile Include="Persistence\Exceptions\FullTextIndexNotInitializedException.cs" />
+    <Compile Include="Presentation\Forms\PresentableObjectLookupProvider.cs" />
+    <Compile Include="Presentation\Forms\ProcessEmailAddressDelegate.cs" />
+    <Compile Include="Presentation\Forms\StringLookupProvider.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForNumberWithoutUnit.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForTitle.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\GalleryPageController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\IShortLinkableController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\MasterDetailPageController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\LoginControllerForHttpAuthentication.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\TilePanePageController.cs" />
+    <Compile Include="BusinessApplications\Web\Dashboard.cs" />
+    <Compile Include="BusinessApplications\Web\MenuIcon.cs" />
+    <Compile Include="BusinessApplications\Web\OfflineIndicator.cs" />
+    <Compile Include="BusinessApplications\Web\WebWidget.cs" />
+    <Compile Include="BusinessApplications\Web\WebWidgetForListTable.cs" />
+    <Compile Include="BusinessApplications\Widgets\DashboardView.cs" />
+    <Compile Include="BusinessApplications\Widgets\ViewWidget.cs" />
+    <Compile Include="BusinessApplications\Widgets\ViewWidgetForForm.cs" />
+    <Compile Include="BusinessApplications\Widgets\ViewWidgetForListTable.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ParametersForId.cs" />
+    <Compile Include="BusinessApplications\SapConnectionSettings.cs" />
+    <Compile Include="BusinessApplications\DataProviders\SingletonDataProvider.cs" />
+    <Compile Include="BusinessApplications\Web\CancelWebButton.cs" />
+    <Compile Include="BusinessApplications\BusinessPageSettings.cs" />
+    <Compile Include="BusinessApplications\SqlQueryRecord.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\CsvListController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\DashboardPageController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\MaterialDesignController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\PrimaryColor.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\ProvidableObjectPageController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\SecondaryColor.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\SingletonFormPageController.cs" />
+    <Compile Include="BusinessApplications\Web\EditWebButton.cs" />
+    <Compile Include="Model\Calendar\BankHolidayProvider.cs" />
+    <Compile Include="Model\Calendar\BankHolidayProviderForDe.cs" />
+    <Compile Include="Model\Calendar\BankHolidayProviderForDeNw.cs" />
+    <Compile Include="Model\DisposableCollection.cs" />
+    <Compile Include="Model\ISmtpSettings.cs" />
+    <Compile Include="Model\Units\Dimensions.cs" />
+    <Compile Include="Presentation\Converters\CsvReader.cs" />
+    <Compile Include="Presentation\Converters\CsvWriter.cs" />
+    <Compile Include="Presentation\Converters\VCalendarWriter.cs" />
+    <Compile Include="Presentation\Converters\VEventListWriter.cs" />
+    <Compile Include="Presentation\Converters\VEventListView.cs" />
+    <Compile Include="Presentation\Converters\VCalendarBuilder.cs" />
+    <Compile Include="Model\CountryOptionProvider.cs" />
+    <Compile Include="Model\GeoCoordinate.cs" />
+    <Compile Include="Model\JobQueue.cs" />
+    <Compile Include="Model\KeyChain.cs" />
+    <Compile Include="Persistence\Directories\MixedUserDirectory.cs" />
+    <Compile Include="Persistence\Directories\PasswordResetToken.cs" />
+    <Compile Include="Persistence\IProvidableUser.cs" />
+    <Compile Include="Presentation\Forms\FormType.cs" />
+    <Compile Include="Presentation\Forms\GalleryView.cs" />
+    <Compile Include="Presentation\Forms\IViewFieldWithLookupProvider.cs" />
+    <Compile Include="Presentation\Forms\IViewFieldWithOptionProvider.cs" />
+    <Compile Include="Presentation\Forms\LookupProvider.cs" />
+    <Compile Include="Presentation\Forms\ModificationInfoControl.cs" />
+    <Compile Include="Presentation\Forms\OnClickUrlDelegate.cs" />
+    <Compile Include="Presentation\Forms\PersonLookupProvider.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForPersistentObject.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForPersistentObjectCollection.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForStringCollection.cs" />
+    <Compile Include="Presentation\Forms\CardPaneView.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForLookup.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForMultipleLookups.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForMultiplePresentableObjectLookups.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForMultipleStringLookups.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForPresentableObjectLookup.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForStringLookup.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForSubsequentDateTime.cs" />
+    <Compile Include="Model\HtmlEmail.cs" />
+    <Compile Include="Model\PlainTextEmail.cs" />
+    <Compile Include="Model\PresentableFieldForEmailPerson.cs" />
+    <Compile Include="Model\PresentableFieldForEmailPersonCollection.cs" />
+    <Compile Include="Persistence\ContainerInfo.cs" />
+    <Compile Include="Persistence\Directories\ActiveDirectoryContact.cs" />
+    <Compile Include="Persistence\DummyPersistenceMechanism.cs" />
+    <Compile Include="Presentation\AutomaticHyperlinkDetection.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForIUserCollection.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForUniqueEmailAddress.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ParametersForInternalContainerNameAndGenericTypeAndFilterCriteriaAndFieldNames.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ResultForLong.cs" />
+    <Compile Include="BusinessApplications\DataProviders\PersistentDataProvider.cs" />
+    <Compile Include="BusinessApplications\DataProviders\PersistentReadOnlyDataProvider.cs" />
+    <Compile Include="BusinessApplications\DataProviders\SqlQueryDataProvider.cs" />
+    <Compile Include="BusinessApplications\Web\ClientSideWebButton.cs" />
+    <Compile Include="BusinessApplications\Buttons\DeleteButton.cs" />
+    <Compile Include="BusinessApplications\Buttons\EditButton.cs" />
+    <Compile Include="BusinessApplications\Buttons\NewButton.cs" />
+    <Compile Include="BusinessApplications\Buttons\SaveButton.cs" />
+    <Compile Include="BusinessApplications\Buttons\ServerSideButton.cs" />
+    <Compile Include="BusinessApplications\IBusinessApplication.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForUniqueSingleLineText.cs" />
+    <Compile Include="Presentation\Forms\XmlUtility.cs" />
+    <Compile Include="Presentation\Forms\YesOptionProvider.cs" />
+    <Compile Include="Presentation\IProvidableObject.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ParametersForInternalContainerNameAndPersistentObject.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ParametersForPersistentObjectAndIsToBeRemovedIfNotReferencedOnly.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ResultForNullableBool.cs" />
+    <Compile Include="BusinessApplications\LocalizationSettings.cs" />
+    <Compile Include="BusinessApplications\DataProviders\LocalizationSettingsDataProvider.cs" />
+    <Compile Include="BusinessApplications\DataProviders\ReadOnlyDataProvider.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\AuthorizationController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\BusinessPageController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\FileAttachmentController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\FormPageController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\ListTablePageController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\LocalizationSettingsPageController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\NavigationRedirectionController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\RootRedirectionController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\ShortLinkRedirectionController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\HistoryPageController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\WorkflowDiagramPageController.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\WorkflowFormActionPageController.cs" />
+    <Compile Include="BusinessApplications\Web\ActionBar.cs" />
+    <Compile Include="BusinessApplications\Web\ServerSideWebButton.cs" />
+    <Compile Include="BusinessApplications\Web\ServerSideWebButtonBase.cs" />
+    <Compile Include="Diagnostics\DebugLog.cs" />
+    <Compile Include="Diagnostics\FileLog.cs" />
+    <Compile Include="Model\Calendar\Alarm.cs" />
+    <Compile Include="Model\Calendar\AudioAlarm.cs" />
+    <Compile Include="Model\Calendar\ByDay.cs" />
+    <Compile Include="Model\Calendar\DisplayAlarm.cs" />
+    <Compile Include="Model\Calendar\EmailAlarm.cs" />
+    <Compile Include="Model\Calendar\Event.cs" />
+    <Compile Include="Model\Calendar\EventStatus.cs" />
+    <Compile Include="Model\Calendar\RecurrenceFrequency.cs" />
+    <Compile Include="Model\Calendar\RecurrenceFrequencyOptionProvider.cs" />
+    <Compile Include="Model\Calendar\RecurrenceRule.cs" />
+    <Compile Include="Model\Calendar\RequestStatus.cs" />
+    <Compile Include="Model\Calendar\TimeTransparency.cs" />
+    <Compile Include="Model\Classification.cs" />
+    <Compile Include="Model\Location.cs" />
+    <Compile Include="Model\OpeningHours.cs" />
+    <Compile Include="Model\PostalAddress.cs" />
+    <Compile Include="Model\Priority.cs" />
+    <Compile Include="Persistence\Directories\LogOnInfo.cs" />
+    <Compile Include="Persistence\Directories\FilterScope.cs" />
+    <Compile Include="Persistence\Directories\PersistentUserDirectory.cs" />
+    <Compile Include="Persistence\Fields\CascadedRemovalBehavior.cs" />
+    <Compile Include="Persistence\Rdbms\PostgreSql\PostgreSqlDatabaseConnector.cs" />
+    <Compile Include="Persistence\Rdbms\PostgreSql\PostgreSqlDataTypeMapper.cs" />
+    <Compile Include="Persistence\Rdbms\PostgreSql\PostgreSqlDatabase.cs" />
+    <Compile Include="Model\Version.cs" />
+    <Compile Include="Persistence\SecurableObjects\PersistentObjectCollectionWithAllowedGroupsAndCascadedRemovalBehaviorDoNotRemoveValues.cs" />
+    <Compile Include="Persistence\SecurableObjects\PersistentObjectCollectionWithAllowedGroupsAndCascadedRemovalBehaviorRemoveValuesForcibly.cs" />
+    <Compile Include="Persistence\SecurableObjects\PersistentObjectWithAllowedGroupsAndCascadedRemovalBehaviorDoNotRemoveValues.cs" />
+    <Compile Include="Persistence\SecurableObjects\PersistentObjectWithAllowedGroupsAndCascadedRemovalBehaviorRemoveValuesForcibly.cs" />
+    <Compile Include="Presentation\Forms\ChartType.cs" />
+    <Compile Include="Presentation\Forms\Mandatoriness.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForImageFile.cs" />
+    <Compile Include="Presentation\Forms\ValidityCheck.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForEditableValue.cs" />
+    <Compile Include="Presentation\ISearchProvider.cs" />
+    <Compile Include="Presentation\ProvidableObject.cs" />
+    <Compile Include="Presentation\SearchResultView.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForDimensions.cs" />
+    <Compile Include="Presentation\Forms\TextUtility.cs" />
+    <Compile Include="Presentation\Web\CardPane.cs" />
+    <Compile Include="BusinessApplications\Web\Controllers\CardPanePageController.cs" />
+    <Compile Include="Presentation\Web\Controllers\CacheControl.cs" />
+    <Compile Include="Presentation\Web\InfoPane.cs" />
+    <Compile Include="Presentation\Web\Buttons\LinkButton.cs" />
+    <Compile Include="Presentation\Web\MultilineText.cs" />
+    <Compile Include="Presentation\Web\TextRenderMode.cs" />
+    <Compile Include="Presentation\Web\WebAppManifest.cs" />
+    <Compile Include="Presentation\Web\WebAppManifestImage.cs" />
+    <Compile Include="Presentation\Web\WebFieldForLookup.cs" />
+    <Compile Include="Presentation\Web\WebFieldForMultipleLookups.cs" />
+    <Compile Include="Presentation\Web\WebFieldForMultiplePresentableObjectLookups.cs" />
+    <Compile Include="Presentation\Web\WebFieldForPresentableObjectLookup.cs" />
+    <Compile Include="Presentation\Web\WebFieldForReadOnlyValue.cs" />
+    <Compile Include="Presentation\Web\WebFieldForUtcDateTime.cs" />
+    <Compile Include="Presentation\Web\WebFieldForDimensions.cs" />
+    <Compile Include="Presentation\Web\Controllers\LocalFileController.cs" />
+    <Compile Include="Presentation\Web\Controllers\LookupController.cs" />
+    <Compile Include="Presentation\Web\Controllers\NotFoundController.cs" />
+    <Compile Include="Presentation\Web\Controllers\VEventListController.cs" />
+    <Compile Include="Presentation\Web\Gallery.cs" />
+    <Compile Include="Presentation\Web\InfoArticle.cs" />
+    <Compile Include="Presentation\Web\Buttons\SubmitButton.cs" />
+    <Compile Include="Presentation\Web\CascadedControl.cs" />
+    <Compile Include="Presentation\Web\Controllers\FileLock.cs" />
+    <Compile Include="Presentation\Web\Controllers\FileLockList.cs" />
+    <Compile Include="Presentation\Web\Controllers\VCalendarController.cs" />
+    <Compile Include="Presentation\Web\Controllers\OptionsController.cs" />
+    <Compile Include="Presentation\Web\Controllers\LoginControllerForHttpAuthentication.cs" />
+    <Compile Include="Presentation\Web\Controllers\WebDavXmlWriter.cs" />
+    <Compile Include="Presentation\Forms\EmailAddressDetectionState.cs" />
+    <Compile Include="Presentation\Web\Controllers\FileController.cs" />
+    <Compile Include="Presentation\Web\Controllers\HttpCacheController.cs" />
+    <Compile Include="Model\StringDictionary.cs" />
+    <Compile Include="BusinessApplications\Web\GlobalActionSection.cs" />
+    <Compile Include="Presentation\Web\IRichTextEditorSettings.cs" />
+    <Compile Include="Presentation\Web\Label.cs" />
+    <Compile Include="Presentation\Web\LoginInfoPage.cs" />
+    <Compile Include="Presentation\Web\LoginFormPage.cs" />
+    <Compile Include="Presentation\Web\TilePane.cs" />
+    <Compile Include="Presentation\Web\Time.cs" />
+    <Compile Include="Presentation\Web\UrlUtility.cs" />
+    <Compile Include="Presentation\Web\WebFieldForEditableValue.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForNullableBool.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForNullableByte.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForNullableChar.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForNullableDateTime.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForNullableDecimal.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForNullableDouble.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForNullableFloat.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForNullableGuid.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForNullableInt.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForNullableLong.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForNullableSByte.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForNullableShort.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForNullableUInt.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForNullableULong.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForNullableUShort.cs" />
+    <Compile Include="Persistence\SecurableObjects\NullableBoolWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\NullableByteWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\NullableCharWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\NullableDateTimeWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\NullableDecimalWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\NullableDoubleWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\NullableFloatWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\NullableGuidWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\NullableIntWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\NullableLongWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\NullableSByteWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\NullableShortWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\NullableUIntWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\NullableULongWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\NullableUShortWithAllowedGroups.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForDateTime.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForGuid.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForImageFile.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForMultipleImageFiles.cs" />
+    <Compile Include="Presentation\Web\Controllers\ApplicationController.cs" />
+    <Compile Include="Diagnostics\CombinedLog.cs" />
+    <Compile Include="Diagnostics\ConsoleLog.cs" />
+    <Compile Include="Diagnostics\EventLog.cs" />
+    <Compile Include="Diagnostics\CorrelatedException.cs" />
+    <Compile Include="Diagnostics\ILog.cs" />
+    <Compile Include="Diagnostics\LogLevel.cs" />
+    <Compile Include="Model\Country.cs" />
+    <Compile Include="Model\Email.cs" />
+    <Compile Include="Model\EmailTemplate.cs" />
+    <Compile Include="Model\IConvenientList.cs" />
+    <Compile Include="Model\IPerson.cs" />
+    <Compile Include="Model\KeyValuePair.cs" />
+    <Compile Include="Model\Person.cs" />
+    <Compile Include="Model\Units\AmountOfSubstance.cs" />
+    <Compile Include="Model\Units\ElectricCurrent.cs" />
+    <Compile Include="Model\Units\Length.cs" />
+    <Compile Include="Model\Units\LuminousIntensity.cs" />
+    <Compile Include="Model\Units\Mass.cs" />
+    <Compile Include="Model\Units\Memory.cs" />
+    <Compile Include="Model\Units\NumberWithAnyUnit.cs" />
+    <Compile Include="Model\Units\NumberWithFixUnit.cs" />
+    <Compile Include="Model\Units\Temperature.cs" />
+    <Compile Include="Model\Units\Time.cs" />
+    <Compile Include="Model\Units\Unit.cs" />
+    <Compile Include="Model\UtcDateTime.cs" />
+    <Compile Include="Persistence\AllowedGroups.cs" />
+    <Compile Include="Persistence\Blob.cs" />
+    <Compile Include="Persistence\ComparisonComparer.cs" />
+    <Compile Include="Persistence\DataTypeMapper.cs" />
+    <Compile Include="Persistence\Directories\ActiveDirectory.cs" />
+    <Compile Include="Persistence\Directories\ActiveDirectoryFilterBuilder.cs" />
+    <Compile Include="Persistence\Directories\ActiveDirectoryGroup.cs" />
+    <Compile Include="Persistence\Directories\ActiveDirectoryUser.cs" />
+    <Compile Include="Persistence\Directories\AnonymousUser.cs" />
+    <Compile Include="Persistence\Directories\CurrentUserSource.cs" />
+    <Compile Include="Persistence\Directories\DirectoryUserCache.cs" />
+    <Compile Include="Persistence\Directories\PersistentUser.cs" />
+    <Compile Include="Persistence\Directories\UserDirectory.cs" />
+    <Compile Include="Persistence\Directories\UserValueComparer.cs" />
+    <Compile Include="Persistence\Exceptions\DependencyException.cs" />
+    <Compile Include="Persistence\Exceptions\DirectoryException.cs" />
+    <Compile Include="Persistence\Exceptions\FieldNameException.cs" />
+    <Compile Include="Persistence\Exceptions\FieldTypeException.cs" />
+    <Compile Include="Persistence\Exceptions\FilterException.cs" />
+    <Compile Include="Persistence\Exceptions\ObjectNotFoundException.cs" />
+    <Compile Include="Persistence\Exceptions\ObjectNotPersistentException.cs" />
+    <Compile Include="Persistence\Exceptions\ObjectNotUniqueException.cs" />
+    <Compile Include="Persistence\Exceptions\PersistenceException.cs" />
+    <Compile Include="Persistence\Exceptions\PersistenceMechanismNotInitializedException.cs" />
+    <Compile Include="Persistence\Exceptions\TypeException.cs" />
+    <Compile Include="Persistence\Fields\GroupListType.cs" />
+    <Compile Include="Persistence\Fields\PersistentField.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForBlob.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForBool.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForByte.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForChar.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForDateTime.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForDecimal.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForDouble.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForElement.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForFloat.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForGuid.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForInt.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForIUser.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForCollection.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForBoolCollection.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForByteCollection.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForCharCollection.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForDateTimeCollection.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForDecimalCollection.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForDoubleCollection.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForFloatCollection.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForGroupCollection.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForGuidCollection.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForIntCollection.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForIUserCollection.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForLongCollection.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForPersistentObjectCollection.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForSByteCollection.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForShortCollection.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForStringCollection.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForUIntCollection.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForULongCollection.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForUShortCollection.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForLong.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForObject.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForPersistentObject.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForSByte.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForShort.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForString.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForStruct.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForUInt.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForULong.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldForUShort.cs" />
+    <Compile Include="Persistence\Fields\PersistentFieldType.cs" />
+    <Compile Include="Persistence\File.cs" />
+    <Compile Include="Persistence\Filters\SelectionMode.cs" />
+    <Compile Include="Persistence\Filters\FilterBuilder.cs" />
+    <Compile Include="Persistence\Filters\FilterConnective.cs" />
+    <Compile Include="Persistence\Filters\FilterCriteria.cs" />
+    <Compile Include="Persistence\Filters\FilterTarget.cs" />
+    <Compile Include="Persistence\Filters\RelationalOperator.cs" />
+    <Compile Include="Persistence\Filters\StringFilterBuilder.cs" />
+    <Compile Include="Persistence\Filters\StringFilterParser.cs" />
+    <Compile Include="Persistence\Group.cs" />
+    <Compile Include="Persistence\ImageFile.cs" />
+    <Compile Include="Persistence\IndexableString.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\JsonRpcBuilder.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\JsonRpcParser.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ErrorCode.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ErrorResponse.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\Message.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\Parameter.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ParametersForAssemblyQualifiedTypeName.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ParametersForFilterCriteriaAndSortCriteria.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ParametersForFilterCriteriaAndSortCriteriaAndFieldName.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ParametersForFilterCriteriaAndSortCriteriaAndStartPositionAndMaxResults.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ParametersForInternalContainerName.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ParametersForInternalContainerNameAndGenericTypeAndFilterCriteriaAndSortCriteria.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ParametersForInternalContainerNameAndGenericTypeAndFilterCriteriaAndSortCriteriaAndFieldNames.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ParametersForInternalContainerNameAndGenericTypeAndFullTextQueryAndFilterCriteriaAndSortCriteriaAndStartPositionAndMaxResults.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ParametersForInternalContainerNameAndID.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ParametersForInternalContainerNameAndIsToBeRemovedIfNotReferencedOnlyAndPersistentObject.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\PersistenceMechanismClient.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\PersistenceMechanismServer.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\Request.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\Response.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\Result.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ResultForBool.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ResultForInt.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ResultForListOfPersistentObject.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ResultForListOfPersistentUser.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ResultForListOfString.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ResultForObject.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ResultForPersistentObject.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\ResultForString.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\UserDirectoryClient.cs" />
+    <Compile Include="BusinessApplications\Interchange\JsonRpc\UserDirectoryServer.cs" />
+    <Compile Include="Persistence\IUser.cs" />
+    <Compile Include="Persistence\OptionDataProvider.cs" />
+    <Compile Include="Persistence\PersistenceMechanism.cs" />
+    <Compile Include="Persistence\PersistentContainer.cs" />
+    <Compile Include="Persistence\PersistentContainerCache.cs" />
+    <Compile Include="Persistence\PersistentObject.cs" />
+    <Compile Include="Persistence\PersistentObjectCache.cs" />
+    <Compile Include="Persistence\Rdbms\RelationalJoinType.cs" />
+    <Compile Include="Persistence\Rdbms\DbCommandLogger.cs" />
+    <Compile Include="Persistence\Rdbms\MSSql\MSSqlDatabase.cs" />
+    <Compile Include="Persistence\Rdbms\MSSql\MSSqlDatabaseConnector.cs" />
+    <Compile Include="Persistence\Rdbms\MSSql\MSSqlDataTypeMapper.cs" />
+    <Compile Include="Persistence\Rdbms\RelationalDatabase.cs" />
+    <Compile Include="Persistence\Rdbms\RelationalDatabaseConnector.cs" />
+    <Compile Include="Persistence\Rdbms\RelationalForeignKey.cs" />
+    <Compile Include="Persistence\Rdbms\RelationalJoin.cs" />
+    <Compile Include="Persistence\Rdbms\RelationalJoinBuilder.cs" />
+    <Compile Include="Persistence\Rdbms\RelationalViewForTable.cs" />
+    <Compile Include="Persistence\Rdbms\RelationalViewForSubTable.cs" />
+    <Compile Include="Persistence\Rdbms\DbCommandFilter.cs" />
+    <Compile Include="Persistence\Rdbms\DbFilterBuilder.cs" />
+    <Compile Include="Persistence\Rdbms\DbJoinBuilder.cs" />
+    <Compile Include="Presentation\RemovalType.cs" />
+    <Compile Include="Persistence\ResizeType.cs" />
+    <Compile Include="Persistence\SecurableObjects\PersistentObjectWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurityModel.cs" />
+    <Compile Include="Persistence\SortCriterionCollection.cs" />
+    <Compile Include="Persistence\SortCriteriaComparer.cs" />
+    <Compile Include="Persistence\SortCriterion.cs" />
+    <Compile Include="Persistence\SortDirection.cs" />
+    <Compile Include="Persistence\TemporaryFile.cs" />
+    <Compile Include="Persistence\Text\StringDelimiter.cs" />
+    <Compile Include="Persistence\Text\StringParser.cs" />
+    <Compile Include="Persistence\Text\StringSplitCollection.cs" />
+    <Compile Include="Persistence\Text\StringSplitType.cs" />
+    <Compile Include="Persistence\TraceablePropertyChangedEventArgs.cs" />
+    <Compile Include="Persistence\TraceablePropertyChangingEventArgs.cs" />
+    <Compile Include="Persistence\TypeOf.cs" />
+    <Compile Include="Persistence\SecurableObjects\BoolWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\ByteWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\CharWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\DateTimeWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\DecimalWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\DoubleWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\FloatWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\GuidWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\IntWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\IUserWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\BoolCollectionWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\ByteCollectionWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\CharCollectionWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\DateTimeCollectionWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\DecimalCollectionWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\DoubleCollectionWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\FloatCollectionWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\GuidCollectionWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\IntCollectionWithAllowedGroups.cs.cs" />
+    <Compile Include="Persistence\SecurableObjects\IUserCollectionWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\LongCollectionWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\PersistentObjectCollectionWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\SByteCollectionWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\ShortCollectionWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\StringCollectionWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\UIntCollectionWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\ULongCollectionWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\UShortCollectionWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\LongWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\SByteWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\ShortWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\StringWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\UIntWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\ULongWithAllowedGroups.cs" />
+    <Compile Include="Persistence\SecurableObjects\UShortWithAllowedGroups.cs" />
+    <Compile Include="Presentation\Web\WebFieldForStringLookup.cs" />
+    <Compile Include="Presentation\Web\WebFieldForMultipleStringLookups.cs" />
+    <Compile Include="Presentation\Web\WebFieldForObject.cs" />
+    <Compile Include="Presentation\Web\WebFieldForTitle.cs" />
+    <Compile Include="Presentation\Web\WebFieldForVideoFile.cs" />
+    <Compile Include="Properties\Resources.tr.Designer.cs">
+      <DependentUpon>Resources.tr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\Resources.nl.Designer.cs">
+      <DependentUpon>Resources.nl.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="BusinessApplications\Workflows\ApprovalStatus.cs" />
+    <Compile Include="BusinessApplications\Buttons\ClientSideButtonTemplate.cs" />
+    <Compile Include="BusinessApplications\Buttons\ServerSideButtonTemplate.cs" />
+    <Compile Include="Presentation\Buttons\ClientSideButton.cs" />
+    <Compile Include="Presentation\Buttons\LinkButton.cs" />
+    <Compile Include="Presentation\Exceptions\KeyNotFoundException.cs" />
+    <Compile Include="Presentation\Exceptions\PresentationException.cs" />
+    <Compile Include="Presentation\Forms\AssemblyResourceOptionProvider.cs" />
+    <Compile Include="Model\DateTimeType.cs" />
+    <Compile Include="Presentation\Forms\IPresentableFieldWithOptionDataProvider.cs" />
+    <Compile Include="Presentation\Forms\OptionDisplayStyle.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForChoice.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForMultipleChoices.cs" />
+    <Compile Include="Presentation\Web\WebFieldForImageFile.cs" />
+    <Compile Include="Presentation\Web\WebFieldForMultipleImageFiles.cs" />
+    <Compile Include="Presentation\Web\FormPanePlaceholder.cs" />
+    <Compile Include="Presentation\Forms\IPresentableField.cs" />
+    <Compile Include="Presentation\Forms\IPresentableFieldCollection.cs" />
+    <Compile Include="Presentation\Forms\IPresentableFieldForCollection.cs" />
+    <Compile Include="Presentation\Forms\IPresentableFieldForElement.cs" />
+    <Compile Include="Presentation\Forms\IPresentableFieldForIUser.cs" />
+    <Compile Include="Presentation\Forms\IPresentableFieldForIUserCollection.cs" />
+    <Compile Include="Presentation\Forms\KeyValuePairStringKeyComparer.cs" />
+    <Compile Include="Presentation\Forms\KeyValuePairStringValueComparer.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldCollection.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForNullableBool.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForNullableByte.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForNullableChar.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForCollection.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForNullableDateTime.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForNullableDecimal.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForNullableDouble.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForElement.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForNullableFloat.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForNullableGuid.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForNullableInt.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForIUser.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForNullableLong.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForNullableSByte.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForNullableShort.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForString.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForNullableUInt.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForNullableULong.cs" />
+    <Compile Include="Presentation\Forms\PresentableFieldForNullableUShort.cs" />
+    <Compile Include="Presentation\Forms\ViewField.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForBool.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForCollection.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForCollectionWithPlaceholder.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForColor.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForDateTime.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForElement.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForElementWithPlaceholder.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForEmailAddress.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForFile.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForMultilineRichText.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForMultilineText.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForMultipleColors.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForMultipleEmailAddresses.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForMultipleFiles.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForMultipleNumbers.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForMultiplePersonChoices.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForMultiplePersonLookups.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForMultiplePhoneNumbers.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForMultiplePresentableObjectChoices.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForMultipleSingleLineTexts.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForMultipleStringChoices.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForMultipleUrls.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForNumber.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForNumberWithUnit.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForNumberWithUnitChoice.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForPassword.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForPersonLookup.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForPersonChoice.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForPhoneNumber.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForPresentableObjectChoice.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForSingleLineText.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForStringChoice.cs" />
+    <Compile Include="Presentation\Forms\ViewFieldForUrl.cs" />
+    <Compile Include="Presentation\Forms\FormView.cs" />
+    <Compile Include="Presentation\Buttons\ActionButton.cs" />
+    <Compile Include="Presentation\Forms\IForm.cs" />
+    <Compile Include="Presentation\Forms\IListTableView.cs" />
+    <Compile Include="Presentation\IOptionDataProvider.cs" />
+    <Compile Include="Presentation\IPresentableObject.cs" />
+    <Compile Include="Presentation\Forms\ListTableView.cs" />
+    <Compile Include="Presentation\Forms\OptionProvider.cs" />
+    <Compile Include="Presentation\Forms\PersonOptionCollection.cs" />
+    <Compile Include="Presentation\Forms\StringOptionDictionary.cs" />
+    <Compile Include="Presentation\Forms\Regex.cs" />
+    <Compile Include="Presentation\Forms\SectionGroupType.cs" />
+    <Compile Include="Presentation\Forms\ViewCollectionPane.cs" />
+    <Compile Include="Presentation\Forms\ViewCollectionPaneForFields.cs" />
+    <Compile Include="Presentation\Forms\ViewCollectionPaneForPanes.cs" />
+    <Compile Include="Presentation\Forms\ViewGroupedPane.cs" />
+    <Compile Include="Presentation\Forms\ViewObject.cs" />
+    <Compile Include="Presentation\Forms\ViewPane.cs" />
+    <Compile Include="Presentation\Forms\ViewPaneForFields.cs" />
+    <Compile Include="Presentation\Forms\ViewPaneForPanes.cs" />
+    <Compile Include="Presentation\Forms\ViewPaneWithTitle.cs" />
+    <Compile Include="Presentation\PresentableObject.cs" />
+    <Compile Include="Presentation\Web\BuildingRule.cs" />
+    <Compile Include="Presentation\Web\Control.cs" />
+    <Compile Include="Presentation\Web\Form.cs" />
+    <Compile Include="Presentation\Web\FormCollectionPane.cs" />
+    <Compile Include="Presentation\Web\FormCollectionPaneForFields.cs" />
+    <Compile Include="Presentation\Web\FormCollectionPaneForPanes.cs" />
+    <Compile Include="Presentation\Web\WebFactory.cs" />
+    <Compile Include="Presentation\Forms\FieldRenderMode.cs" />
+    <Compile Include="Presentation\Web\WebField.cs" />
+    <Compile Include="Presentation\Web\WebFieldForBool.cs" />
+    <Compile Include="Presentation\Web\WebFieldForChoice.cs" />
+    <Compile Include="Presentation\Web\WebFieldForCollection.cs" />
+    <Compile Include="Presentation\Web\WebFieldForColor.cs" />
+    <Compile Include="Presentation\Web\WebFieldForDateTime.cs" />
+    <Compile Include="Presentation\Web\WebFieldForElement.cs" />
+    <Compile Include="Presentation\Web\WebFieldForEmailAddress.cs" />
+    <Compile Include="Presentation\Web\WebFieldForFile.cs" />
+    <Compile Include="Presentation\Web\WebFieldForMultilineRichText.cs" />
+    <Compile Include="Presentation\Web\WebFieldForMultilineText.cs" />
+    <Compile Include="Presentation\Web\WebFieldForMultipleChoices.cs" />
+    <Compile Include="Presentation\Web\WebFieldForMultipleColors.cs" />
+    <Compile Include="Presentation\Web\WebFieldForMultipleEmailAddresses.cs" />
+    <Compile Include="Presentation\Web\WebFieldForMultipleFiles.cs" />
+    <Compile Include="Presentation\Web\WebFieldForMultipleNumbers.cs" />
+    <Compile Include="Presentation\Web\WebFieldForMultiplePhoneNumbers.cs" />
+    <Compile Include="Presentation\Web\WebFieldForMultipleSingleLineTexts.cs" />
+    <Compile Include="Presentation\Web\WebFieldForMultipleUrls.cs" />
+    <Compile Include="Presentation\Web\WebFieldForNumber.cs" />
+    <Compile Include="Presentation\Web\WebFieldForNumberWithUnit.cs" />
+    <Compile Include="Presentation\Web\WebFieldForNumberWithUnitBase.cs" />
+    <Compile Include="Presentation\Web\WebFieldForNumberWithUnitChoice.cs" />
+    <Compile Include="Presentation\Web\WebFieldForPassword.cs" />
+    <Compile Include="Presentation\Web\WebFieldForPhoneNumber.cs" />
+    <Compile Include="Presentation\Web\WebFieldForSingleLineText.cs" />
+    <Compile Include="Presentation\Web\WebFieldForUrl.cs" />
+    <Compile Include="Presentation\Web\FormGroupedPane.cs" />
+    <Compile Include="Presentation\Web\FormPane.cs" />
+    <Compile Include="Presentation\Web\FormPaneForFields.cs" />
+    <Compile Include="Presentation\Web\FormPaneForPanes.cs" />
+    <Compile Include="Presentation\Web\FormPaneType.cs" />
+    <Compile Include="Presentation\Web\FormPaneWithTitle.cs" />
+    <Compile Include="Presentation\Web\HtmlWriter.cs" />
+    <Compile Include="Presentation\Web\IPageSettings.cs" />
+    <Compile Include="Presentation\Web\Controllers\PageController.cs" />
+    <Compile Include="Presentation\Web\Controllers\IHttpController.cs" />
+    <Compile Include="Presentation\Web\IPage.cs" />
+    <Compile Include="Presentation\Web\ListTable.cs" />
+    <Compile Include="Presentation\Web\ListTableRow.cs" />
+    <Compile Include="Presentation\Web\NavigationSection.cs" />
+    <Compile Include="Presentation\Web\NavigationSectionTag.cs" />
+    <Compile Include="Presentation\Web\NavigationItem.cs" />
+    <Compile Include="Presentation\Web\Page.cs" />
+    <Compile Include="Presentation\Web\Controllers\MultiPageController.cs" />
+    <Compile Include="Presentation\Web\PostBackState.cs" />
+    <Compile Include="Presentation\Web\Controllers\RedirectionController.cs" />
+    <Compile Include="Presentation\Web\RedirectionRule.cs" />
+    <Compile Include="Presentation\Web\RedirectionRuleType.cs" />
+    <Compile Include="Presentation\Web\Link.cs" />
+    <Compile Include="Presentation\Forms\ValueSeparator.cs" />
+    <Compile Include="Presentation\Web\WebControl.cs" />
+    <Compile Include="Presentation\Web\XmlWriter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.de.Designer.cs">
+      <DependentUpon>Resources.de.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessApplications\Buttons\ClientSideEmailButton.cs" />
+    <Compile Include="BusinessApplications\Buttons\GoToWorkflowStepButton.cs" />
+    <Compile Include="BusinessApplications\Buttons\InsertionPoint.cs" />
+    <Compile Include="BusinessApplications\Buttons\UndoWorkflowStepButton.cs" />
+    <Compile Include="BusinessApplications\Workflows\Forms\ViewFieldForApprovalStatus.cs" />
+    <Compile Include="BusinessApplications\Workflows\Steps\ActionStep.cs" />
+    <Compile Include="BusinessApplications\Workflows\Steps\FormAction.cs" />
+    <Compile Include="BusinessApplications\DataProviders\FormActionDataProvider.cs" />
+    <Compile Include="BusinessApplications\Workflows\Steps\ParallelismAction.cs" />
+    <Compile Include="BusinessApplications\Workflows\Steps\PlaceholderAction.cs" />
+    <Compile Include="BusinessApplications\Workflows\Steps\StartAction.cs" />
+    <Compile Include="BusinessApplications\Workflows\Steps\TrueFalseButtonChoice.cs" />
+    <Compile Include="BusinessApplications\Workflows\Steps\WaitForDraftReleaseAction.cs" />
+    <Compile Include="BusinessApplications\Workflows\Steps\WorkflowState.cs" />
+    <Compile Include="BusinessApplications\Workflows\Steps\WaitForFieldValuesAction.cs" />
+    <Compile Include="BusinessApplications\Workflows\Steps\WaitForFieldValuesCondition.cs" />
+    <Compile Include="BusinessApplications\Workflows\Steps\WaitForReleaseAction.cs" />
+    <Compile Include="BusinessApplications\Workflows\Steps\WaitForTimeSpanAction.cs" />
+    <Compile Include="BusinessApplications\Workflows\Steps\WaitUntilDateTimeAction.cs" />
+    <Compile Include="BusinessApplications\Buttons\AdHocWorkflowButton.cs" />
+    <Compile Include="BusinessApplications\Buttons\CancelWorkflowButton.cs" />
+    <Compile Include="BusinessApplications\Workflows\Steps\TrueFalseChoice.cs" />
+    <Compile Include="BusinessApplications\Workflows\Steps\ChoiceStep.cs" />
+    <Compile Include="BusinessApplications\Workflows\Steps\LastStep.cs" />
+    <Compile Include="BusinessApplications\Workflows\Forms\ViewFieldForWorkflowStepIcon.cs" />
+    <Compile Include="BusinessApplications\Workflows\Forms\ViewFieldForStatusOfLastWorkflowStepOfType.cs" />
+    <Compile Include="BusinessApplications\Workflows\Forms\ViewFieldForWorkflowStepTitle.cs" />
+    <Compile Include="BusinessApplications\Web\FormAdapter.cs" />
+    <Compile Include="BusinessApplications\Web\WebFieldForApprovalStatus.cs" />
+    <Compile Include="BusinessApplications\Web\WebFieldForStatusOfWorkflowStep.cs" />
+    <Compile Include="BusinessApplications\Web\WebFieldForWorkflowStepIcon.cs" />
+    <Compile Include="BusinessApplications\Web\WebFieldForWorkflowStepTitle.cs" />
+    <Compile Include="BusinessApplications\Web\WorkflowDiagram.cs" />
+    <Compile Include="BusinessApplications\DataControllers\WorkflowControlledMasterDetailDataController.cs" />
+    <Compile Include="BusinessApplications\Workflows\WorkflowControlledObject.cs" />
+    <Compile Include="BusinessApplications\Buttons\ServerSideWorkflowButton.cs" />
+    <Compile Include="BusinessApplications\Workflows\WorkflowStepStatus.cs" />
+    <Compile Include="BusinessApplications\Workflows\Workflow.cs" />
+    <Compile Include="BusinessApplications\DataProviders\WorkflowControlledDataProvider.cs" />
+    <Compile Include="BusinessApplications\Workflows\WorkflowException.cs" />
+    <Compile Include="BusinessApplications\Workflows\Steps\WorkflowStep.cs" />
+    <Compile Include="BusinessApplications\Workflows\HistoryItem.cs" />
+    <Compile Include="BusinessApplications\Workflows\WorkflowStepResult.cs" />
+    <Compile Include="BusinessApplications\Workflows\WorkflowStepSequence.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Minimum Recommended Rules.ruleset" />
+    <None Include="Key.snk" />
+    <Compile Include="Persistence\PersistenceMechanism.Containers.cs" />
+    <Compile Include="Persistence\PersistenceMechanism.Objects.cs" />
+    <Compile Include="Persistence\Rdbms\RelationalDatabase.Containers.cs" />
+    <Compile Include="Persistence\Rdbms\RelationalDatabase.Objects.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml">
+      <HintPath>libs\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql, Version=4.1.3.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Text.Encodings.Web">
+      <HintPath>libs\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>libs\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.bs.resx" />
+    <EmbeddedResource Include="Properties\Resources.cs.resx" />
+    <EmbeddedResource Include="Properties\Resources.fr.resx" />
+    <EmbeddedResource Include="Properties\Resources.hr.resx" />
+    <EmbeddedResource Include="Properties\Resources.hu.resx" />
+    <EmbeddedResource Include="Properties\Resources.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.lt.resx" />
+    <EmbeddedResource Include="Properties\Resources.lv.resx" />
+    <EmbeddedResource Include="Properties\Resources.no.resx" />
+    <EmbeddedResource Include="Properties\Resources.pl.resx" />
+    <EmbeddedResource Include="Properties\Resources.pt.resx" />
+    <EmbeddedResource Include="Properties\Resources.ro.resx" />
+    <EmbeddedResource Include="Properties\Resources.ru.resx" />
+    <EmbeddedResource Include="Properties\Resources.sl.resx" />
+    <EmbeddedResource Include="Properties\Resources.sr.resx" />
+    <EmbeddedResource Include="Properties\Resources.sv.resx" />
+    <EmbeddedResource Include="Properties\Resources.tr.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.tr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.nl.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.nl.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.de.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>REM "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\x64\sn.exe" -R bin\Debug\Framework.dll Key.pfx</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlignTextLeft" xml:space="preserve">
+    <value>Zarovnat text vlevo</value>
+  </data>
+  <data name="AlignTextRight" xml:space="preserve">
+    <value>Zarovnejte text vpravo</value>
+  </data>
+  <data name="AllUnsafedChangesWillBeDiscardedIfYouLeaveThisPage" xml:space="preserve">
+    <value>Všechny neuložené změny budou zrušeny, pokud opustíte tuto stránku.</value>
+  </data>
+  <data name="AlternativelyYouCanLeaveThisFieldBlank" xml:space="preserve">
+    <value>Můžete toto pole ponechat prázdné.</value>
+  </data>
+  <data name="AlternativelyYouCanLeaveThisFieldBlankForNow" xml:space="preserve">
+    <value>Nyní můžete nechat toto pole prázdné.</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Schválený</value>
+  </data>
+  <data name="Asterisk" xml:space="preserve">
+    <value>Hvězdička</value>
+  </data>
+  <data name="Bold" xml:space="preserve">
+    <value>tučně</value>
+  </data>
+  <data name="Bullets" xml:space="preserve">
+    <value>Odrážky</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Zrušení</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>Zrušeno</value>
+  </data>
+  <data name="CenterText" xml:space="preserve">
+    <value>Vycentrovat text</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Změnit heslo</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Zavřít</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Dokončeno</value>
+  </data>
+  <data name="CreatedAt" xml:space="preserve">
+    <value>Vytvořeno</value>
+  </data>
+  <data name="CreatedAtByModifiedAtBy" xml:space="preserve">
+    <value>Vytvořeno {0} {1}, poslední změněa {2} do {3}.</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>Vytvořil</value>
+  </data>
+  <data name="daily" xml:space="preserve">
+    <value>denně</value>
+  </data>
+  <data name="DecreaseIndent" xml:space="preserve">
+    <value>Snížit odsazení</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Vymazat</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Upravit</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Emailová adresa</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Konec</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Velikost písma</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Zapomenuté heslo</value>
+  </data>
+  <data name="ForgotPasswordMailText" xml:space="preserve">
+    <value>Drahý pane nebo paní,
+
+kliknutím na tlačítko "Zapomenuté heslo" "byl tento e-mail odeslán.
+
+Pokud chcete obnovit heslo, použijte prosím následující odkaz: [link]
+
+Odkaz buď uplyne 24 hodin, nebo jakmile bude požadován nový odkaz pro obnovení hesla.
+
+Velice vám děkuji.</value>
+  </data>
+  <data name="GoTo" xml:space="preserve">
+    <value>Jít do</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Pomoc</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Historie</value>
+  </data>
+  <data name="hourly" xml:space="preserve">
+    <value>každou hodinu</value>
+  </data>
+  <data name="Imprint" xml:space="preserve">
+    <value>Otisk</value>
+  </data>
+  <data name="IncreaseIndent" xml:space="preserve">
+    <value>Zvýšit odsazení</value>
+  </data>
+  <data name="InsertImage" xml:space="preserve">
+    <value>Vložit obrázek</value>
+  </data>
+  <data name="InsertLink" xml:space="preserve">
+    <value>Vložit odkaz</value>
+  </data>
+  <data name="InsertTable" xml:space="preserve">
+    <value>Vložit tabulku</value>
+  </data>
+  <data name="InsertTableColumn" xml:space="preserve">
+    <value>Vložit sloupec</value>
+  </data>
+  <data name="InsertTableRow" xml:space="preserve">
+    <value>Vložit řádek</value>
+  </data>
+  <data name="InvariantText" xml:space="preserve">
+    <value>Invariantní text</value>
+  </data>
+  <data name="InvariantTitle" xml:space="preserve">
+    <value>Invariantní titul</value>
+  </data>
+  <data name="Italic" xml:space="preserve">
+    <value>Kurzíva</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Jazyk</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Přihlásit se</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Odhlásit se</value>
+  </data>
+  <data name="minutely" xml:space="preserve">
+    <value>každou minutu</value>
+  </data>
+  <data name="ModifiedAt" xml:space="preserve">
+    <value>Upraveno</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>Upravil</value>
+  </data>
+  <data name="monthly" xml:space="preserve">
+    <value>měsíčně</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="NoResultsWereFoundFor0" xml:space="preserve">
+    <value>Pro "{0}" nebyly nalezeny žádné výsledky.</value>
+  </data>
+  <data name="NotInspected" xml:space="preserve">
+    <value>Neověřeno</value>
+  </data>
+  <data name="NResultsWereFoundFor0" xml:space="preserve">
+    <value>Výsledky {1} byly nalezeny pro "{0}".</value>
+  </data>
+  <data name="Numbering" xml:space="preserve">
+    <value>Číslování</value>
+  </data>
+  <data name="OfflineMessage" xml:space="preserve">
+    <value>Aplikace je offline. Může se stát, že se zobrazí zastaralá nebo neúplná data. Změny údajů nejsou ve všech případech možné.</value>
+  </data>
+  <data name="OneResultWasFoundFor0" xml:space="preserve">
+    <value>Jeden výsledek byl nalezen pro "{0}".</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Heslo</value>
+  </data>
+  <data name="PleaseClickSaveToReleaseTheForm" xml:space="preserve">
+    <value>Klikněte na tlačítko Uložit a pro uvolnění formuláře.</value>
+  </data>
+  <data name="PleaseCorrectTheInvalidInputValues" xml:space="preserve">
+    <value>Opravte prosím chybějící nebo neplatné vstupní hodnoty.</value>
+  </data>
+  <data name="PleaseEnterAUniqueEmailAddressForThisField" xml:space="preserve">
+    <value>Zadejte prosím jedinečnou e-mailovou adresu pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidDateAndTimeBetween0And1ForThisField" xml:space="preserve">
+    <value>Zadejte prosím platné datum a čas mezi {0} a {1} pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidDateAndTimeForThisField" xml:space="preserve">
+    <value>Zadejte prosím platné datum a čas pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidDateBetween0And1ForThisField" xml:space="preserve">
+    <value>Zadejte platné datum mezi {0} a {1} pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidDateForThisField" xml:space="preserve">
+    <value>Zadejte prosím platné datum pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidMonthBetween0And1ForThisField" xml:space="preserve">
+    <value>Zadejte prosím platný měsíc mezi {0} a {1} pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidMonthForThisField" xml:space="preserve">
+    <value>Zadejte prosím platný měsíc pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidTimeBetween0And1ForThisField" xml:space="preserve">
+    <value>Pro toto pole zadejte platný čas mezi {0} a {1}.</value>
+  </data>
+  <data name="PleaseEnterAValidTimeForThisField" xml:space="preserve">
+    <value>Zadejte prosím platný čas pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1AndAUnitForThisField" xml:space="preserve">
+    <value>Zadejte platnou hodnotu mezi {0} a {1} a jednotkou pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Zadejte platnou hodnotu mezi {0} a {1} a vyberte jednotku pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1ForThisField" xml:space="preserve">
+    <value>Zadejte prosím platnou hodnotu mezi {0} a {1} pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidValueForThisField" xml:space="preserve">
+    <value>Zadejte platnou hodnotu pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0AndAUnitForThisField" xml:space="preserve">
+    <value>Zadejte prosím platnou hodnotu větší nebo rovnou {0} a jednotku pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Zadejte platnou hodnotu větší nebo rovnou {0} a vyberte jednotku pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0ForThisField" xml:space="preserve">
+    <value>Pro toto pole zadejte platnou hodnotu větší nebo rovnou {0}.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0AndAUnitForThisField" xml:space="preserve">
+    <value>Zadejte platnou hodnotu menší nebo rovnou {0} a jednotku pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Zadejte platnou hodnotu menší nebo rovnou {0} a vyberte jednotku pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0ForThisField" xml:space="preserve">
+    <value>Zadejte prosím platnou hodnotu menší nebo rovnou {0} pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeast0AndAtMost1CharactersForThisField" xml:space="preserve">
+    <value>Zadejte prosím platnou hodnotu s alespoň {0} a nejvýše {1} znaků pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeast0CharactersForThisField" xml:space="preserve">
+    <value>Zadejte platnou hodnotu s alespoň {0} znaky pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeastOneCharacterForThisField" xml:space="preserve">
+    <value>Zadejte platnou hodnotu s alespoň jedním znakem pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtMost0CharactersForThisField" xml:space="preserve">
+    <value>Zadejte platnou hodnotu s nejvýše {0} znaky pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtMostOneCharacterForThisField" xml:space="preserve">
+    <value>Zadejte platnou hodnotu s nejvýše jedním znakem pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidWeekBetween0And1ForThisField" xml:space="preserve">
+    <value>Zadejte prosím platný týden mezi {0} a {1} pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterAValidWeekForThisField" xml:space="preserve">
+    <value>Zadejte prosím platný týden pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterValidValuesBetween0And1ForThisField" xml:space="preserve">
+    <value>Zadejte platné hodnoty mezi {0} a {1} pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterValidValuesForThisField" xml:space="preserve">
+    <value>Zadejte platné hodnoty pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterValidValuesGreaterThan0ForThisField" xml:space="preserve">
+    <value>Zadejte platné hodnoty větší nebo rovné {0} pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterValidValuesLessThan0ForThisField" xml:space="preserve">
+    <value>Zadejte platné hodnoty menší nebo rovné {0} pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterValidValuesWithAtMost0CharactersForThisField" xml:space="preserve">
+    <value>Zadejte prosím platné hodnoty s nejvýše {0} znaky pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterValidValuesWithAtMostOneCharacterForThisField" xml:space="preserve">
+    <value>Zadejte platné hodnoty s maximálně jedním znakem pro toto pole.</value>
+  </data>
+  <data name="PleaseEnterYourEmailAddressBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Zadejte níže svou e-mailovou adresu a klikněte na tlačítko ODESLAT. Poté obdržíte e-mail s odkazem, který můžete použít k obnovení hesla.</value>
+  </data>
+  <data name="PleaseEnterYourNewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Zadejte níže nové heslo a klikněte na tlačítko ODESLAT. Poté se budete moci přihlásit pomocí nového hesla.</value>
+  </data>
+  <data name="PleaseEnterYourUserNameBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Zadejte níže své uživatelské jméno a klikněte na tlačítko ODESLAT. Poté obdržíte e-mail s odkazem, který můžete použít k obnovení hesla.</value>
+  </data>
+  <data name="PleaseMakeSureFileNamesDoNotContainAnyOfTheFollowingCharacters" xml:space="preserve">
+    <value>Ujistěte se, že názvy souborů neobsahují žádné z následujících znaků: &lt;, &gt;, *, %, &amp;, :, \.</value>
+  </data>
+  <data name="PleaseMakeSureTheValueContainsAtLeastAnUpperCaseCharacterALowerCaseCharacterANumericCharacterAndASpecialCharacter" xml:space="preserve">
+    <value>Ujistěte se, že hodnota obsahuje nejméně velká písmena, malý znak, číselný znak a zvláštní znak.</value>
+  </data>
+  <data name="PleaseSelectAFileOfAnAllowedTypeWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Vyberte soubor povoleného typu s maximální velikostí souboru {0} MB.</value>
+  </data>
+  <data name="PleaseSelectAFileWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Vyberte soubor s maximální velikostí souboru {0} MB.</value>
+  </data>
+  <data name="PleaseSelectAValidPersonForThisField" xml:space="preserve">
+    <value>Vyberte prosím platnou osobu pro toto pole.</value>
+  </data>
+  <data name="PleaseSelectAValidValueForThisField" xml:space="preserve">
+    <value>Vyberte prosím platnou hodnotu pro toto pole.</value>
+  </data>
+  <data name="PleaseSelectFilesOfAllowedTypesWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Zvolte soubory povolené zadané s maximální velikostí souboru {0} MB každý.</value>
+  </data>
+  <data name="PleaseSelectFilesWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Vyberte soubory s maximální velikostí souboru {0} MB.</value>
+  </data>
+  <data name="PleaseSelectOneOrMoreValidPersonsForThisField" xml:space="preserve">
+    <value>Zvolte pro toto pole jednu nebo více platných osob.</value>
+  </data>
+  <data name="PleaseSelectOneOrMoreValidValuesForThisField" xml:space="preserve">
+    <value>Vyberte prosím jednu nebo více platných hodnot pro toto pole.</value>
+  </data>
+  <data name="PleaseUseThePlusButtonToAddTranslations" xml:space="preserve">
+    <value>K přidání překladů použijte tlačítko plus.</value>
+  </data>
+  <data name="PleaseUseTheSignInButtonToLogOnWithYourEmailAddress" xml:space="preserve">
+    <value>Pro přihlášení použijte tlačítko LOGIN. Použijte svou e-mailovou adresu jako uživatelské jméno. Pokud si své heslo nepamatujete, klikněte prosím na tlačítko FORGOT HESLO.</value>
+  </data>
+  <data name="PleaseUseTheSignInButtonToLogOnWithYourUserName" xml:space="preserve">
+    <value>Použijte tlačítko LOGIN pro přihlášení s vaším uživatelským jménem a heslem. Pokud si své heslo nepamatujete, klikněte prosím na tlačítko ZAPOMENUTÉ HESLO.</value>
+  </data>
+  <data name="PreferredCulture" xml:space="preserve">
+    <value>Preferovaná kultura</value>
+  </data>
+  <data name="PreferredLanguage" xml:space="preserve">
+    <value>Preferovaný jazyk</value>
+  </data>
+  <data name="PrivacyNotice" xml:space="preserve">
+    <value>Ochrana osobních údajů</value>
+  </data>
+  <data name="QuotationMarks" xml:space="preserve">
+    <value>Uvozovky</value>
+  </data>
+  <data name="Rate0Stars" xml:space="preserve">
+    <value>Hodnotit {0} hvězdičku (y).</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>Odmítnuto</value>
+  </data>
+  <data name="RemoveFormat" xml:space="preserve">
+    <value>Odstranit formát</value>
+  </data>
+  <data name="RemoveTableColumn" xml:space="preserve">
+    <value>Odstranit sloupec</value>
+  </data>
+  <data name="RemoveTableRow" xml:space="preserve">
+    <value>Odebrat řádek</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Opakujte</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Uložit</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Vyhledat</value>
+  </data>
+  <data name="SearchHelpAndDescription" xml:space="preserve">
+    <value>Pomocí vyhledávacího operátoru AND lze nalézt výsledky, které obsahují všechny zadané výrazy jako celá slova. Následující vyhledávací dotaz nalezne všechny výsledky, které obsahují slovo "jehla", stejně jako slovo "seno":</value>
+  </data>
+  <data name="SearchHelpAndExample" xml:space="preserve">
+    <value>jehla AND seno</value>
+  </data>
+  <data name="SearchHelpAndNotDescription" xml:space="preserve">
+    <value>Pomocí operátora vyhledávání AND NOT nalezeny výsledky, které obsahují určitý výraz jako celé slovo, ale nesmí obsahovat jiný výraz. Následující vyhledávací dotaz nalezne všechny výsledky, které obsahují slovo "jehla", ale ne slovo "seno":</value>
+  </data>
+  <data name="SearchHelpAndNotExample" xml:space="preserve">
+    <value>jehla AND NOT seno</value>
+  </data>
+  <data name="SearchHelpAsteriskCharaktersDescription" xml:space="preserve">
+    <value>V případě, že hledaný výraz v uvozovkách začíná / končí znakem hvězdičky, lze nalézt výsledky, které obsahují konec / začátek tohoto výrazu. Následující vyhledávací dotaz nalezne všechny výsledky obsahující výraz "seno", stejně jako ty, které obsahují výraz "senoseč":</value>
+  </data>
+  <data name="SearchHelpAsteriskCharaktersExample" xml:space="preserve">
+    <value>"seno*"</value>
+  </data>
+  <data name="SearchHelpOrDescription" xml:space="preserve">
+    <value>Pomocí vyhledávacího operátora OR lze nalézt výsledky, které obsahují zadané výrazy jako celá slova. Následující vyhledávací dotaz nalezne všechny výsledky, které buď obsahují slovo "jehla" nebo slovo "seno":</value>
+  </data>
+  <data name="SearchHelpOrExample" xml:space="preserve">
+    <value>jehla OR seno</value>
+  </data>
+  <data name="SearchHelpQuotationMarksDescription" xml:space="preserve">
+    <value>Hledané výrazy zadané v uvozovkách musí být ve výsledku v přesně stejném pořadí. Následující vyhledávací dotaz nalezne všechny výsledky obsahující frázi "jehla v seně", ale nenašel by žádný výsledek obsahující frázi "jehla v kupce sena" namísto toho:</value>
+  </data>
+  <data name="SearchHelpQuotationMarksExample" xml:space="preserve">
+    <value>"jehla v seně"</value>
+  </data>
+  <data name="secondly" xml:space="preserve">
+    <value>napodruhé</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Nastavení</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Strikethrough" xml:space="preserve">
+    <value>Přeškrtnutí</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>ODESLAT</value>
+  </data>
+  <data name="Subscript" xml:space="preserve">
+    <value>Subscript</value>
+  </data>
+  <data name="Superscript" xml:space="preserve">
+    <value>Superscript</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="TextColor" xml:space="preserve">
+    <value>Barva textu</value>
+  </data>
+  <data name="TheMinimumImageResolutionMustBe0x1" xml:space="preserve">
+    <value>Minimální rozlišení obrazu musí být {0} x {1}.</value>
+  </data>
+  <data name="TheMinimumImageSideLengthOfLongerSideMustBe0" xml:space="preserve">
+    <value>Minimální délka strany delší strany obrázku musí být {0}.</value>
+  </data>
+  <data name="TheSelectedValueDoesNotHaveAUniqueKey" xml:space="preserve">
+    <value>Zvolená hodnota nemá jedinečný klíč.</value>
+  </data>
+  <data name="TheWorkflowWillGoOnAsSoonAsTheStep0IsFinished" xml:space="preserve">
+    <value>Workflow bude pokračovat, jakmile dokončíte krok "{0}".</value>
+  </data>
+  <data name="ThisIsAMandatoryField" xml:space="preserve">
+    <value>Toto je povinné pole.</value>
+  </data>
+  <data name="TooManyRequestsPleaseTryAgainIn0Seconds" xml:space="preserve">
+    <value>Příliš mnoho požadavků. Zkuste to prosím znovu v {0} sekundách.</value>
+  </data>
+  <data name="TranslatedText" xml:space="preserve">
+    <value>Přeložený text</value>
+  </data>
+  <data name="Underline" xml:space="preserve">
+    <value>Zdůraznit</value>
+  </data>
+  <data name="UpTo0FilesAreAllowed" xml:space="preserve">
+    <value>Je povoleno maximálně {0} souborů.</value>
+  </data>
+  <data name="UpTo0ValuesAreAllowed" xml:space="preserve">
+    <value>Maximálně  {0} hodnot je povoleno.</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Uživatelské jméno</value>
+  </data>
+  <data name="weekly" xml:space="preserve">
+    <value>týdně</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>Workflow</value>
+  </data>
+  <data name="WouldYouReallyLikeToDeleteTheRow" xml:space="preserve">
+    <value>Chcete opravdu smazat řádek?</value>
+  </data>
+  <data name="WouldYouReallyLikeToDeleteTheTab" xml:space="preserve">
+    <value>Opravdu chcete odstranit záložku "{0}"?</value>
+  </data>
+  <data name="WouldYouReallyLikeToMarkTheFile0ForRemoval" xml:space="preserve">
+    <value>Chtěli byste opravdu označit soubor "{0}" pro odstranění?</value>
+  </data>
+  <data name="yearly" xml:space="preserve">
+    <value>roční</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Vývozní</value>
+  </data>
+  <data name="YourPasswordHasExpiredPleaseEnterANewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Platnost hesla vypršela. Zadejte níže nové heslo a klikněte na tlačítko SUBMIT. Poté se budete moci přihlásit pomocí nového hesla.</value>
+  </data>
+  <data name="ChangeLanguage" xml:space="preserve">
+    <value>Změnit jazyk</value>
+  </data>
+  <data name="PleaseEnterANewPasswordToChangeYourPasswordOrLeaveThisFieldEmptyToKeepYourPassword" xml:space="preserve">
+    <value>Zadejte nové heslo pro změnu hesla nebo ponechte toto pole prázdné, aby bylo zachováno vaše heslo.</value>
+  </data>
+  <data name="ToggleFullWindow" xml:space="preserve">
+    <value>Přepnout úplné okno</value>
+  </data>
+  <data name="PleaseConfirmTheChangeOfYourPreferredLanguageByEnteringYourWindowsPassword" xml:space="preserve">
+    <value>Potvrďte změnu preferovaného jazyka zadáním hesla systému Windows.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titul</value>
+  </data>
+  <data name="LengthXWidthXHeightAbbr" xml:space="preserve">
+    <value>(D x Š x V)</value>
+  </data>
+  <data name="PleaseEnterAUniqueValueForThisField" xml:space="preserve">
+    <value>Zadejte prosím jedinečnou hodnota pro toto pole.</value>
+  </data>
+  <data name="References" xml:space="preserve">
+    <value>Referenzen</value>
+  </data>
+  <data name="TheFirst0ResultsAreDisplayedBelow" xml:space="preserve">
+    <value>Prvních {0} výsledků je zobrazeno níže.</value>
+  </data>
+  <data name="TheActionFor0CannotBeExecutedBecauseItIsAmbiguous" xml:space="preserve">
+    <value>Akce pro "{0}" nelze provést, protože je nejednoznačná. K provedení akce použijte tlačítko "{0}" požadovaného kroku v diagramu pracovního postupu. Chtěli byste vidět diagram pracovního postupu?</value>
+  </data>
+  <data name="Results0To1AreDisplayedBelow" xml:space="preserve">
+    <value>Výsledky {0} až {1} jsou uvedeny níže.</value>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="PleaseSelectACsvFileEndodedAsUtf8WithBom" xml:space="preserve">
+    <value>Vyberte soubor CSV kódovaný jako UTF-8 s kusovníkem.</value>
+  </data>
+  <data name="CsvQuotesError" xml:space="preserve">
+    <value>Hodnota pole CSV nesmí obsahovat uvozovky ("), pokud není celá hodnota pole obklopena uvozovkami ("hodnota pole") a uvozovkám uvnitř jsou uvozeny uvozovkami ("hodnota "" pole").</value>
+  </data>
+  <data name="FieldMappingError" xml:space="preserve">
+    <value>Mapování polí pro „{0}“ nelze najít.</value>
+  </data>
+  <data name="CsvValueError" xml:space="preserve">
+    <value>Pro pole „{1}“ nelze nastavit hodnotu „{0}“.</value>
+  </data>
+  <data name="PleaseExcuseThatTheDataExportTakesLongerThanExpected" xml:space="preserve">
+    <value>Omluvte prosím, že export dat trvá déle, než jste čekali. Po dokončení zpracování budou výsledky odeslány e-mailem na adresu {0}, abyste ušetřili čas.</value>
+  </data>
+  <data name="PleaseFindAttachedTheRequestedDataExport" xml:space="preserve">
+    <value>V příloze naleznete požadovaný export dat.</value>
+  </data>
+  <data name="YourPasswordHasToBeChangedAtFirstLogonPleaseEnterANewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Vaše heslo musí být změněno při prvním přihlášení. Níže zadejte nové heslo a klikněte na tlačítko ODESLAT. Nové heslo se musí lišit od hesla initialone. Poté se budete moci přihlásit pomocí svého nového hesla.</value>
+  </data>
+  <data name="QueueLength" xml:space="preserve">
+    <value>Délka fronty</value>
+  </data>
+  <data name="RemoveLink" xml:space="preserve">
+    <value>Odebrat hypertextový odkaz</value>
+  </data>
+  <data name="TheEnteredCombinationOfUserNameAndPasswordIsInvalid" xml:space="preserve">
+    <value>Zadaná kombinace uživatelského jména a hesla je neplatná.</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>hodiny</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>dní</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minut</value>
+  </data>
+</root>

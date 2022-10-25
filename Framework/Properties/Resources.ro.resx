@@ -1,0 +1,674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllUnsafedChangesWillBeDiscardedIfYouLeaveThisPage" xml:space="preserve">
+    <value>Toate modificările nesalvate vor fi ignorate dacă părăsiți această pagină.</value>
+  </data>
+  <data name="AlternativelyYouCanLeaveThisFieldBlank" xml:space="preserve">
+    <value>Puteți lăsa acest câmp necompletat.</value>
+  </data>
+  <data name="AlternativelyYouCanLeaveThisFieldBlankForNow" xml:space="preserve">
+    <value>Momentan, puteți lăsa acest câmp necompletat.</value>
+  </data>
+  <data name="GoTo" xml:space="preserve">
+    <value>Mergi la</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Anulează</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>Anulat</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Închide</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Terminat</value>
+  </data>
+  <data name="CreatedAtByModifiedAtBy" xml:space="preserve">
+    <value>Creat la {0} de {1}, ultima dată modificat la {2} de {3}.</value>
+  </data>
+  <data name="daily" xml:space="preserve">
+    <value>zilnic</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editează</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Sfârşit</value>
+  </data>
+  <data name="hourly" xml:space="preserve">
+    <value>pe oră</value>
+  </data>
+  <data name="minutely" xml:space="preserve">
+    <value>în fiecare minut</value>
+  </data>
+  <data name="monthly" xml:space="preserve">
+    <value>lunar</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nu</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Parolă</value>
+  </data>
+  <data name="PleaseCorrectTheInvalidInputValues" xml:space="preserve">
+    <value>Corectează informaţiile lipsă sau neconforme.</value>
+  </data>
+  <data name="PleaseEnterAValidDateAndTimeBetween0And1ForThisField" xml:space="preserve">
+    <value>Introdu o dată şi o oră valide între {0} și {1} în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidDateAndTimeForThisField" xml:space="preserve">
+    <value>Introdu o dată şi o oră valide în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidDateBetween0And1ForThisField" xml:space="preserve">
+    <value>Introdu o dată validă între {0} și {1} în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidDateForThisField" xml:space="preserve">
+    <value>Introdu o dată validă în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidMonthBetween0And1ForThisField" xml:space="preserve">
+    <value>Introdu o lună validă între {0} și {1} în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidMonthForThisField" xml:space="preserve">
+    <value>Introdu o lună validă în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidTimeBetween0And1ForThisField" xml:space="preserve">
+    <value>Introdu o oră validă între {0} și {1} în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidTimeForThisField" xml:space="preserve">
+    <value>Introdu o oră validă în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1AndAUnitForThisField" xml:space="preserve">
+    <value>Introdu o valoare validă între {0} și {1} și o unitate de măsură în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Introdu o valoare validă între {0} și {1} și selectează o unitate de măsură în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1ForThisField" xml:space="preserve">
+    <value>Introdu o valoare validă între {0} și {1} în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidValueForThisField" xml:space="preserve">
+    <value>Introdu o valoare validă în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0AndAUnitForThisField" xml:space="preserve">
+    <value>Introdu o valoare validă mai mare sau egală cu {0} și o unitate de măsură în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Introdu o valoare validă mai mare sau egală cu {0} și selectează o unitate de măsură în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0ForThisField" xml:space="preserve">
+    <value>Introdu o valoare validă mai mare sau egală cu {0} în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0AndAUnitForThisField" xml:space="preserve">
+    <value>Introdu o valoare validă mai mică sau egală cu {0} și o unitate de măsură în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Introdu o valoare validă mai mică sau egală cu {0} și selectează o unitate de măsură în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0ForThisField" xml:space="preserve">
+    <value>Introdu o valoare validă mai mică sau egală cu {0} în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeast0AndAtMost1CharactersForThisField" xml:space="preserve">
+    <value>Introdu o valoare validă cu cel puţin {0} și cel mult {1} caracter(e) în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeast0CharactersForThisField" xml:space="preserve">
+    <value>Introdu o valoare validă cu cel puţin {0} caracter(e) în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeastOneCharacterForThisField" xml:space="preserve">
+    <value>Introdu o valoare validă cu cel puţin un caracter în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtMost0CharactersForThisField" xml:space="preserve">
+    <value>Introdu o valoare validă cu cel mult {0} caractere în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtMostOneCharacterForThisField" xml:space="preserve">
+    <value>Introdu o valoare validă cu cel mult un caracter în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidWeekBetween0And1ForThisField" xml:space="preserve">
+    <value>Introdu o săptămână validă între {0} și {1} în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterAValidWeekForThisField" xml:space="preserve">
+    <value>Introdu o săptămână validă în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterValidValuesBetween0And1ForThisField" xml:space="preserve">
+    <value>Introdu valori valide între {0} și {1} în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterValidValuesForThisField" xml:space="preserve">
+    <value>Introdu valori valide în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterValidValuesGreaterThan0ForThisField" xml:space="preserve">
+    <value>Introdu valori valide mai mari sau egale cu {0} în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterValidValuesLessThan0ForThisField" xml:space="preserve">
+    <value>Introdu valori valide mai mici sau egale cu {0} în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterValidValuesWithAtMost0CharactersForThisField" xml:space="preserve">
+    <value>Introdu valori valide cu cel mult {0} caractere în acest câmp.</value>
+  </data>
+  <data name="PleaseEnterValidValuesWithAtMostOneCharacterForThisField" xml:space="preserve">
+    <value>Introdu valori valide cu cel mult un caracter în acest câmp.</value>
+  </data>
+  <data name="PleaseSelectAFileOfAnAllowedTypeWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Selectează un fișier permis cu dimensiunea maximă de {0} MB.</value>
+  </data>
+  <data name="PleaseSelectAFileWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Selectează un fișier cu dimensiunea maximă de {0} MB.</value>
+  </data>
+  <data name="PleaseSelectAValidPersonForThisField" xml:space="preserve">
+    <value>Selectează o persoană validă în acest câmp.</value>
+  </data>
+  <data name="PleaseSelectAValidValueForThisField" xml:space="preserve">
+    <value>Selectează o valoare validă în acest câmp.</value>
+  </data>
+  <data name="PleaseSelectFilesOfAllowedTypesWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Selectează fișiere permise, unde fiecare să aibă maximum {0} MB.</value>
+  </data>
+  <data name="PleaseSelectFilesWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Selectează fișiere de maximum {0} MB fiecare.</value>
+  </data>
+  <data name="PleaseSelectOneOrMoreValidPersonsForThisField" xml:space="preserve">
+    <value>Selectează una sau mai multe persoane valide în acest câmp.</value>
+  </data>
+  <data name="PleaseSelectOneOrMoreValidValuesForThisField" xml:space="preserve">
+    <value>Selectează una sau mai multe valori valide în acest câmp.</value>
+  </data>
+  <data name="PreferredCulture" xml:space="preserve">
+    <value>Cultura preferată</value>
+  </data>
+  <data name="PreferredLanguage" xml:space="preserve">
+    <value>Limba preferată</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Salvează</value>
+  </data>
+  <data name="secondly" xml:space="preserve">
+    <value>în al doilea rând</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Porneşte</value>
+  </data>
+  <data name="TheMinimumImageResolutionMustBe0x1" xml:space="preserve">
+    <value>Rezoluţia minimă a imaginii trebuie să fie {0} x {1}.</value>
+  </data>
+  <data name="ThisIsAMandatoryField" xml:space="preserve">
+    <value>Acesta este un câmp obligatoriu.</value>
+  </data>
+  <data name="UpTo0FilesAreAllowed" xml:space="preserve">
+    <value>Până la {0} fişiere sunt permise.</value>
+  </data>
+  <data name="UpTo0ValuesAreAllowed" xml:space="preserve">
+    <value>Până la {0} valori sunt permise.</value>
+  </data>
+  <data name="weekly" xml:space="preserve">
+    <value>săptămânal</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>Flux de lucru</value>
+  </data>
+  <data name="WouldYouReallyLikeToDeleteTheRow" xml:space="preserve">
+    <value>Sigur doreşti să ştergi rândul?</value>
+  </data>
+  <data name="WouldYouReallyLikeToDeleteTheTab" xml:space="preserve">
+    <value>Sigur doreşti să ştergi tab "{0}"?</value>
+  </data>
+  <data name="WouldYouReallyLikeToMarkTheFile0ForRemoval" xml:space="preserve">
+    <value>Sigur doreşti să slectezi fişierul "{0}" pentru a fi şters?</value>
+  </data>
+  <data name="yearly" xml:space="preserve">
+    <value>anual</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Istorie</value>
+  </data>
+  <data name="ModifiedAt" xml:space="preserve">
+    <value>Modificat la</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>Modificat de</value>
+  </data>
+  <data name="TheMinimumImageSideLengthOfLongerSideMustBe0" xml:space="preserve">
+    <value>Lungimea minimă a laturii celei mai lungi a imaginii trebuie să fie {0}.</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Caută</value>
+  </data>
+  <data name="NoResultsWereFoundFor0" xml:space="preserve">
+    <value>Nu a fost găsit niciun rezultat pentru "{0}".</value>
+  </data>
+  <data name="NResultsWereFoundFor0" xml:space="preserve">
+    <value>Au fost găsite {1} rezultate pentru "{0}".</value>
+  </data>
+  <data name="OneResultWasFoundFor0" xml:space="preserve">
+    <value>A fost găsit un rezultat pentru "{0}".</value>
+  </data>
+  <data name="Bold" xml:space="preserve">
+    <value>Îngroşat</value>
+  </data>
+  <data name="Bullets" xml:space="preserve">
+    <value>Bullet-uri</value>
+  </data>
+  <data name="DecreaseIndent" xml:space="preserve">
+    <value>Micşorează spaţiul de la început</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Mărimea fontului</value>
+  </data>
+  <data name="IncreaseIndent" xml:space="preserve">
+    <value>Măreşte spaţiul de la început</value>
+  </data>
+  <data name="InsertImage" xml:space="preserve">
+    <value>Inserează imagine</value>
+  </data>
+  <data name="InsertLink" xml:space="preserve">
+    <value>Inserează link</value>
+  </data>
+  <data name="InsertTable" xml:space="preserve">
+    <value>Inserează tabel</value>
+  </data>
+  <data name="InsertTableColumn" xml:space="preserve">
+    <value>Inserează coloană în tabel</value>
+  </data>
+  <data name="InsertTableRow" xml:space="preserve">
+    <value>Inserează rând în tabel</value>
+  </data>
+  <data name="Italic" xml:space="preserve">
+    <value>Cursiv</value>
+  </data>
+  <data name="Numbering" xml:space="preserve">
+    <value>Numerotare</value>
+  </data>
+  <data name="RemoveFormat" xml:space="preserve">
+    <value>Elimină formatarea</value>
+  </data>
+  <data name="RemoveTableColumn" xml:space="preserve">
+    <value>Șterge coloana din tabel</value>
+  </data>
+  <data name="RemoveTableRow" xml:space="preserve">
+    <value>Șterge rândul din tabel</value>
+  </data>
+  <data name="Strikethrough" xml:space="preserve">
+    <value>Tăiat</value>
+  </data>
+  <data name="Subscript" xml:space="preserve">
+    <value>Subscript</value>
+  </data>
+  <data name="Superscript" xml:space="preserve">
+    <value>Superscript</value>
+  </data>
+  <data name="TextColor" xml:space="preserve">
+    <value>Culoarea textului</value>
+  </data>
+  <data name="Underline" xml:space="preserve">
+    <value>Subliniat</value>
+  </data>
+  <data name="AlignTextLeft" xml:space="preserve">
+    <value>Aliniază textul la stânga</value>
+  </data>
+  <data name="AlignTextRight" xml:space="preserve">
+    <value>Aliniază textul la dreapta</value>
+  </data>
+  <data name="CenterText" xml:space="preserve">
+    <value>Centrează textul</value>
+  </data>
+  <data name="CreatedAt" xml:space="preserve">
+    <value>Creat la</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>Creat de</value>
+  </data>
+  <data name="PleaseClickSaveToReleaseTheForm" xml:space="preserve">
+    <value>Apasă butonul "Salvează" pentru a trimite formularul.</value>
+  </data>
+  <data name="PleaseMakeSureFileNamesDoNotContainAnyOfTheFollowingCharacters" xml:space="preserve">
+    <value>Numele fișierelor nu trebuie să conţină niciunul dintre următoarele caractere: &lt;, &gt;, *, %, &amp;, :, \.</value>
+  </data>
+  <data name="Asterisk" xml:space="preserve">
+    <value>Asterisc</value>
+  </data>
+  <data name="QuotationMarks" xml:space="preserve">
+    <value>Ghilimele</value>
+  </data>
+  <data name="SearchHelpAndDescription" xml:space="preserve">
+    <value>Prin folosirea operatorului de căutare AND, pot fi găsite rezultate care conţin toţi termenii căutaţi ca şi cuvinte întregi. Rezultatele interogării următoare vor conţine: cuvântul "struguri", dar şi cuvântul "masă":</value>
+  </data>
+  <data name="SearchHelpAndExample" xml:space="preserve">
+    <value>struguri AND dulce</value>
+  </data>
+  <data name="SearchHelpAndNotDescription" xml:space="preserve">
+    <value>Prin folosirea operatorului de căutare AND NOT, pot fi găsite rezultate care conţin un anumit termen, dar nu conţin celălalt termen. Rezultatele interogării următoare vor conţine cuvântul "struguri", dar nu şi cuvântul "masă":</value>
+  </data>
+  <data name="SearchHelpAndNotExample" xml:space="preserve">
+    <value>struguri AND NOT dulce</value>
+  </data>
+  <data name="SearchHelpAsteriskCharaktersDescription" xml:space="preserve">
+    <value>În cazul căutării unui termen în ghilimele marcat cu un asterisc la început sau la final, vor fi găsite rezultate care încep sau se termină cu termenul respectiv. Rezultatele interogării următoare vor conţine cuvântul "struguri", dar şi cuvântul "struţ":</value>
+  </data>
+  <data name="SearchHelpAsteriskCharaktersExample" xml:space="preserve">
+    <value>"stru*"</value>
+  </data>
+  <data name="SearchHelpOrDescription" xml:space="preserve">
+    <value>Prin folosirea operatorului de căutare OR, pot fi găsite rezultate care conţin oricare dintre termenii căutaţi ca şi cuvinte întregi. Rezultatele interogării următoare vor conţine fie cuvântul "struguri", fie cuvântul "masă":</value>
+  </data>
+  <data name="SearchHelpOrExample" xml:space="preserve">
+    <value>struguri OR masă</value>
+  </data>
+  <data name="SearchHelpQuotationMarksDescription" xml:space="preserve">
+    <value>Termenii cu ghilimele căutaţi trebuie să se regăsească în rezultatele căutării în aceeaşi ordine. Rezultatele interogării următoare vor conţine expresia "struguri de masă", dar nu vor conţine expresia "struguri pe masă":</value>
+  </data>
+  <data name="SearchHelpQuotationMarksExample" xml:space="preserve">
+    <value>"struguri de masă"</value>
+  </data>
+  <data name="OfflineMessage" xml:space="preserve">
+    <value>Aplicaţia este offline. Este posibil să fie afișate date vechi sau incomplete. Modificarea datelor nu este posibilă în toate cazurile.</value>
+  </data>
+  <data name="PleaseMakeSureTheValueContainsAtLeastAnUpperCaseCharacterALowerCaseCharacterANumericCharacterAndASpecialCharacter" xml:space="preserve">
+    <value>Valoarea trebuie să conţină cel puţin o majusculă, o literă mică, un caracter numeric și un caracter special.</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Schimbă parola</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Adresă de e-mail</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Am uitat parola</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Autentificare</value>
+  </data>
+  <data name="PleaseEnterYourEmailAddressBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Completează-ţi adresa de e-mail mai jos și apasă pe butonul TRIMITE. Ulterior, vei primi un e-mail cu un link pe care îl poţi folosi pentru resetarea parolei.</value>
+  </data>
+  <data name="PleaseEnterYourNewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Completează-ţi adresa de e-mail mai jos și apasă pe butonul TRIMITE. Ulterior, vei putea să te autentifici cu noua parolă.</value>
+  </data>
+  <data name="PleaseUseTheSignInButtonToLogOnWithYourEmailAddress" xml:space="preserve">
+    <value>Pentru autentificare, apasă pe butonul LOGIN. Pentru numele de utilizator, folosește adresa de e-mail. Dacă nu îţi amintești parola, apasă pe butonul AM UITAT PAROLA.</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Reîncearcă</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Trimite</value>
+  </data>
+  <data name="TooManyRequestsPleaseTryAgainIn0Seconds" xml:space="preserve">
+    <value>S-au înregistrat prea multe cereri. Încearcă din nou în {0} secunde.</value>
+  </data>
+  <data name="ForgotPasswordMailText" xml:space="preserve">
+    <value>Dragă domnule/doamnă,
+
+Ai primit acest mail pentru că ai apăsat pe butonul "Am uitat parola".  
+
+Dacă doreşti sa schimbi parola, te rugăm să accesezi următorul link: [link]
+
+Linkul va expira în 24 de ore sau imediat ce este solicitat un link nou pentru schimbarea parolei.
+
+Mulţumim mult şi toate cele bune.</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Exportă</value>
+  </data>
+  <data name="YourPasswordHasExpiredPleaseEnterANewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Parola a expirat. Completează mai jos parola nouă şi apasă pe butonul TRIMITE. Ulterior te vei putea autentifica cu noua parolă.</value>
+  </data>
+  <data name="ChangeLanguage" xml:space="preserve">
+    <value>Schimbă limba</value>
+  </data>
+  <data name="PleaseEnterANewPasswordToChangeYourPasswordOrLeaveThisFieldEmptyToKeepYourPassword" xml:space="preserve">
+    <value>Introdu o nouă parolă pentru a-ţi schimba parola actuală sau lasă acest câmp necompletat pentru a-ţi păstra parola.</value>
+  </data>
+  <data name="ToggleFullWindow" xml:space="preserve">
+    <value>Schimbă modul "fereastră întreagă"</value>
+  </data>
+  <data name="PleaseConfirmTheChangeOfYourPreferredLanguageByEnteringYourWindowsPassword" xml:space="preserve">
+    <value>Confirmă schimbarea limbii preferate prin introducerea parolei de Windows.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titlu</value>
+  </data>
+  <data name="LengthXWidthXHeightAbbr" xml:space="preserve">
+    <value>(L x l x h)</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Şterge</value>
+  </data>
+  <data name="PleaseUseTheSignInButtonToLogOnWithYourUserName" xml:space="preserve">
+    <value>Apasă pe butonul LOGIN pentru a te autentifica cu numele de utilizator și parola. Dacă nu îţi amintești parola, apasă pe butonul AM UITAT PAROLA.</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Nume de utilizator</value>
+  </data>
+  <data name="PleaseEnterYourUserNameBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Completează numele de utilizator mai jos si apasă pe butonul TRIMITE. Ulterior vei primi un e-mail cu un link  pe care îl poţi folosi pentru resetarea parolei.</value>
+  </data>
+  <data name="TheSelectedValueDoesNotHaveAUniqueKey" xml:space="preserve">
+    <value>Valoarea selectată nu are o cheie unică.</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Setări</value>
+  </data>
+  <data name="TheWorkflowWillGoOnAsSoonAsTheStep0IsFinished" xml:space="preserve">
+    <value>Fluxul de lucru va continua imediat ce pasul "{0}" este finalizat.</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Ieşire din cont</value>
+  </data>
+  <data name="PleaseEnterAUniqueEmailAddressForThisField" xml:space="preserve">
+    <value>Introdu o adresă de mail unică în acest câmp.</value>
+  </data>
+  <data name="Rate0Stars" xml:space="preserve">
+    <value>Evaluează cu {0} stea / stele.</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Aprobat</value>
+  </data>
+  <data name="NotInspected" xml:space="preserve">
+    <value>Nu a fost inspectat</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>Respins</value>
+  </data>
+  <data name="PrivacyNotice" xml:space="preserve">
+    <value>Notă de confidenţialitate</value>
+  </data>
+  <data name="Imprint" xml:space="preserve">
+    <value>Imprimă</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Ajutor</value>
+  </data>
+  <data name="InvariantText" xml:space="preserve">
+    <value>Text invariabil</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Limbă</value>
+  </data>
+  <data name="PleaseUseThePlusButtonToAddTranslations" xml:space="preserve">
+    <value>Apasă pe butonul plus pentru a adăuga traduceri.</value>
+  </data>
+  <data name="TranslatedText" xml:space="preserve">
+    <value>Text tradus</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="InvariantTitle" xml:space="preserve">
+    <value>Titlu invariabil</value>
+  </data>
+  <data name="PleaseEnterAUniqueValueForThisField" xml:space="preserve">
+    <value>Introdu o valoare unică în acest câmp.</value>
+  </data>
+  <data name="References" xml:space="preserve">
+    <value>Referinţe</value>
+  </data>
+  <data name="TheFirst0ResultsAreDisplayedBelow" xml:space="preserve">
+    <value>Primele rezultate {0} sunt afișate mai jos.</value>
+  </data>
+  <data name="TheActionFor0CannotBeExecutedBecauseItIsAmbiguous" xml:space="preserve">
+    <value>Acțiunea pentru "{0}" nu poate fi executată deoarece este ambiguă. Vă rugăm să utilizați butonul "{0}" din pasul dorit în diagrama fluxului de lucru pentru a executa acțiunea. Doriți să vedeți diagrama fluxului de lucru?</value>
+  </data>
+  <data name="Results0To1AreDisplayedBelow" xml:space="preserve">
+    <value>Rezultatele de la {0} la {1} sunt afișate mai jos.</value>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>Deconectat</value>
+  </data>
+  <data name="PleaseSelectACsvFileEndodedAsUtf8WithBom" xml:space="preserve">
+    <value>Vă rugăm să selectați un fișier CSV codat ca UTF-8 cu BOM.</value>
+  </data>
+  <data name="CsvQuotesError" xml:space="preserve">
+    <value>O valoare de câmp CSV nu poate conține ghilimele (") decât dacă întreaga valoare a câmpului este înconjurată de ghilimele ("valoare câmpului") și ghilimelele din interior sunt evitate cu ghilimele ("câmpul "" valoare").</value>
+  </data>
+  <data name="FieldMappingError" xml:space="preserve">
+    <value>Cartarea câmpului pentru „{0}” nu poate fi găsită.</value>
+  </data>
+  <data name="CsvValueError" xml:space="preserve">
+    <value>Valoarea „{0}” nu poate fi setată pentru câmpul „{1}”.</value>
+  </data>
+  <data name="PleaseExcuseThatTheDataExportTakesLongerThanExpected" xml:space="preserve">
+    <value>Vă rugăm să scuzați că exportul de date durează mai mult decât se aștepta. Pentru a vă economisi timpul, rezultatele vor fi trimise prin e-mail la {0} după finalizarea procesării.</value>
+  </data>
+  <data name="PleaseFindAttachedTheRequestedDataExport" xml:space="preserve">
+    <value>Vă rugăm să găsiți atașat exportul de date solicitat.</value>
+  </data>
+  <data name="YourPasswordHasToBeChangedAtFirstLogonPleaseEnterANewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Parola dvs. trebuie modificată la prima conectare. Vă rugăm să introduceți o nouă parolă mai jos și să faceți clic pe butonul TRIMITE. Noua parolă trebuie să fie diferită de cea inițială. Ulterior, veți putea să vă conectați cu noua parolă.</value>
+  </data>
+  <data name="QueueLength" xml:space="preserve">
+    <value>Lungimea cozii</value>
+  </data>
+  <data name="RemoveLink" xml:space="preserve">
+    <value>Eliminați hyperlinkul</value>
+  </data>
+  <data name="TheEnteredCombinationOfUserNameAndPasswordIsInvalid" xml:space="preserve">
+    <value>Combinația introdusă de nume de utilizator și parolă este nevalidă.</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>ore</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>zile</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minute</value>
+  </data>
+</root>

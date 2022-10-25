@@ -1,0 +1,674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllUnsafedChangesWillBeDiscardedIfYouLeaveThisPage" xml:space="preserve">
+    <value>Alla osparade ändringar kommer att försvinna om du lämnar sidan.</value>
+  </data>
+  <data name="AlternativelyYouCanLeaveThisFieldBlank" xml:space="preserve">
+    <value>Alternativt kan du lämna detta fält tomt.</value>
+  </data>
+  <data name="AlternativelyYouCanLeaveThisFieldBlankForNow" xml:space="preserve">
+    <value>Alternativt kan du lämna detta fält tomt så länge.</value>
+  </data>
+  <data name="GoTo" xml:space="preserve">
+    <value>Gå till</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>Avbrutet</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Stäng</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Färdigt</value>
+  </data>
+  <data name="CreatedAtByModifiedAtBy" xml:space="preserve">
+    <value>Skapat den {0} av {1}, senast ändrad den {2} av {3}.</value>
+  </data>
+  <data name="daily" xml:space="preserve">
+    <value>daglig</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Redigera</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Slut</value>
+  </data>
+  <data name="hourly" xml:space="preserve">
+    <value>varje timma</value>
+  </data>
+  <data name="minutely" xml:space="preserve">
+    <value>varje minut</value>
+  </data>
+  <data name="monthly" xml:space="preserve">
+    <value>måntatligen</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nej</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Lösenord</value>
+  </data>
+  <data name="PleaseCorrectTheInvalidInputValues" xml:space="preserve">
+    <value>Vänligen korrigera de värden som saknas eller är ogiltiga.</value>
+  </data>
+  <data name="PleaseEnterAValidDateAndTimeBetween0And1ForThisField" xml:space="preserve">
+    <value>Vänligen ange ett giltigt datum och tid mellan {0} och {1} i detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidDateAndTimeForThisField" xml:space="preserve">
+    <value>Vänligen ange ett giltigt datum och tid  i detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidDateBetween0And1ForThisField" xml:space="preserve">
+    <value>Vänligen ange ett giltigt datum mellan {0} och {1} i detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidDateForThisField" xml:space="preserve">
+    <value>Vänligen ange ett giltigt datum i detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidMonthBetween0And1ForThisField" xml:space="preserve">
+    <value>Vänligen ange en giltig månad mellan {0} och {1} i detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidMonthForThisField" xml:space="preserve">
+    <value>Vänligen ange en giltig månad i detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidTimeBetween0And1ForThisField" xml:space="preserve">
+    <value>Vänligen ange en giltig tid mellan {0} och {1} i detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidTimeForThisField" xml:space="preserve">
+    <value>Vänligen ange en giltig tid i detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1AndAUnitForThisField" xml:space="preserve">
+    <value>Vänligen ange ett giltigt värde mellan {0} och {1} samt en enhet för detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Vänligen ange ett giltigt värde mellan {0} och {1} samt välj en enhet för detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1ForThisField" xml:space="preserve">
+    <value>Vänligen ange ett giltigt värde mellan {0} och {1} för detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidValueForThisField" xml:space="preserve">
+    <value>Vänligen ange ett giltigt värde i detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0AndAUnitForThisField" xml:space="preserve">
+    <value>Vänligen ange ett värde större än eller lika med {0} samt en enhet för detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Vänligen ange ett värde större än eller lika med {0} samt välj en enhet för detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0ForThisField" xml:space="preserve">
+    <value>Vänligen ange ett giltigt värde större än eller lika med {0} för detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0AndAUnitForThisField" xml:space="preserve">
+    <value>Vänligen ange ett värde mindre än eller lika med {0} samt en enhet för detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Vänligen ange ett värde mindre än eller lika med {0} samt välj en enhet för detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0ForThisField" xml:space="preserve">
+    <value>Vänligen ange ett giltigt värde mindre än eller lika med {0} för detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeast0AndAtMost1CharactersForThisField" xml:space="preserve">
+    <value>Vänligen ange ett värde med minst {0} och maximalt {1} tecken för detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeast0CharactersForThisField" xml:space="preserve">
+    <value>Vänligen ange ett värde med minst {0} tecken för detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeastOneCharacterForThisField" xml:space="preserve">
+    <value>Vänligen ange ett värde med minst ett tecken för detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtMost0CharactersForThisField" xml:space="preserve">
+    <value>Vänligen ange ett värde med maximalt {0} tecken för detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtMostOneCharacterForThisField" xml:space="preserve">
+    <value>Vänligen ange ett värde med maximalt ett tecken för detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidWeekBetween0And1ForThisField" xml:space="preserve">
+    <value>Vänligen ange en giltig vecka mellan {0} och {1} i detta fält.</value>
+  </data>
+  <data name="PleaseEnterAValidWeekForThisField" xml:space="preserve">
+    <value>Vänligen ange en giltig vecka  i detta fält.</value>
+  </data>
+  <data name="PleaseEnterValidValuesBetween0And1ForThisField" xml:space="preserve">
+    <value>Vänligen ange ett giltigt värde mellan {0} och {1} för detta fält.</value>
+  </data>
+  <data name="PleaseEnterValidValuesForThisField" xml:space="preserve">
+    <value>Vänligen ange giltiga värden för detta fält.</value>
+  </data>
+  <data name="PleaseEnterValidValuesGreaterThan0ForThisField" xml:space="preserve">
+    <value>Vänligen ange giltiga värden större än eller lika med {0} för detta fält.</value>
+  </data>
+  <data name="PleaseEnterValidValuesLessThan0ForThisField" xml:space="preserve">
+    <value>Vänligen ange giltiga värden mindre än eller lika med {0} för detta fält.</value>
+  </data>
+  <data name="PleaseEnterValidValuesWithAtMost0CharactersForThisField" xml:space="preserve">
+    <value>Vänligen ange giltiga värden med maximalt {0} tecken för detta fält.</value>
+  </data>
+  <data name="PleaseEnterValidValuesWithAtMostOneCharacterForThisField" xml:space="preserve">
+    <value>Vänligen ange giltiga värden med maximalt ett tecken i detta fält.</value>
+  </data>
+  <data name="PleaseSelectAFileOfAnAllowedTypeWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Vänligen välj en fil med giltig filändelse och maximal filstorlek på {0} MB.</value>
+  </data>
+  <data name="PleaseSelectAFileWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Vänligen välj en fil med maximal filstorlek på {0} MB.</value>
+  </data>
+  <data name="PleaseSelectAValidPersonForThisField" xml:space="preserve">
+    <value>Vänligen välj en giltig person i detta fält.</value>
+  </data>
+  <data name="PleaseSelectAValidValueForThisField" xml:space="preserve">
+    <value>Vänligen välj ett giltigt värde  i detta fält.</value>
+  </data>
+  <data name="PleaseSelectFilesOfAllowedTypesWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Vänligen välj filer med giltig filändelse och maximal filstorlek på {0} MB.</value>
+  </data>
+  <data name="PleaseSelectFilesWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Vänligen välj filer med giltig filändelse och maximal filstorlek på {0} MB vardera.</value>
+  </data>
+  <data name="PleaseSelectOneOrMoreValidPersonsForThisField" xml:space="preserve">
+    <value>Vänligen välj en eller flera giltiga personer i detta fält.</value>
+  </data>
+  <data name="PleaseSelectOneOrMoreValidValuesForThisField" xml:space="preserve">
+    <value>Vänligen välj en eller flera giltiga värden för detta fält.</value>
+  </data>
+  <data name="PreferredCulture" xml:space="preserve">
+    <value>Föredragen kultur</value>
+  </data>
+  <data name="PreferredLanguage" xml:space="preserve">
+    <value>Föredraget språk</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="secondly" xml:space="preserve">
+    <value>för det andra</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="ThisIsAMandatoryField" xml:space="preserve">
+    <value>Det här är ett obligatoriskt fält.</value>
+  </data>
+  <data name="UpTo0FilesAreAllowed" xml:space="preserve">
+    <value>Upp till {0} filer är tillåtet.</value>
+  </data>
+  <data name="UpTo0ValuesAreAllowed" xml:space="preserve">
+    <value>Upp till {0} värden är tillåtet.</value>
+  </data>
+  <data name="weekly" xml:space="preserve">
+    <value>varje vecka</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>Workflow</value>
+  </data>
+  <data name="WouldYouReallyLikeToDeleteTheRow" xml:space="preserve">
+    <value>Vänligen ange ett giltigt datum o dettreally fält?</value>
+  </data>
+  <data name="WouldYouReallyLikeToDeleteTheTab" xml:space="preserve">
+    <value>Vill du verkligen ta bort tab "{0}"?</value>
+  </data>
+  <data name="WouldYouReallyLikeToMarkTheFile0ForRemoval" xml:space="preserve">
+    <value>Vill du verkligen markera filen "{0}" för borttagning?</value>
+  </data>
+  <data name="yearly" xml:space="preserve">
+    <value>årlig</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="ModifiedAt" xml:space="preserve">
+    <value>Ändrat den</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>Ändrat av</value>
+  </data>
+  <data name="TheMinimumImageSideLengthOfLongerSideMustBe0" xml:space="preserve">
+    <value>Vänligen ange ett giltigt datum mellan {0} e dettside fält.</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Sök</value>
+  </data>
+  <data name="NoResultsWereFoundFor0" xml:space="preserve">
+    <value>Inga resultat hittades för "{0}".</value>
+  </data>
+  <data name="NResultsWereFoundFor0" xml:space="preserve">
+    <value>{1} träffar hittades för "{0}".</value>
+  </data>
+  <data name="OneResultWasFoundFor0" xml:space="preserve">
+    <value>En träff hittades för "{0}".</value>
+  </data>
+  <data name="Bold" xml:space="preserve">
+    <value>Fetstil</value>
+  </data>
+  <data name="Bullets" xml:space="preserve">
+    <value>Punktlistor</value>
+  </data>
+  <data name="DecreaseIndent" xml:space="preserve">
+    <value>Minska indrag</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Teckenstorlek</value>
+  </data>
+  <data name="IncreaseIndent" xml:space="preserve">
+    <value>Öka indrag</value>
+  </data>
+  <data name="InsertImage" xml:space="preserve">
+    <value>Infoga bild</value>
+  </data>
+  <data name="InsertLink" xml:space="preserve">
+    <value>Infoga länk</value>
+  </data>
+  <data name="InsertTable" xml:space="preserve">
+    <value>Infoga tabell</value>
+  </data>
+  <data name="InsertTableColumn" xml:space="preserve">
+    <value>Infoga tabellkolumn</value>
+  </data>
+  <data name="InsertTableRow" xml:space="preserve">
+    <value>Infoga tabellrad</value>
+  </data>
+  <data name="Italic" xml:space="preserve">
+    <value>Kursiv</value>
+  </data>
+  <data name="Numbering" xml:space="preserve">
+    <value>Numrering</value>
+  </data>
+  <data name="RemoveFormat" xml:space="preserve">
+    <value>Ta bort format</value>
+  </data>
+  <data name="RemoveTableColumn" xml:space="preserve">
+    <value>Ta bort tabellkolumn</value>
+  </data>
+  <data name="RemoveTableRow" xml:space="preserve">
+    <value>Ta bort tabellrad</value>
+  </data>
+  <data name="Strikethrough" xml:space="preserve">
+    <value>Genomstruken</value>
+  </data>
+  <data name="Subscript" xml:space="preserve">
+    <value>Prenumerera</value>
+  </data>
+  <data name="Superscript" xml:space="preserve">
+    <value>Anfang</value>
+  </data>
+  <data name="TextColor" xml:space="preserve">
+    <value>Textfärg</value>
+  </data>
+  <data name="Underline" xml:space="preserve">
+    <value>Understreck</value>
+  </data>
+  <data name="AlignTextLeft" xml:space="preserve">
+    <value>Vänsterjustera texten</value>
+  </data>
+  <data name="AlignTextRight" xml:space="preserve">
+    <value>Högerjustera texten</value>
+  </data>
+  <data name="CenterText" xml:space="preserve">
+    <value>Centrera text</value>
+  </data>
+  <data name="CreatedAt" xml:space="preserve">
+    <value>Skapat den</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>Skapat av</value>
+  </data>
+  <data name="PleaseClickSaveToReleaseTheForm" xml:space="preserve">
+    <value>Vänligen klicka "Spara" för att publicera.</value>
+  </data>
+  <data name="PleaseMakeSureFileNamesDoNotContainAnyOfTheFollowingCharacters" xml:space="preserve">
+    <value>Vänligen säkerställ att filnamnet inte innehåller någon av följande tecken: &lt;, &gt;, *, %, &amp;, :, \.</value>
+  </data>
+  <data name="Asterisk" xml:space="preserve">
+    <value>Asterisk</value>
+  </data>
+  <data name="QuotationMarks" xml:space="preserve">
+    <value>Citationstecken</value>
+  </data>
+  <data name="SearchHelpAndDescription" xml:space="preserve">
+    <value>Genom att använda sökoperatorn AND kan du få träffar som innehåller alla angivna söktermer som hela ord. Följande sökfråga kommer att ge träff på alla resultat som innehåller ordet "nål" men även ordet "höstack":</value>
+  </data>
+  <data name="SearchHelpAndExample" xml:space="preserve">
+    <value>nål AND höstack</value>
+  </data>
+  <data name="SearchHelpAndNotDescription" xml:space="preserve">
+    <value>Genom att använda sökoperatorn AND NOT kan du få träffar som innehåller specifika söktermer som hela ord, men som inte innehåller en annan term. Följande sökfråga kommer att ge träff på alla resultat som innehåller ordet "nål" men utan ordet "höstack":</value>
+  </data>
+  <data name="SearchHelpAndNotExample" xml:space="preserve">
+    <value>nål AND NOT höstack</value>
+  </data>
+  <data name="SearchHelpAsteriskCharaktersDescription" xml:space="preserve">
+    <value>Om en sökterm omgiven av citationstecken börjar/avslutas med en asterisk, kan du få träffar som innehåller början/slutet av söktermen. Följande sökfråga kommer att ge träff på alla resultat som innehåller uttrycket "höstack" men även de som innehåller uttrycket "högaffel":</value>
+  </data>
+  <data name="SearchHelpAsteriskCharaktersExample" xml:space="preserve">
+    <value>"hö*"</value>
+  </data>
+  <data name="SearchHelpOrDescription" xml:space="preserve">
+    <value>Genom att använda sökoperatorn OR kan du få träffar som innehåller någon av de angivna termerna som hela ord. Följande sökfråga kommer att ge träff på alla resultat som antingen innehåller ordet "nål" eller ordet "höstack":</value>
+  </data>
+  <data name="SearchHelpOrExample" xml:space="preserve">
+    <value>nål OR höstack</value>
+  </data>
+  <data name="SearchHelpQuotationMarksDescription" xml:space="preserve">
+    <value>Söktermer som omges av citationstecken måste förekomma i exakt ordning för att ge träff. Följande sökfråga kommer att ge träff på alla resultat innehållande frasen "nål i höstack", men kommer inte att ge någon träff på frasen "nål i en höstack":</value>
+  </data>
+  <data name="SearchHelpQuotationMarksExample" xml:space="preserve">
+    <value>"nål i höstack"</value>
+  </data>
+  <data name="OfflineMessage" xml:space="preserve">
+    <value>Verktyget är offline. Det kan vara så att utdaterad eller inkomplett data visas. Det är möjligt att ändra data.</value>
+  </data>
+  <data name="PleaseMakeSureTheValueContainsAtLeastAnUpperCaseCharacterALowerCaseCharacterANumericCharacterAndASpecialCharacter" xml:space="preserve">
+    <value>Vänligen säkerställ att värdet innehåller minst en versal, en gemen, en siffra och ett specialtecken.</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Ändra lösenord</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Epost adress</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Glömt lösenord</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="PleaseEnterYourEmailAddressBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Vänligen ange din epost adress och klicka på SUBMIT knappen. Därefter kommer du få ett mail med en länk som du kan använda för att återställa ditt lösenord.</value>
+  </data>
+  <data name="PleaseEnterYourNewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Vänligen ange ditt nya lösenord nedan och klicka SUBMIT knappen. Därefter kommer du att kunna logga in med ditt nya lösenord.</value>
+  </data>
+  <data name="PleaseUseTheSignInButtonToLogOnWithYourEmailAddress" xml:space="preserve">
+    <value>Vänligen använd LOGIN knappen för att logga in. Vänligen använd din epost adress som användarnamn. Om du har glömt lösenordet, vänligen klicka på FORGOT PASSWORD knappen.</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Försök igen</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="TooManyRequestsPleaseTryAgainIn0Seconds" xml:space="preserve">
+    <value>För många anrop. Vänligen försök igen om {0} sekunder.</value>
+  </data>
+  <data name="ForgotPasswordMailText" xml:space="preserve">
+    <value>Hej,
+
+Du har fått detta mail eftersom du klickat på "Glömt lösenord".
+
+Om du önskar återställa ditt lösenord, vänligen använd följande länk: [link]
+
+Länken kommer att sluta fungera när 24 timmar har gått eller så snart en ny länk för att återställa lösenordet har efterfrågats.
+
+Tack så mycket och vänliga hälsningar.</value>
+  </data>
+  <data name="YourPasswordHasExpiredPleaseEnterANewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Vänligen ange ett värde med maximalt {r} tecken för detthas fält.</value>
+  </data>
+  <data name="ChangeLanguage" xml:space="preserve">
+    <value>Ändra språk</value>
+  </data>
+  <data name="PleaseEnterANewPasswordToChangeYourPasswordOrLeaveThisFieldEmptyToKeepYourPassword" xml:space="preserve">
+    <value>Vänligen ange ett nytt lösenord för att ändra ditt lösenord eller lämna detta fält tomt för att behålla ditt nuvarande lösenord.</value>
+  </data>
+  <data name="ToggleFullWindow" xml:space="preserve">
+    <value>Växla till helskärm</value>
+  </data>
+  <data name="PleaseConfirmTheChangeOfYourPreferredLanguageByEnteringYourWindowsPassword" xml:space="preserve">
+    <value>Vänligen bekräfta ändringen av föredraget språk genom att ange ditt Windows lösenord.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="LengthXWidthXHeightAbbr" xml:space="preserve">
+    <value>(längd x bredd x höjd)</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="PleaseUseTheSignInButtonToLogOnWithYourUserName" xml:space="preserve">
+    <value>Vänligen använd LOGIN knappen för att logga in med ditt användarnamn och lösenord. Om du har glömt ditt lösenord, vänligen klicka på FORGOT PASSWORD knappen.</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Användarnamn</value>
+  </data>
+  <data name="PleaseEnterYourUserNameBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Vänligen ange ditt användarnamn nedan och klicka SUBMIT knappen. Därefter kommer du att få ett mail med länk som du kan använda för att återställa ditt lösenord.</value>
+  </data>
+  <data name="TheSelectedValueDoesNotHaveAUniqueKey" xml:space="preserve">
+    <value>Det valda värdet är inte unikt.</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+  <data name="TheWorkflowWillGoOnAsSoonAsTheStep0IsFinished" xml:space="preserve">
+    <value>Vänligen ange giltiga värden större än eller lika med {0} för detta fält.</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="PleaseEnterAUniqueEmailAddressForThisField" xml:space="preserve">
+    <value>Vänligen ange en unik epost adress i detta fält.</value>
+  </data>
+  <data name="Rate0Stars" xml:space="preserve">
+    <value>Betyg {0} stjärna (-or).</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Publicerad</value>
+  </data>
+  <data name="NotInspected" xml:space="preserve">
+    <value>Ej granskade</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>Tillbakavisad</value>
+  </data>
+  <data name="PrivacyNotice" xml:space="preserve">
+    <value>Privacy Notice</value>
+  </data>
+  <data name="Imprint" xml:space="preserve">
+    <value>Imprint</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Hjälp</value>
+  </data>
+  <data name="InvariantText" xml:space="preserve">
+    <value>Invariant text</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="PleaseUseThePlusButtonToAddTranslations" xml:space="preserve">
+    <value>Vänligen använd plusknappen för att lägga till översättningar.</value>
+  </data>
+  <data name="TranslatedText" xml:space="preserve">
+    <value>Översatt text</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="InvariantTitle" xml:space="preserve">
+    <value>Invariant rubrik</value>
+  </data>
+  <data name="PleaseEnterAUniqueValueForThisField" xml:space="preserve">
+    <value>Vänlige ange ett unikt värde i detta fält.</value>
+  </data>
+  <data name="References" xml:space="preserve">
+    <value>Referenser</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Exportera</value>
+  </data>
+  <data name="TheFirst0ResultsAreDisplayedBelow" xml:space="preserve">
+    <value>De första {0} resultaten visas nedan.</value>
+  </data>
+  <data name="TheMinimumImageResolutionMustBe0x1" xml:space="preserve">
+    <value>Den minsta bildupplösningen måste vara {0} x {1}.</value>
+  </data>
+  <data name="TheActionFor0CannotBeExecutedBecauseItIsAmbiguous" xml:space="preserve">
+    <value>Åtgärden för "{0}" kan inte utföras eftersom den är tvetydig. Använd knappen "{0}" för önskat steg i arbetsflödesschemat för att utföra åtgärden. Vill du se arbetsflödesschemat?</value>
+  </data>
+  <data name="Results0To1AreDisplayedBelow" xml:space="preserve">
+    <value>Resultat {0} till {1} visas nedan.</value>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="PleaseSelectACsvFileEndodedAsUtf8WithBom" xml:space="preserve">
+    <value>Välj en CSV-fil kodad som UTF-8 med BOM.</value>
+  </data>
+  <data name="CsvQuotesError" xml:space="preserve">
+    <value>Ett CSV-fältvärde får inte innehålla citattecken (") om inte hela fältvärdet omges av citattecken ("fältvärde") och citaten inuti undviks med citattecken ("fält "" värde").</value>
+  </data>
+  <data name="FieldMappingError" xml:space="preserve">
+    <value>Fältmappning för "{0}" kan inte hittas.</value>
+  </data>
+  <data name="CsvValueError" xml:space="preserve">
+    <value>Värde "{0}" kan inte ställas in för fältet "{1}".</value>
+  </data>
+  <data name="PleaseExcuseThatTheDataExportTakesLongerThanExpected" xml:space="preserve">
+    <value>Ursäkta att dataexporten tar längre tid än förväntat. För att spara tid skickas resultaten till {0} när behandlingen är klar.</value>
+  </data>
+  <data name="PleaseFindAttachedTheRequestedDataExport" xml:space="preserve">
+    <value>Vänligen se bifogad begärd dataexport.</value>
+  </data>
+  <data name="YourPasswordHasToBeChangedAtFirstLogonPleaseEnterANewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Ditt lösenord måste ändras vid första inloggningen. Ange ett nytt lösenord nedan och klicka på knappen SKICKA. Det nya lösenordet måste skilja sig från initialtone. Efteråt kommer du att kunna logga in med ditt nya lösenord.</value>
+  </data>
+  <data name="QueueLength" xml:space="preserve">
+    <value>Kö längd</value>
+  </data>
+  <data name="RemoveLink" xml:space="preserve">
+    <value>Ta bort hyperlänk</value>
+  </data>
+  <data name="TheEnteredCombinationOfUserNameAndPasswordIsInvalid" xml:space="preserve">
+    <value>Den angivna kombinationen av användarnamn och lösenord är ogiltig.</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>timmar</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>dagar</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minuter</value>
+  </data>
+</root>

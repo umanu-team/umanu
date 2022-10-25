@@ -1,0 +1,674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllUnsafedChangesWillBeDiscardedIfYouLeaveThisPage" xml:space="preserve">
+    <value>Если вы покинете страницу, все несохранённые изменения будут потеряны.</value>
+  </data>
+  <data name="AlternativelyYouCanLeaveThisFieldBlank" xml:space="preserve">
+    <value>Это поле можно оставить пустым.</value>
+  </data>
+  <data name="AlternativelyYouCanLeaveThisFieldBlankForNow" xml:space="preserve">
+    <value>Вы можете заполнить это поле позже.</value>
+  </data>
+  <data name="GoTo" xml:space="preserve">
+    <value>Перейти</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>Отменен</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="CreatedAtByModifiedAtBy" xml:space="preserve">
+    <value>Создано в {0} {1}, отредактировано в {2} {3}.</value>
+  </data>
+  <data name="daily" xml:space="preserve">
+    <value>ежедневно</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Завершить</value>
+  </data>
+  <data name="hourly" xml:space="preserve">
+    <value>каждый час</value>
+  </data>
+  <data name="minutely" xml:space="preserve">
+    <value>ежеминутно</value>
+  </data>
+  <data name="monthly" xml:space="preserve">
+    <value>ежемесячно</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="PleaseCorrectTheInvalidInputValues" xml:space="preserve">
+    <value>Пожалуйста, проверьте введённые данные.</value>
+  </data>
+  <data name="PleaseEnterAValidDateAndTimeBetween0And1ForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите корректные дату и время между {0} и {1} в это поле.</value>
+  </data>
+  <data name="PleaseEnterAValidDateAndTimeForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите корректные дату и время в это поле.</value>
+  </data>
+  <data name="PleaseEnterAValidDateBetween0And1ForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите корректную дату между {0} и {1} в это поле.</value>
+  </data>
+  <data name="PleaseEnterAValidDateForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите корректную дату в это поле.</value>
+  </data>
+  <data name="PleaseEnterAValidMonthBetween0And1ForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите корректный месяц между {0} и {1} в это поле.</value>
+  </data>
+  <data name="PleaseEnterAValidMonthForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите корректный месяц в это поле.</value>
+  </data>
+  <data name="PleaseEnterAValidTimeBetween0And1ForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите корректное время между {0} и {1} в это поле.</value>
+  </data>
+  <data name="PleaseEnterAValidTimeForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите корректное время в это поле.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1AndAUnitForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите корректные значения между {0} и {1} в это поле.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите корректные значения между {0} и {1} и выберите единицу для этого поля.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1ForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите корректные значения между {0} и {1} и выберите единицу для этого поля.</value>
+  </data>
+  <data name="PleaseEnterAValidValueForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите корректные значения в это поле.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0AndAUnitForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите значение большее или равное {0} и выберите группу.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите значение большее или равное {0} и выберите группу.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0ForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите значение большее или равное {0}.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0AndAUnitForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите значение меньшее или равное {0} и выберите группу.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите значение меньшее или равное {0} и выберите группу.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0ForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите значение меньшее или равное {0}.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeast0AndAtMost1CharactersForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите корректные данные от {0} до {1} символов.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeast0CharactersForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите корректные данные от {0} символов.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeastOneCharacterForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите значение от одного символа.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtMost0CharactersForThisField" xml:space="preserve">
+    <value>Максимальное количество символов {0}.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtMostOneCharacterForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите значение до одного символа.</value>
+  </data>
+  <data name="PleaseEnterAValidWeekBetween0And1ForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите корректную неделю между {0} и {1}.</value>
+  </data>
+  <data name="PleaseEnterAValidWeekForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите корректную неделю.</value>
+  </data>
+  <data name="PleaseEnterValidValuesBetween0And1ForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите корректные данные между {0} и {1}.</value>
+  </data>
+  <data name="PleaseEnterValidValuesForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите корректные данные.</value>
+  </data>
+  <data name="PleaseEnterValidValuesGreaterThan0ForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите корректное значение большее или равное {0}.</value>
+  </data>
+  <data name="PleaseEnterValidValuesLessThan0ForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите корректное значение меньшее или равное {0}.</value>
+  </data>
+  <data name="PleaseEnterValidValuesWithAtMost0CharactersForThisField" xml:space="preserve">
+    <value>Максимальное количество символов {0}.</value>
+  </data>
+  <data name="PleaseEnterValidValuesWithAtMostOneCharacterForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите значение до одного символа.</value>
+  </data>
+  <data name="PleaseSelectAFileOfAnAllowedTypeWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Выберите файл поддерживаемого типа не более {0} MB.</value>
+  </data>
+  <data name="PleaseSelectAFileWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Выберите файл не более {0} MB.</value>
+  </data>
+  <data name="PleaseSelectAValidPersonForThisField" xml:space="preserve">
+    <value>Выберите корректрую персону.</value>
+  </data>
+  <data name="PleaseSelectAValidValueForThisField" xml:space="preserve">
+    <value>Выберите корректное значение.</value>
+  </data>
+  <data name="PleaseSelectFilesOfAllowedTypesWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Выберите файлы поддерживаемого типа не более {0} MB каждый.</value>
+  </data>
+  <data name="PleaseSelectFilesWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Выберите файлы не более {0} MB каждый.</value>
+  </data>
+  <data name="PleaseSelectOneOrMoreValidPersonsForThisField" xml:space="preserve">
+    <value>Выберите одну или нескольких персон.</value>
+  </data>
+  <data name="PleaseSelectOneOrMoreValidValuesForThisField" xml:space="preserve">
+    <value>Выберите одно или несколько значений.</value>
+  </data>
+  <data name="PreferredCulture" xml:space="preserve">
+    <value>Предпочитаемая культура</value>
+  </data>
+  <data name="PreferredLanguage" xml:space="preserve">
+    <value>Пердпочитаемый язык</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="secondly" xml:space="preserve">
+    <value>ежесекундно</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Начало</value>
+  </data>
+  <data name="TheMinimumImageResolutionMustBe0x1" xml:space="preserve">
+    <value>Минимальное разрешение изображения должно быть {0} x {1}.</value>
+  </data>
+  <data name="ThisIsAMandatoryField" xml:space="preserve">
+    <value>Это поле обязательно для заполнения.</value>
+  </data>
+  <data name="UpTo0FilesAreAllowed" xml:space="preserve">
+    <value>{0} файлов доступно.</value>
+  </data>
+  <data name="UpTo0ValuesAreAllowed" xml:space="preserve">
+    <value>{0} значений доступно.</value>
+  </data>
+  <data name="weekly" xml:space="preserve">
+    <value>еженедельно</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>Процесс</value>
+  </data>
+  <data name="WouldYouReallyLikeToDeleteTheRow" xml:space="preserve">
+    <value>Вы действительно желаете удалить ряд?</value>
+  </data>
+  <data name="WouldYouReallyLikeToDeleteTheTab" xml:space="preserve">
+    <value>Вы действительно желаете удалить пункт "{0}"?</value>
+  </data>
+  <data name="WouldYouReallyLikeToMarkTheFile0ForRemoval" xml:space="preserve">
+    <value>Вы действительно хотите пометить файл "{0}" на удаление?</value>
+  </data>
+  <data name="yearly" xml:space="preserve">
+    <value>ежегодно</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>История</value>
+  </data>
+  <data name="ModifiedAt" xml:space="preserve">
+    <value>Отредактированно в</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>Отредактированно</value>
+  </data>
+  <data name="TheMinimumImageSideLengthOfLongerSideMustBe0" xml:space="preserve">
+    <value>Минимальная длина самой длинной из сторон изображения должна быть {0}.</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="NoResultsWereFoundFor0" xml:space="preserve">
+    <value>По данному запросу нет результата: "{0}".</value>
+  </data>
+  <data name="NResultsWereFoundFor0" xml:space="preserve">
+    <value>{1} результатов по запросу "{0}".</value>
+  </data>
+  <data name="OneResultWasFoundFor0" xml:space="preserve">
+    <value>Один результат по запросу "{0}".</value>
+  </data>
+  <data name="Bold" xml:space="preserve">
+    <value>Жирный шрифт</value>
+  </data>
+  <data name="Bullets" xml:space="preserve">
+    <value>Маркеры</value>
+  </data>
+  <data name="DecreaseIndent" xml:space="preserve">
+    <value>Уменьшить отступ</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Размер шрифта</value>
+  </data>
+  <data name="IncreaseIndent" xml:space="preserve">
+    <value>Увеличить отступ</value>
+  </data>
+  <data name="InsertImage" xml:space="preserve">
+    <value>Вставить изображение</value>
+  </data>
+  <data name="InsertLink" xml:space="preserve">
+    <value>Вставить ссылку</value>
+  </data>
+  <data name="InsertTable" xml:space="preserve">
+    <value>Вставить таблицу</value>
+  </data>
+  <data name="InsertTableColumn" xml:space="preserve">
+    <value>Вставить столбец</value>
+  </data>
+  <data name="InsertTableRow" xml:space="preserve">
+    <value>Вставить строку</value>
+  </data>
+  <data name="Italic" xml:space="preserve">
+    <value>Курсив</value>
+  </data>
+  <data name="Numbering" xml:space="preserve">
+    <value>Нумерация</value>
+  </data>
+  <data name="RemoveFormat" xml:space="preserve">
+    <value>Убрать изменения формата</value>
+  </data>
+  <data name="RemoveTableColumn" xml:space="preserve">
+    <value>Удалить столбец</value>
+  </data>
+  <data name="RemoveTableRow" xml:space="preserve">
+    <value>Удалить строку</value>
+  </data>
+  <data name="Strikethrough" xml:space="preserve">
+    <value>Зачеркнутый шрифт</value>
+  </data>
+  <data name="Subscript" xml:space="preserve">
+    <value>Подписаться</value>
+  </data>
+  <data name="Superscript" xml:space="preserve">
+    <value>Подстрочный шрифт</value>
+  </data>
+  <data name="TextColor" xml:space="preserve">
+    <value>Цвет текста</value>
+  </data>
+  <data name="Underline" xml:space="preserve">
+    <value>Подчёркнутый текст</value>
+  </data>
+  <data name="AlignTextLeft" xml:space="preserve">
+    <value>Выровнять по левому краю</value>
+  </data>
+  <data name="AlignTextRight" xml:space="preserve">
+    <value>Выровнять по правому краю</value>
+  </data>
+  <data name="CenterText" xml:space="preserve">
+    <value>Выровнять текст по центру</value>
+  </data>
+  <data name="CreatedAt" xml:space="preserve">
+    <value>Создано в</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>Создано</value>
+  </data>
+  <data name="PleaseClickSaveToReleaseTheForm" xml:space="preserve">
+    <value>Пожалуйста, нажмите "Сохранить", чтобы отправить форму.</value>
+  </data>
+  <data name="PleaseMakeSureFileNamesDoNotContainAnyOfTheFollowingCharacters" xml:space="preserve">
+    <value>Убедитесь, что отсутствуют символы: &lt;, &gt;, *, %, &amp;, :, \.</value>
+  </data>
+  <data name="Asterisk" xml:space="preserve">
+    <value>звездочка</value>
+  </data>
+  <data name="QuotationMarks" xml:space="preserve">
+    <value>Кавычки</value>
+  </data>
+  <data name="SearchHelpAndDescription" xml:space="preserve">
+    <value>При использовании оператора поиска AND будут отображены результаты, содержащие все указанные слова. То есть будут выведены все ссылки, содержащие как "иголка", так и "стог сена":</value>
+  </data>
+  <data name="SearchHelpAndExample" xml:space="preserve">
+    <value>иголка AND "стог сена"</value>
+  </data>
+  <data name="SearchHelpAndNotDescription" xml:space="preserve">
+    <value>При использовании оператора поиска AND NOT будут отображены результаты, содержащие одно из указанных слов и не содержащие другое, упомянутое после оператора. То есть будут выведены ссылки, содержащие слово "иголка", но не "стог сена":</value>
+  </data>
+  <data name="SearchHelpAndNotExample" xml:space="preserve">
+    <value>иголка AND NOT "стог сена"</value>
+  </data>
+  <data name="SearchHelpAsteriskCharaktersDescription" xml:space="preserve">
+    <value>Если в поиске внутри кавычек в начала или в конце есть символ-звёздочка, то результаты выведут все возможные варианты, соответствующие заданному сочетанию букв. То есть, можно найти и "селёдку" и "сельдерей":</value>
+  </data>
+  <data name="SearchHelpAsteriskCharaktersExample" xml:space="preserve">
+    <value>"сел*"</value>
+  </data>
+  <data name="SearchHelpOrDescription" xml:space="preserve">
+    <value>При использовании оператора поиска OR будут отображены результаты, содержащие одно из указанных слов. То есть будут выведены ссылки, содержащие или слово "иголка", или "стог сена":</value>
+  </data>
+  <data name="SearchHelpOrExample" xml:space="preserve">
+    <value>иголка OR "стог сена"</value>
+  </data>
+  <data name="SearchHelpQuotationMarksDescription" xml:space="preserve">
+    <value>Если в поиске внутри кавычек введено словосочетания, то будут выданы ссылки, содержащие именно такой порядок слов. То есть на запрос "иголка в стоге сена" будут выданы все соответствующие ссылки, но ни одной, содержащей "иголка в стоге сена":</value>
+  </data>
+  <data name="SearchHelpQuotationMarksExample" xml:space="preserve">
+    <value>"иголка в стоге сена"</value>
+  </data>
+  <data name="OfflineMessage" xml:space="preserve">
+    <value>Нет доступа к интернету. Отображаемая информация может быть неактуальной или неполной. Редактирование невозможно.</value>
+  </data>
+  <data name="PleaseMakeSureTheValueContainsAtLeastAnUpperCaseCharacterALowerCaseCharacterANumericCharacterAndASpecialCharacter" xml:space="preserve">
+    <value>Убедитесь, что присутствует заглавный символ, строчный символ, цифра и особый символ.</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Сменить пароль</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>e-mail</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Забыли пароль</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Логин</value>
+  </data>
+  <data name="PleaseEnterYourEmailAddressBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Пожалуйста, введите e-mail и нажмите "Подтвердить". Вы получите письмо с ссылкой на форму смены пароля.</value>
+  </data>
+  <data name="PleaseEnterYourNewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Пожалуйста, введите новый пароль и нажмите "Подтвердить". Вы сможете войти в профильм с помощью нового пароля.</value>
+  </data>
+  <data name="PleaseUseTheSignInButtonToLogOnWithYourEmailAddress" xml:space="preserve">
+    <value>Нажмите на "Логин", чтобы войти. В качестве логина используйте e-mail. Если вы не помните пароль, нажмите на соответствующую надпись.</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="TooManyRequestsPleaseTryAgainIn0Seconds" xml:space="preserve">
+    <value>Слишком много запросов. Пожалуйста, попробуйте снова через {0} секунд.</value>
+  </data>
+  <data name="ForgotPasswordMailText" xml:space="preserve">
+    <value>Уважаемый пользователь, 
+
+Вы запросили восстановление пароля, поэтому вам было отправлено это автоматическое письмо.
+Если вы хотите восстановить пароль, перейдите по ссылке: [link]
+
+Ссылка будет доступна в течение 24-х часов или до вашего следующего запроса на смену пароля. 
+Благодарим вас!
+
+С лучшими пожеланиями.</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="YourPasswordHasExpiredPleaseEnterANewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Ваш пароль не актуален. Введите новый пароль и нажмите "Подтвердить". После этого вы сможете войти в профиль с новыми данными.</value>
+  </data>
+  <data name="ChangeLanguage" xml:space="preserve">
+    <value>Сменить язык</value>
+  </data>
+  <data name="PleaseEnterANewPasswordToChangeYourPasswordOrLeaveThisFieldEmptyToKeepYourPassword" xml:space="preserve">
+    <value>Пожалуйста, введите новый пароль или оставьте поле пустым, если хотите оставить старый пароль.</value>
+  </data>
+  <data name="ToggleFullWindow" xml:space="preserve">
+    <value>Полноэкранный режим</value>
+  </data>
+  <data name="PleaseConfirmTheChangeOfYourPreferredLanguageByEnteringYourWindowsPassword" xml:space="preserve">
+    <value>Пожалуйста, подтвердите смену языка, введя пароль.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="LengthXWidthXHeightAbbr" xml:space="preserve">
+    <value>(Д х Ш х В)</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="PleaseUseTheSignInButtonToLogOnWithYourUserName" xml:space="preserve">
+    <value>Нажмите на "Логин", чтобы войти, используя логин и пароль. Если вы не помните пароль, нажмите на соотвутствующую надпись.</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Логин</value>
+  </data>
+  <data name="PleaseEnterYourUserNameBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Пожалуйста, введите логин и нажмите "Подтвердить". Вы получите письмо с ссылкой на форму смены пароля.</value>
+  </data>
+  <data name="TheSelectedValueDoesNotHaveAUniqueKey" xml:space="preserve">
+    <value>Выбранное значение некорректно.</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="TheWorkflowWillGoOnAsSoonAsTheStep0IsFinished" xml:space="preserve">
+    <value>Работа может быть продолжена, когда шаг "{0}" будет выполнен.</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Выйти</value>
+  </data>
+  <data name="PleaseEnterAUniqueEmailAddressForThisField" xml:space="preserve">
+    <value>Пожалуйста, введите уникальный e-mail.</value>
+  </data>
+  <data name="Rate0Stars" xml:space="preserve">
+    <value>Ранг {0} звёзд.</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Одобрено</value>
+  </data>
+  <data name="NotInspected" xml:space="preserve">
+    <value>Не проверено</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>Отклонено</value>
+  </data>
+  <data name="PrivacyNotice" xml:space="preserve">
+    <value>Приватное примечание</value>
+  </data>
+  <data name="Imprint" xml:space="preserve">
+    <value>Печатать</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Помощь</value>
+  </data>
+  <data name="InvariantText" xml:space="preserve">
+    <value>Текст без изменений</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="PleaseUseThePlusButtonToAddTranslations" xml:space="preserve">
+    <value>Нажмите на плюс, чтобы добавить перевод.</value>
+  </data>
+  <data name="TranslatedText" xml:space="preserve">
+    <value>Переведённый текст</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="InvariantTitle" xml:space="preserve">
+    <value>Заголовок без изменений</value>
+  </data>
+  <data name="PleaseEnterAUniqueValueForThisField" xml:space="preserve">
+    <value>Введите уникальное значение в это поле.</value>
+  </data>
+  <data name="References" xml:space="preserve">
+    <value>Ссылки</value>
+  </data>
+  <data name="TheFirst0ResultsAreDisplayedBelow" xml:space="preserve">
+    <value>Первые {0} результаты отображаются ниже.</value>
+  </data>
+  <data name="TheActionFor0CannotBeExecutedBecauseItIsAmbiguous" xml:space="preserve">
+    <value>Невозможно выполнить действие для "{0}", потому что оно неоднозначно. Пожалуйста, используйте кнопку "{0}" нужного шага на диаграмме рабочего процесса, чтобы выполнить действие. Хотите увидеть диаграмму рабочего процесса?</value>
+  </data>
+  <data name="Results0To1AreDisplayedBelow" xml:space="preserve">
+    <value>Результаты {0} до {1} отображаются ниже.</value>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>Не в сети</value>
+  </data>
+  <data name="PleaseSelectACsvFileEndodedAsUtf8WithBom" xml:space="preserve">
+    <value>Выберите файл CSV в кодировке UTF-8 с BOM.</value>
+  </data>
+  <data name="CsvQuotesError" xml:space="preserve">
+    <value>Значение поля CSV не может содержать кавычек ("), если все значение поля не заключено в кавычки ("значение поля"), а кавычки внутри заключены в кавычки ("поле "" значение").</value>
+  </data>
+  <data name="FieldMappingError" xml:space="preserve">
+    <value>Сопоставление полей для "{0}" не найдено.</value>
+  </data>
+  <data name="CsvValueError" xml:space="preserve">
+    <value>Значение "{0}" нельзя установить для поля "{1}".</value>
+  </data>
+  <data name="PleaseExcuseThatTheDataExportTakesLongerThanExpected" xml:space="preserve">
+    <value>Извините, что экспорт данных занимает больше времени, чем ожидалось. Чтобы сэкономить ваше время, результаты будут отправлены по электронной почте на адрес {0} после завершения обработки.</value>
+  </data>
+  <data name="PleaseFindAttachedTheRequestedDataExport" xml:space="preserve">
+    <value>В приложении прилагается запрашиваемый экспорт данных.</value>
+  </data>
+  <data name="YourPasswordHasToBeChangedAtFirstLogonPleaseEnterANewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Ваш пароль должен быть изменен при первом входе в систему. Пожалуйста, введите новый пароль ниже и нажмите кнопку ОТПРАВИТЬ. Новый пароль должен отличаться от исходного. После этого вы сможете войти в систему с новым паролем.</value>
+  </data>
+  <data name="QueueLength" xml:space="preserve">
+    <value>Длина очереди</value>
+  </data>
+  <data name="RemoveLink" xml:space="preserve">
+    <value>Удалить гиперссылку</value>
+  </data>
+  <data name="TheEnteredCombinationOfUserNameAndPasswordIsInvalid" xml:space="preserve">
+    <value>Введенная комбинация имени пользователя и пароля недействительна.</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>Часы</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>дни</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>минуты</value>
+  </data>
+</root>

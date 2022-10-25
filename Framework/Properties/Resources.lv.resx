@@ -1,0 +1,674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllUnsafedChangesWillBeDiscardedIfYouLeaveThisPage" xml:space="preserve">
+    <value>Visas nesaglabātās izmaiņas tiks izdzēstas, ja pametīsiet lapu.</value>
+  </data>
+  <data name="AlternativelyYouCanLeaveThisFieldBlank" xml:space="preserve">
+    <value>Šo lauku var arī atstāt tukšu.</value>
+  </data>
+  <data name="AlternativelyYouCanLeaveThisFieldBlankForNow" xml:space="preserve">
+    <value>Varat arī šo lauku pagaidām atstāt tukšu.</value>
+  </data>
+  <data name="GoTo" xml:space="preserve">
+    <value>Pāriet uz</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Atcelt</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>Atcelts</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Aizvērt</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Pabeigts</value>
+  </data>
+  <data name="CreatedAtByModifiedAtBy" xml:space="preserve">
+    <value>Izveidots plkst {0} autors {1}, pēdējoreiz modificēts {2} autors {3}.</value>
+  </data>
+  <data name="daily" xml:space="preserve">
+    <value>katru dienu</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Rediģēt</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Beigas</value>
+  </data>
+  <data name="hourly" xml:space="preserve">
+    <value>ik stundu</value>
+  </data>
+  <data name="minutely" xml:space="preserve">
+    <value>precīzi</value>
+  </data>
+  <data name="monthly" xml:space="preserve">
+    <value>reizi mēnesī</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nē</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Parole</value>
+  </data>
+  <data name="PleaseCorrectTheInvalidInputValues" xml:space="preserve">
+    <value>Lūdzu, izlabojiet trūkstošās vai nederīgās ievades vērtības.</value>
+  </data>
+  <data name="PleaseEnterAValidDateAndTimeBetween0And1ForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu šī lauka datumu un laiku no {0} līdz {1}.</value>
+  </data>
+  <data name="PleaseEnterAValidDateAndTimeForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu šī lauka datumu un laiku.</value>
+  </data>
+  <data name="PleaseEnterAValidDateBetween0And1ForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu šī lauka datumu no {0} līdz {1}.</value>
+  </data>
+  <data name="PleaseEnterAValidDateForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu šī lauka datumu.</value>
+  </data>
+  <data name="PleaseEnterAValidMonthBetween0And1ForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu mēnesi no {0} līdz {1} šim laukam.</value>
+  </data>
+  <data name="PleaseEnterAValidMonthForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu mēnesi šim laukam.</value>
+  </data>
+  <data name="PleaseEnterAValidTimeBetween0And1ForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu šī lauka laiku no {0} līdz {1}.</value>
+  </data>
+  <data name="PleaseEnterAValidTimeForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu šī lauka laiku.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1AndAUnitForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu vērtību starp {0} un {1} un šī lauka vienību.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu vērtību no {0} līdz {1} un atlasiet šī laukavienību.</value>
+  </data>
+  <data name="PleaseEnterAValidValueBetween0And1ForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu šī lauka vērtību no {0} līdz {1}.</value>
+  </data>
+  <data name="PleaseEnterAValidValueForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu šī lauka vērtību.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0AndAUnitForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu vērtību, kas ir lielāka vai vienāda ar {0}, un šī lauka vienību.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu vērtību, kas ir lielāka vai vienāda ar {0}, un atlasiet šī lauka vienību.</value>
+  </data>
+  <data name="PleaseEnterAValidValueGreaterThan0ForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu vērtību, kas ir lielāka vai vienāda ar {0} šim laukam.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0AndAUnitForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu vērtību, kas ir mazāka vai vienāda ar {0}, un šī lauka vienību.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0AndSelectAUnitForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu vērtību, kas ir mazāka vai vienāda ar {0}, un atlasiet šī lauka vienību.</value>
+  </data>
+  <data name="PleaseEnterAValidValueLessThan0ForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu vērtību, kas ir mazāka vai vienāda ar {0} šim laukam.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeast0AndAtMost1CharactersForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu vērtību ar vismaz {0} un ne vairāk kā {1} rakstzīmēm šim laukam.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeast0CharactersForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu šī lauka vērtību ar vismaz {0} rakstzīmēm.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtLeastOneCharacterForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu šī lauka vērtību ar vismaz vienu rakstzīmi.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtMost0CharactersForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu šī lauka vērtību, kurā ir ne vairāk kā {0} rakstzīmes.</value>
+  </data>
+  <data name="PleaseEnterAValidValueWithAtMostOneCharacterForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu šī lauka vērtību, kurā ir ne vairāk kā viena rakstzīme.</value>
+  </data>
+  <data name="PleaseEnterAValidWeekBetween0And1ForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu nedēļu starp {0} un {1} šim laukam.</value>
+  </data>
+  <data name="PleaseEnterAValidWeekForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgu nedēļu šim laukam.</value>
+  </data>
+  <data name="PleaseEnterValidValuesBetween0And1ForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet šim laukam derīgas vērtības no {0} līdz {1}.</value>
+  </data>
+  <data name="PleaseEnterValidValuesForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet šim laukam derīgas vērtības.</value>
+  </data>
+  <data name="PleaseEnterValidValuesGreaterThan0ForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet šim laukam derīgas vērtības, kas ir lielākas vaivienādas ar {0}.</value>
+  </data>
+  <data name="PleaseEnterValidValuesLessThan0ForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgās vērtības, kas ir mazākas par vaivienādas ar {0} šim laukam.</value>
+  </data>
+  <data name="PleaseEnterValidValuesWithAtMost0CharactersForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet šai laukam derīgas vērtības, kuru garumsnepārsniedz {0} rakstzīmes.</value>
+  </data>
+  <data name="PleaseEnterValidValuesWithAtMostOneCharacterForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet derīgās vērtības, izmantojot ne vairāk kā vienu šīlauka  rakstzīmi.</value>
+  </data>
+  <data name="PleaseSelectAFileOfAnAllowedTypeWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Lūdzu, atlasiet atļautā tipa failu, kura maksimālais faila lielums ir {0} MB.</value>
+  </data>
+  <data name="PleaseSelectAFileWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Lūdzu, atlasiet failu, kura maksimālais faila lielums ir {0} MB.</value>
+  </data>
+  <data name="PleaseSelectAValidPersonForThisField" xml:space="preserve">
+    <value>Lūdzu, atlasiet derīgu personu šim laukam.</value>
+  </data>
+  <data name="PleaseSelectAValidValueForThisField" xml:space="preserve">
+    <value>Lūdzu, atlasiet derīgu šī lauka vērtību.</value>
+  </data>
+  <data name="PleaseSelectFilesOfAllowedTypesWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Lūdzu, atlasiet atļautos ievadītos failus, kuru maksimālais faila lielums ir {0} MB.</value>
+  </data>
+  <data name="PleaseSelectFilesWithAMaximumFileSizeOf0MB" xml:space="preserve">
+    <value>Lūdzu, atlasiet failus, kuru maksimālais faila lielums ir {0} MB.</value>
+  </data>
+  <data name="PleaseSelectOneOrMoreValidPersonsForThisField" xml:space="preserve">
+    <value>Lūdzu, atlasiet vienu vai vairākas derīgas personas šim laukam.</value>
+  </data>
+  <data name="PleaseSelectOneOrMoreValidValuesForThisField" xml:space="preserve">
+    <value>Lūdzu, atlasiet vienu vai vairākas šim laukam derīgas vērtības.</value>
+  </data>
+  <data name="PreferredCulture" xml:space="preserve">
+    <value>Vēlamā kultūra</value>
+  </data>
+  <data name="PreferredLanguage" xml:space="preserve">
+    <value>Vēlamā valoda</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Saglabāt</value>
+  </data>
+  <data name="secondly" xml:space="preserve">
+    <value>otrkārt</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Sākt</value>
+  </data>
+  <data name="TheMinimumImageResolutionMustBe0x1" xml:space="preserve">
+    <value>Minimālajai attēla izšķirtspējai jābūt {0} x {1}.</value>
+  </data>
+  <data name="ThisIsAMandatoryField" xml:space="preserve">
+    <value>Šis ir obligāts lauks.</value>
+  </data>
+  <data name="UpTo0FilesAreAllowed" xml:space="preserve">
+    <value>Ir atļauti ne vairāk kā {0} faili.</value>
+  </data>
+  <data name="UpTo0ValuesAreAllowed" xml:space="preserve">
+    <value>Ir atļautas līdz {0} vērtībām.</value>
+  </data>
+  <data name="weekly" xml:space="preserve">
+    <value>iknedēļas</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>Darbaplūsma</value>
+  </data>
+  <data name="WouldYouReallyLikeToDeleteTheRow" xml:space="preserve">
+    <value>Vai tiešām vēlaties dzēst rindu?</value>
+  </data>
+  <data name="WouldYouReallyLikeToDeleteTheTab" xml:space="preserve">
+    <value>Vai tiešām vēlaties izdzēst cilni “{0}”?</value>
+  </data>
+  <data name="WouldYouReallyLikeToMarkTheFile0ForRemoval" xml:space="preserve">
+    <value>Vai tiešām vēlaties atzīmēt failu “{0}” noņemšanai?</value>
+  </data>
+  <data name="yearly" xml:space="preserve">
+    <value>ikgadējs</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Jā</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Vēsture</value>
+  </data>
+  <data name="ModifiedAt" xml:space="preserve">
+    <value>Modificēts</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>Modificēja</value>
+  </data>
+  <data name="TheMinimumImageSideLengthOfLongerSideMustBe0" xml:space="preserve">
+    <value>Attēla garākās puses minimālajam sānu garumam jābūt {0}.</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Meklēt</value>
+  </data>
+  <data name="NoResultsWereFoundFor0" xml:space="preserve">
+    <value>Netika atrasti nekādi rezultāti “{0}”.</value>
+  </data>
+  <data name="NResultsWereFoundFor0" xml:space="preserve">
+    <value>tika atrasti {1} rezultāts par “{0}”.</value>
+  </data>
+  <data name="OneResultWasFoundFor0" xml:space="preserve">
+    <value>Tika atrasts viens “{0}” rezultāts.</value>
+  </data>
+  <data name="Bold" xml:space="preserve">
+    <value>Treknraksts</value>
+  </data>
+  <data name="Bullets" xml:space="preserve">
+    <value>Lodes</value>
+  </data>
+  <data name="DecreaseIndent" xml:space="preserve">
+    <value>Samazināt atkāpi</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Fonta lielums</value>
+  </data>
+  <data name="IncreaseIndent" xml:space="preserve">
+    <value>Palielināt atkāpi</value>
+  </data>
+  <data name="InsertImage" xml:space="preserve">
+    <value>Ievietot attēlu</value>
+  </data>
+  <data name="InsertLink" xml:space="preserve">
+    <value>Ievietot saiti</value>
+  </data>
+  <data name="InsertTable" xml:space="preserve">
+    <value>Ievietot tabulu</value>
+  </data>
+  <data name="InsertTableColumn" xml:space="preserve">
+    <value>Ievietot tabulas kolonnu</value>
+  </data>
+  <data name="InsertTableRow" xml:space="preserve">
+    <value>Ievietot tabulas rindu</value>
+  </data>
+  <data name="Italic" xml:space="preserve">
+    <value>Slīpraksts</value>
+  </data>
+  <data name="Numbering" xml:space="preserve">
+    <value>Numerācija</value>
+  </data>
+  <data name="RemoveFormat" xml:space="preserve">
+    <value>Noņemt formātu</value>
+  </data>
+  <data name="RemoveTableColumn" xml:space="preserve">
+    <value>Noņemt tabulas kolonnu</value>
+  </data>
+  <data name="RemoveTableRow" xml:space="preserve">
+    <value>Noņemt tabulas rindu</value>
+  </data>
+  <data name="Strikethrough" xml:space="preserve">
+    <value>Pārsvītrojums</value>
+  </data>
+  <data name="Subscript" xml:space="preserve">
+    <value>Apakšraksts</value>
+  </data>
+  <data name="Superscript" xml:space="preserve">
+    <value>Augšraksts</value>
+  </data>
+  <data name="TextColor" xml:space="preserve">
+    <value>Teksta krāsa</value>
+  </data>
+  <data name="Underline" xml:space="preserve">
+    <value>Pasvītrot</value>
+  </data>
+  <data name="AlignTextLeft" xml:space="preserve">
+    <value>Līdzināt tekstu pa kreisi</value>
+  </data>
+  <data name="AlignTextRight" xml:space="preserve">
+    <value>Līdzināt tekstu pa labi</value>
+  </data>
+  <data name="CenterText" xml:space="preserve">
+    <value>Centrēts teksts</value>
+  </data>
+  <data name="CreatedAt" xml:space="preserve">
+    <value>Izveidots plkst</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>Izveidoja</value>
+  </data>
+  <data name="PleaseClickSaveToReleaseTheForm" xml:space="preserve">
+    <value>Lūdzu, noklikšķiniet uz "Saglabāt", lai publicētu veidlapu.</value>
+  </data>
+  <data name="PleaseMakeSureFileNamesDoNotContainAnyOfTheFollowingCharacters" xml:space="preserve">
+    <value>Lūdzu, pārliecinieties, vai failu nosaukumos nav šādas rakstzīmes: &lt;, &gt;, *, %, &amp;, :, \.</value>
+  </data>
+  <data name="Asterisk" xml:space="preserve">
+    <value>Zvaigznīte</value>
+  </data>
+  <data name="QuotationMarks" xml:space="preserve">
+    <value>Piedāvājuma atzīmes</value>
+  </data>
+  <data name="SearchHelpAndDescription" xml:space="preserve">
+    <value>Izmantojot meklēšanas operatoru AND rezultātus, var atrast visus ievadītos terminus kā veselus vārdus. Šajā meklējuma vaicājumā tiks atrasti visi rezultāti, kas satur vārdu “adata”, kā arī vārdu “sienakaudze”:</value>
+  </data>
+  <data name="SearchHelpAndExample" xml:space="preserve">
+    <value>adatu AND "siena kaudze"</value>
+  </data>
+  <data name="SearchHelpAndNotDescription" xml:space="preserve">
+    <value>Meklēšanas operatora izmantošana, AND NOT rezultātus, var būt tā, ka atrastais satur noteiktu terminu kā veselu vārdu, bet var nesaturēt citus terminus. Šajā meklējuma vaicājumā tiks atrasti visi rezultāti, kas satur vārdu “adata”, bet ne vārdu “siena kaudze”:</value>
+  </data>
+  <data name="SearchHelpAndNotExample" xml:space="preserve">
+    <value>adata AND NOT "siena kaudze"</value>
+  </data>
+  <data name="SearchHelpAsteriskCharaktersDescription" xml:space="preserve">
+    <value>Ja pēdiņās ietvertais termins sākas/beidzas ar zvaigznīti, var atrast rezultātus, kas satur šī termina beigas/sākumu. Šajā meklējuma vaicājumā tiks atrasti visi rezultāti, kas satur izteiksmi “siena kaudze”, kā arī tie, kuros ir izteiksme “siena dakša”:</value>
+  </data>
+  <data name="SearchHelpAsteriskCharaktersExample" xml:space="preserve">
+    <value>"Siena*"</value>
+  </data>
+  <data name="SearchHelpOrDescription" xml:space="preserve">
+    <value>Izmantojot meklēšanas operatoru OR rezultātus, var atrast visus ievadītos terminus kā veselus vārdus. Šajā meklējuma vaicājumā tiek atrasti visi rezultāti, kas ietver vārdu “adata” va vārdu “siena kaudze”:</value>
+  </data>
+  <data name="SearchHelpOrExample" xml:space="preserve">
+    <value>adata OR "siena kaudze"</value>
+  </data>
+  <data name="SearchHelpQuotationMarksDescription" xml:space="preserve">
+    <value>Pēdiņās ievadītajiem meklēšanas terminiem jābūt tādā pašāsecībā. Šajā meklējuma vaicājumā tiks atrasti visi rezultāti, kuros ir frāze “adata siena kaudzē”, taču tā vietā netiks atrasts neviens rezultāts, kas saturētu frāzi “adata siena kaudzē”:</value>
+  </data>
+  <data name="SearchHelpQuotationMarksExample" xml:space="preserve">
+    <value>"adata siena kaudzē"</value>
+  </data>
+  <data name="OfflineMessage" xml:space="preserve">
+    <value>Lietojumprogramma ir bezsaistē. Iespējams, ka tiek parādīti novecojuši vai nepilnīgi dati. Datu izmaiņas nav iespējamas veikt.</value>
+  </data>
+  <data name="PleaseMakeSureTheValueContainsAtLeastAnUpperCaseCharacterALowerCaseCharacterANumericCharacterAndASpecialCharacter" xml:space="preserve">
+    <value>Lūdzu, pārliecinieties, vai vērtība satur vismaz vienu lielo burtu, mazoburtu, ciparu un speciālo rakstzīmi.</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Mainīt paroli</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>E-pasta adrese</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Aizmirsta parole</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Pieteikšanās</value>
+  </data>
+  <data name="PleaseEnterYourEmailAddressBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Lūdzu, ievadiet savu e-pasta adresi un noklikšķiniet uz IESNIEGŠANAS pogas. Pēc tam saņemsit e-pasta ziņojumu ar saiti, kuru varēsit izmantot, lai atiestatītu paroli.</value>
+  </data>
+  <data name="PleaseEnterYourNewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Lūdzu, ievadiet jauno paroli un noklikšķiniet uz IESNIEGŠANAS pogas. Pēc tam varēsit pierakstīties, izmantojot jauno paroli.</value>
+  </data>
+  <data name="PleaseUseTheSignInButtonToLogOnWithYourEmailAddress" xml:space="preserve">
+    <value>Lai pieteiktos, lūdzu, izmantojiet PIETEIKŠANĀS pogu. Lūdzu, izmantojiet savu e-pasta adresi kā lietotājvārdu. Ja neatceratiessavu paroli, lūdzu, noklikšķiniet uz AIZMIRSTA PAROLE pogas.</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Atkārtots mēģinājums</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Iesniegt</value>
+  </data>
+  <data name="TooManyRequestsPleaseTryAgainIn0Seconds" xml:space="preserve">
+    <value>Pārāk daudz pieprasījumu. Lūdzu, mēģiniet vēlreiz pēc {0}sekundēm.</value>
+  </data>
+  <data name="ForgotPasswordMailText" xml:space="preserve">
+    <value>Mīļais kungs vai kundze,
+
+šis e-pasta ziņojums tika nosūtīts, noklikšķinot uz "Aizmirsta parole".
+
+Ja vēlaties atiestatīt paroli, lūdzu, izmantojiet šo saiti: [link]
+
+Saites derīgums beigsies pēc 24 stundām vai tiklīdz tiek pieprasīta jauna saite paroles atiestatīšanai.
+
+Liels paldies un vislabākie vēlējumi.</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Eksports</value>
+  </data>
+  <data name="YourPasswordHasExpiredPleaseEnterANewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Jūsu paroles derīgums ir beidzies. Lūdzu, ievadiet jaunu paroli un noklikšķiniet uz IESNIEGŠANAS pogas. Pēc tam varēsit pierakstīties, izmantojot jauno paroli.</value>
+  </data>
+  <data name="ChangeLanguage" xml:space="preserve">
+    <value>Mainīt valodu</value>
+  </data>
+  <data name="PleaseEnterANewPasswordToChangeYourPasswordOrLeaveThisFieldEmptyToKeepYourPassword" xml:space="preserve">
+    <value>Lūdzu, ievadiet jaunu paroli, lai mainītu paroli, vai atstājiet šo lauku tukšu, lai saglabātu paroli.</value>
+  </data>
+  <data name="ToggleFullWindow" xml:space="preserve">
+    <value>Pārslēgt pilno logu</value>
+  </data>
+  <data name="PleaseConfirmTheChangeOfYourPreferredLanguageByEnteringYourWindowsPassword" xml:space="preserve">
+    <value>Lūdzu, apstipriniet vēlamās valodas maiņu, ievadot savu Windowsparoli.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Nosaukums</value>
+  </data>
+  <data name="LengthXWidthXHeightAbbr" xml:space="preserve">
+    <value>(Augstums X Platums X Garums)</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Dzēst</value>
+  </data>
+  <data name="PleaseUseTheSignInButtonToLogOnWithYourUserName" xml:space="preserve">
+    <value>Lūdzu, izmantojiet PIETEIKŠANĀS pogu, lai pieteiktos ar jūsu lietotājvārdu un paroli. Ja neatceraties savu paroli, lūdzu,noklikšķiniet uz  AIZMIRSTA PAROLE pogas.</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Lietotāja vārds</value>
+  </data>
+  <data name="PleaseEnterYourUserNameBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Lūdzu, ievadiet savu lietotājvārdu un noklikšķiniet uz IESNIEGŠANAS pogas. Pēc tam saņemsit e-pasta ziņojumu ar saiti, kuru varēsit izmantot, lai atiestatītu paroli.</value>
+  </data>
+  <data name="TheSelectedValueDoesNotHaveAUniqueKey" xml:space="preserve">
+    <value>Atlasītajai vērtībai nav unikāla atslēga.</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Uzstādījumi</value>
+  </data>
+  <data name="TheWorkflowWillGoOnAsSoonAsTheStep0IsFinished" xml:space="preserve">
+    <value>Darbplūsma turpināsies, tiklīdz būs pabeigta darbība “{0}”.</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Atteikšanās</value>
+  </data>
+  <data name="PleaseEnterAUniqueEmailAddressForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet unikālu e-pasta adresi šim laukam.</value>
+  </data>
+  <data name="Rate0Stars" xml:space="preserve">
+    <value>Reitings {0} zvaigzne (s).</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Izlaists</value>
+  </data>
+  <data name="NotInspected" xml:space="preserve">
+    <value>Nav pārbaudīts</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>Noraidīts</value>
+  </data>
+  <data name="PrivacyNotice" xml:space="preserve">
+    <value>Paziņojums par konfidencialitāti</value>
+  </data>
+  <data name="Imprint" xml:space="preserve">
+    <value>Iespiedums</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Palīdzība</value>
+  </data>
+  <data name="InvariantText" xml:space="preserve">
+    <value>Invarianta teksts</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Valoda</value>
+  </data>
+  <data name="PleaseUseThePlusButtonToAddTranslations" xml:space="preserve">
+    <value>Lūdzu, izmantojiet plusa pogu, lai pievienotu tulkojumus.</value>
+  </data>
+  <data name="TranslatedText" xml:space="preserve">
+    <value>Tulkotais teksts</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Teksts</value>
+  </data>
+  <data name="InvariantTitle" xml:space="preserve">
+    <value>Invarianta nosaukums</value>
+  </data>
+  <data name="PleaseEnterAUniqueValueForThisField" xml:space="preserve">
+    <value>Lūdzu, ievadiet unikālu šī lauka vērtību.</value>
+  </data>
+  <data name="References" xml:space="preserve">
+    <value>Atsauces</value>
+  </data>
+  <data name="TheFirst0ResultsAreDisplayedBelow" xml:space="preserve">
+    <value>Pirmie {0} rezultāti tiek parādīti zemāk.</value>
+  </data>
+  <data name="TheActionFor0CannotBeExecutedBecauseItIsAmbiguous" xml:space="preserve">
+    <value>Darbību "{0}" nevar izpildīt, jo tā ir neskaidra. Lūdzu, izmantojiet darbplūsmas diagrammas vēlamās darbības taustiņu "{0}", lai izpildītu darbību. Vai vēlaties redzēt darbplūsmas diagrammu?</value>
+  </data>
+  <data name="Results0To1AreDisplayedBelow" xml:space="preserve">
+    <value>Rezultāti no {0} līdz {1} tiek parādīti zemāk.</value>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>Bezsaistē</value>
+  </data>
+  <data name="PleaseSelectACsvFileEndodedAsUtf8WithBom" xml:space="preserve">
+    <value>Lūdzu, atlasiet CSV failu, kas kodēts kā UTF-8 ar BOM.</value>
+  </data>
+  <data name="CsvQuotesError" xml:space="preserve">
+    <value>CSV lauka vērtībā nedrīkst būt pēdiņas ("), ja vien visa lauka vērtība nav ieskauta pēdiņās ("lauka vērtība") un iekšpusē esošās pēdiņas nav aizbīdītas ar pēdiņām ("lauka "" vērtība").</value>
+  </data>
+  <data name="FieldMappingError" xml:space="preserve">
+    <value>Vietnes “{0}” kartēšanu nevar atrast.</value>
+  </data>
+  <data name="CsvValueError" xml:space="preserve">
+    <value>Vērtību “{0}” nevar iestatīt laukam “{1}”.</value>
+  </data>
+  <data name="PleaseExcuseThatTheDataExportTakesLongerThanExpected" xml:space="preserve">
+    <value>Lūdzu, atvainojiet, ka datu eksportēšana aizņem vairāk laika, nekā paredzēts. Lai ietaupītu jūsu laiku, pēc apstrādes rezultāti tiks nosūtīti pa e-pastu uz adresi {0}.</value>
+  </data>
+  <data name="PleaseFindAttachedTheRequestedDataExport" xml:space="preserve">
+    <value>Lūdzu, pievienojiet pieprasīto datu eksportu.</value>
+  </data>
+  <data name="YourPasswordHasToBeChangedAtFirstLogonPleaseEnterANewPasswordBelowAndClickTheSubmitButton" xml:space="preserve">
+    <value>Parole ir jāmaina, pirmo reizi piesakoties. Lūdzu, zemāk ievadiet jaunu paroli un noklikšķiniet uz pogas IESNIEGT. Jaunajai parolei ir jāatšķiras no sākotnējās paroles. Pēc tam jūs varēsit pierakstīties ar savu jauno paroli.</value>
+  </data>
+  <data name="QueueLength" xml:space="preserve">
+    <value>Rindas garums</value>
+  </data>
+  <data name="RemoveLink" xml:space="preserve">
+    <value>Noņemiet hipersaiti</value>
+  </data>
+  <data name="TheEnteredCombinationOfUserNameAndPasswordIsInvalid" xml:space="preserve">
+    <value>Ievadītā lietotājvārda un paroles kombinācija nav derīga.</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>stundas</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>dienas</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minūtes</value>
+  </data>
+</root>
